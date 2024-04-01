@@ -24,7 +24,7 @@ import BlogDetailsSidebar from "../views/inner-pages/blog/BlogDetailsSidebar";
 import Ayudas from "../views/inner-pages/blog/Ayudas";
 import Agradecimientos from "../views/inner-pages/blog/Agradecimientos"
 import Ejercicios from "../views/inner-pages/blog/Ejercicios";
-import Terapia from "../views/inner-pages/blog/Terapia2"
+import Terapia from "../views/inner-pages/blog/Terapia"
 
 // Noticias
 
@@ -36,6 +36,9 @@ import NoticiaTaxi from "../views/inner-pages/blog/Noticias/NoticiaTaxi";
 import NoticiaCartaAlcaldesa from "../views/inner-pages/blog/Noticias/NoticiaCartaAlcaldesa";
 import NoticiaTeoriaDefienden from "../views/inner-pages/blog/Noticias/NoticiaTeoriaDefienden";
 import NoticiaLushCosmetics from "../views/inner-pages/blog/Noticias/NoticiaLushCosmetics"
+import NoticiaAyuntamientoTias from "../views/inner-pages/blog/Noticias/NoticiaAyuntamientoTias";
+import NoticiaSistematico from "../views/inner-pages/blog/Noticias/NoticiaSistematico";
+import NoticiaConcentracionArrecife from "../views/inner-pages/blog/Noticias/NoticiaConcentracionArrecife";
 
 // Portfolio
 import WorksGrid from "../views/inner-pages/portfolio/WorksGrid";
@@ -103,12 +106,15 @@ const AllRoutes = () => {
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/camino-de-santiago" element={<CaminoSantiago />} />
         
-        <Route path="/noticia-denuncia-barcelona" element={<NoticiaDenunciaBarcelona />} />
+        <Route path="/noticia/denuncia-barcelona" element={<NoticiaDenunciaBarcelona />} />
         <Route path="/noticia/avanza-el-proyecto-de-una-residencia-para-discapacitados-en-lanzarote" element={<NoticiaProyectoLanzarote />} />
-        <Route path="/faltan-mas-de-400-taxis-adaptados-en-barcelona" element={<NoticiaTaxi />} />
-        <Route path="/carta-a-la-alcaldesa-de-barcelona/" element={<NoticiaCartaAlcaldesa />} />
-        <Route path="/los-que-en-teoria-difienden-nuestros-derechos" element={<NoticiaTeoriaDefienden />} />
-        <Route path="/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos" element={<NoticiaLushCosmetics />} />
+        <Route path="/noticia/faltan-mas-de-400-taxis-adaptados-en-barcelona" element={<NoticiaTaxi />} />
+        <Route path="/noticia/carta-a-la-alcaldesa-de-barcelona/" element={<NoticiaCartaAlcaldesa />} />
+        <Route path="/noticia/los-que-en-teoria-difienden-nuestros-derechos" element={<NoticiaTeoriaDefienden />} />
+        <Route path="/noticia/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos" element={<NoticiaLushCosmetics />} />
+        <Route path="/noticia/el-ayuntamiento-de-tias-en-lanzarote-no-cumple-la-ley" element={<NoticiaAyuntamientoTias />} />
+        <Route path="/noticia/inclumplimiento-normativa-legal-ambito-personas-con-discapacidad" element={<NoticiaSistematico />} />
+        <Route path="/noticia/concentracion-en-arrecife-lanzarote" element={<NoticiaConcentracionArrecife />} />
 
 
         

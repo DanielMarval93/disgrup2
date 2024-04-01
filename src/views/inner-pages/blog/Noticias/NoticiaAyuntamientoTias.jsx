@@ -6,12 +6,13 @@ import FooterTwo from "../../../../components/footer/FooterTwo";
 import HeaderDefault from "../../../../components/header/HeaderDefault";
 import SocialFour from "../../../../components/social/SocialFour";
 
-const NoticiaTaxi = () => {
+const NoticiaAyuntamientoTias = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Faltan más de 400 taxis adaptados en Barcelona{" "}
+          Disgrup - Noticias - El Ayuntamiento de Tías en Lanzarote NO cumple la
+          Ley{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -38,10 +39,11 @@ const NoticiaTaxi = () => {
               >
                 <div className="container-xxl">
                   <h1 className="ptf-single-post__title ">
-                    Faltan más de 400 taxis{" "}
+                    El Ayuntamiento de Tías en{" "}
                   </h1>
                   <h1>
-                    adaptados <span className="has-accent-1">en Barcelona</span>
+                    Lanzarote{" "}
+                    <span className="has-accent-1">NO cumple la Ley</span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
@@ -111,11 +113,35 @@ const NoticiaTaxi = () => {
 
                       */}
                       <div className="row">
-                        <div className="col-lg-10 offset-lg-1">
+                        <div className="col-lg-12">
+                          <h4 className="has-accent-1">
+                            Pese que casí todos los ayuntamientos de España no
+                            cumplen las leyes de accesibilidad, cuando renuevan
+                            calles, cumplen la ley, en Tías “NO”:
+                          </h4>
+                        </div>
+                        {/* <!--Spacer-->*/}
+                        <div
+                          className="ptf-spacer"
+                          style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                        ></div>
+                        <div className="col-lg-6">
+                          <p>
+                            El pasado año, una vez terminada la obra de la calle
+                            Roque nublo y dos de sus perpendiculares, calle el
+                            Paraíso y calle los Afrechos, de Puerto Del Carmen (
+                            Ayuntamiento de Tías-Lanzarote-Islas Canarias ). Nos
+                            dimos cuenta de la mala fe de dicho consistorio; la
+                            calle no reúne las medidas contempladas por la ley
+                            de accesibilidad actual ( ¿dónde está el
+                            interventor? ):
+                          </p>
+                        </div>
+                        <div className="col-lg-5 offset-lg-1">
                           <img
-                            src={require("../../../../assets/img/blog/post-7.jpg")}
+                            src={require("../../../../assets/img/blog/post-3.jpg")}
                             alt="imagen"
-                            style={{ paddingTop: "1rem" }}
+                            style={{ paddingTop: "0rem" }}
                           />
                         </div>
                         <div
@@ -130,44 +156,68 @@ const NoticiaTaxi = () => {
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
 
-                      <h3 className="has-black-color">
-                        Basta Ya! Los discapacitados no somos ciudadanos de
-                        segunda.
-                      </h3>
-                      {/* <!--Spacer-->*/}
-                      <div
+                      <p>
+                        Roque Nublo tiene una pendiente mucho mayor que el 4%
+                        máximo permitido por la ley, y las calles el Paraíso y
+                        los Afrechos tienen aproximadamente 90 cm de ancho de
+                        acera, cuando la actual ley dice que no pueden tener
+                        menos de 150 cm. libres.
+                      </p>
+                      <div className="col-lg-8 offset-lg-2">
+                      <div class="ratio ratio-16x9">
+                          <iframe
+                            src="https://www.youtube.com/embed/xB88QxnK__E?si=8cwYp1l9AV5YyTWE"
+                            title="YouTube video"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                        </div>
+   {/* <!--Spacer-->*/}
+   <div
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
-                      <h4 className="has-accent-1">
-                        ¿Por qué Barcelona no cumple con la ley de
-                        accesibilidad?
-                      </h4>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
+
                       <h5>
-                        En la ciudad de Barcelona faltan más de 400 taxis
-                        adaptados. Los responsables son el Ayuntamiento de
-                        Barcelona y la Generalitat de Catalunya.
+                        Consultamos al ayuntamiento y nos dicen que hacerlo bajo
+                        los parámetros de la ley es muy caro y no es posible
+                        para las arcas municipales (¿Será verdad?).
                       </h5>
+
+                      
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
-                      <p>
-                        En Barcelona hay 91 taxis adaptados y más de 130.000
-                        discapacitados.
-                      </p>
 
                       <p>
-                        Concentración Viernes 11 de Octubre, 12 horas. Plaza
-                        Universitat, Barcelona.
+                        Prevalece la economía a la vida, si has tenido un
+                        problema y sufres una discapacidad o has nacido con una
+                        discapacidad que sepas que el ayuntamiento de Tías
+                        seguirá sin cumplir las leyes de accesibilidad para
+                        ponerte la vida más difícil y complicada, si tienes un
+                        accidente, que puede ser mortal, “SE SIENTE”, no haber
+                        tenido discapacidad.
                       </p>
-
+                      <p>
+                        Aquí se vuelve a demostrar lo poco que le importan a las
+                        administraciones, las personas con discapacidad. En
+                        especial al ayuntamiento de Tías, el cual no cumple la
+                        ley, ni los derechos humanos de las personas con
+                        discapacidad; pero eso si, no cumplimos ni la ley, ni
+                        los derechos humanos, pero pedimos subvenciones a la
+                        Comunidad Europea.
+                      </p>
+                      <p>
+                        Y no es lo único también podríamos hablar entre varias
+                        actuaciones del Ayuntamiento obviando a las personas con
+                        discapacidad, las duchas de la playa de Matagorda, que
+                        en el proyecto iban con asiento para personas con
+                        movilidad reducida y cuando se ejecutó se pusieron
+                        duchas sin asiento ó el plan de accesibilidad del
+                        municipio que no sale.
+                      </p>
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
@@ -223,4 +273,4 @@ const NoticiaTaxi = () => {
   );
 };
 
-export default NoticiaTaxi;
+export default NoticiaAyuntamientoTias;

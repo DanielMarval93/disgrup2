@@ -55,7 +55,7 @@ const blogContent = [
     cat: "Noticias",
     date: "31 de marzo de 2019",
     title: "Denunciamos al Ayuntamiento de Barcelona",
-    route: "/noticia-denuncia-barcelona"
+    route: "/noticia/denuncia-barcelona"
   },
 
 ];

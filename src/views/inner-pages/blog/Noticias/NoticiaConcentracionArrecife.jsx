@@ -6,13 +6,11 @@ import FooterTwo from "../../../../components/footer/FooterTwo";
 import HeaderDefault from "../../../../components/header/HeaderDefault";
 import SocialFour from "../../../../components/social/SocialFour";
 
-const NoticiaTaxi = () => {
+const NoticiaConcentracionArrecife = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
-        <title>
-          Disgrup - Noticias - Faltan más de 400 taxis adaptados en Barcelona{" "}
-        </title>
+        <title>Disgrup - Noticias - Concentración el 26 de mayo de 2023 </title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -38,10 +36,13 @@ const NoticiaTaxi = () => {
               >
                 <div className="container-xxl">
                   <h1 className="ptf-single-post__title ">
-                    Faltan más de 400 taxis{" "}
+                    Concentración el 26 de mayo de 2023{" "}
                   </h1>
                   <h1>
-                    adaptados <span className="has-accent-1">en Barcelona</span>
+                    a las 12 horas{" "}
+                    <span className="has-accent-1">
+                      en Arrecife (Lanzarote)
+                    </span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
@@ -113,7 +114,7 @@ const NoticiaTaxi = () => {
                       <div className="row">
                         <div className="col-lg-10 offset-lg-1">
                           <img
-                            src={require("../../../../assets/img/blog/post-7.jpg")}
+                            src={require("../../../../assets/img/blog/post-1.jpg")}
                             alt="imagen"
                             style={{ paddingTop: "1rem" }}
                           />
@@ -123,50 +124,21 @@ const NoticiaTaxi = () => {
                           style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                         ></div>
                       </div>
-
+                      <h4 className="has-accent-1">FUNDACIÓN DISGRUP “Ayudamos a las personas con discapacidad”</h4>
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                        style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
                       ></div>
-
-                      <h3 className="has-black-color">
-                        Basta Ya! Los discapacitados no somos ciudadanos de
-                        segunda.
-                      </h3>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-                      <h4 className="has-accent-1">
-                        ¿Por qué Barcelona no cumple con la ley de
-                        accesibilidad?
-                      </h4>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-                      <h5>
-                        En la ciudad de Barcelona faltan más de 400 taxis
-                        adaptados. Los responsables son el Ayuntamiento de
-                        Barcelona y la Generalitat de Catalunya.
-                      </h5>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-                      <p>
-                        En Barcelona hay 91 taxis adaptados y más de 130.000
-                        discapacitados.
-                      </p>
-
-                      <p>
-                        Concentración Viernes 11 de Octubre, 12 horas. Plaza
-                        Universitat, Barcelona.
-                      </p>
+                      <div className="col-lg-8 offset-lg-1">
+                        <div class="ratio ratio-16x9">
+                          <iframe
+                            src="https://www.youtube.com/embed/xB88QxnK__E?si=8cwYp1l9AV5YyTWE"
+                            title="YouTube video"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
 
                       {/* <!--Spacer-->*/}
                       <div
@@ -223,4 +195,4 @@ const NoticiaTaxi = () => {
   );
 };
 
-export default NoticiaTaxi;
+export default NoticiaConcentracionArrecife;
