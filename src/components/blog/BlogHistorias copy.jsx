@@ -49,6 +49,7 @@ const blogContent = [
     cat: "Historias",
     date: "3 De Marzo De 2023",
     title: "Maria Dolores",
+    videoId:"PMAImUAKqJo"
   },
   {
     img: "hist-6",
