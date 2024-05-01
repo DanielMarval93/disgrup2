@@ -100,7 +100,7 @@
   // white text on top ((COLOR LETRAS HOME))
   &.ptf-navbar--white-text-on-top {
     &:not(.ptf-navbar--solid) {
-      color: var(--ptf-accent-2);
+      color: var(--ptf-color-white);
 
       .ptf-navbar-logo {
         img.black {
