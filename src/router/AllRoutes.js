@@ -40,6 +40,7 @@ import NoticiaAyuntamientoTias from "../views/inner-pages/blog/Noticias/NoticiaA
 import NoticiaSistematico from "../views/inner-pages/blog/Noticias/NoticiaSistematico";
 import NoticiaConcentracionArrecife from "../views/inner-pages/blog/Noticias/NoticiaConcentracionArrecife";
 import NoticiaFaltanTaxis from "../views/inner-pages/blog/Noticias/NoticiaFaltanTaxis";
+import NoticiaEntrevista from "../views/inner-pages/blog/Noticias/NoticiaEntrevista";
 
 
 // Portfolio
@@ -118,6 +119,7 @@ const AllRoutes = () => {
         <Route path="/noticia/inclumplimiento-normativa-legal-ambito-personas-con-discapacidad" element={<NoticiaSistematico />} />
         <Route path="/noticia/concentracion-en-arrecife-lanzarote" element={<NoticiaConcentracionArrecife />} />
         <Route path="/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados" element={<NoticiaFaltanTaxis />} />
+        <Route path="entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup" element={<NoticiaEntrevista />} />
 
 
         
