@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
+    img: "post-10",
+    cat: "Noticias",
+    date: "23 de Noviembre de 2023",
+    title: "Exigen al IMET que aumente la flota de taxis para discapacitados.",
+    route:"/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados"
+  },
+  {
     img: "post-1",
     cat: "Noticias",
     date: "17 de abril de 2023",
