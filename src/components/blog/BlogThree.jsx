@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
+    img: "post-11",
+    cat: "Noticias",
+    date: "27 de Noviembre de 2023",
+    title: "Entrevista a Guillermo Egido, fundador de la Fundación Disgrup",
+    route:"/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup"
+  },
+ {
     img: "post-10",
     cat: "Noticias",
     date: "23 de Noviembre de 2023",
