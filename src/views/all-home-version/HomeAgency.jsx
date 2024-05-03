@@ -399,6 +399,78 @@ const HomeAgency = () => {
               </div>
             </section>
 
+            <section>
+
+              <h1
+              className="ptf-acknowledgment"
+              style={{ fontSize: "60px" }}>Agradecimientos</h1>
+
+
+              <div
+                className="row align-items-center has-white-color"
+                style={{ "--bs-gutter-y": "2rem", }}
+              >
+                <div className="col-13">
+                  {/* <!--Animated Block--> */}
+                  <div
+                    className="ptf-animated-block"
+                    style={{
+                      overflowX: "auto",
+                      whiteSpace: "nowrap",
+                    }}
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    <div>
+                      {/* <!--Divider--> */}
+                      <div className="ptf-divider"></div>
+
+                      <div className="align-items-center">
+                        <img
+                          style={{ maxWidth: "150px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/ajuntament-de-barcelona-limes_reduides-15_rgb-1-300x112-1.png"
+                        />
+                        <img
+                          style={{ maxWidth: "150px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/logo_1360597455-300x44-1.jpg"
+                        />
+                        <img
+                          style={{ maxWidth: "80px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/logo-fundacion-miro-bcn.jpg"
+                        />
+                         <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/logo-immb-300x123-1.jpg"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/logo-poble-espanyol-Bcn-1.jpg"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/Logo-TMB.svg_-300x139-1.png"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/04/Ferrocarrils-Generalitat-Cat.jpeg"
+                        />
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* End .col */}
+                {/* <CounterTwo />*/}
+              </div>
+            </section>
+
             {/*=============================================
           Start Our Crew/Team section
           ============================================== 
