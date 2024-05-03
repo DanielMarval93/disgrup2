@@ -39,6 +39,8 @@ import NoticiaLushCosmetics from "../views/inner-pages/blog/Noticias/NoticiaLush
 import NoticiaAyuntamientoTias from "../views/inner-pages/blog/Noticias/NoticiaAyuntamientoTias";
 import NoticiaSistematico from "../views/inner-pages/blog/Noticias/NoticiaSistematico";
 import NoticiaConcentracionArrecife from "../views/inner-pages/blog/Noticias/NoticiaConcentracionArrecife";
+import NoticiaFaltanTaxis from "../views/inner-pages/blog/Noticias/NoticiaFaltanTaxis";
+
 
 // Portfolio
 import WorksGrid from "../views/inner-pages/portfolio/WorksGrid";
@@ -115,6 +117,7 @@ const AllRoutes = () => {
         <Route path="/noticia/el-ayuntamiento-de-tias-en-lanzarote-no-cumple-la-ley" element={<NoticiaAyuntamientoTias />} />
         <Route path="/noticia/inclumplimiento-normativa-legal-ambito-personas-con-discapacidad" element={<NoticiaSistematico />} />
         <Route path="/noticia/concentracion-en-arrecife-lanzarote" element={<NoticiaConcentracionArrecife />} />
+        <Route path="/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados" element={<NoticiaFaltanTaxis />} />
 
 
         
