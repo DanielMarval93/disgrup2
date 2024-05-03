@@ -53,12 +53,16 @@ const HomeAgency = () => {
             <section>
               <div
                 className="row align-items-center has-accent-1-background"
-                style={{ "--bs-gutter-y": "2rem" }}
+                style={{ "--bs-gutter-y": "2rem", }}
               >
                 <div className="col-12">
                   {/* <!--Animated Block--> */}
                   <div
                     className="ptf-animated-block"
+                    style={{
+                      overflowX: "auto",
+                      whiteSpace: "nowrap",
+                    }}
                     data-aos="fade"
                     data-aos-delay="0"
                   >
@@ -77,6 +81,37 @@ const HomeAgency = () => {
                           alt="aef"
                           src="https://ccfundacions.cat/wp-content/uploads/2019/05/logo-white.png"
                         />
+                        <img
+                          style={{ maxWidth: "80px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/carrusel-web-fundacion-500-%C3%97-250-px-5.svg"
+                        />
+                         <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/carrusel-web-fundacion-500-%C3%97-250-px-6.svg"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/02/carrusel-web-fundacion-500-%C3%97-250-px-8.svg"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/05/14-1024x390.png"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/05/carrusel-web-fundacion-1024x390.png"
+                        />
+                        <img
+                          style={{ maxWidth: "100px" }}
+                          alt="aef"
+                          src="https://disgrup.org/wp-content/uploads/2023/05/carrusel-web-fundacion-1024x390.png"
+                        />
+                        
                       </div>
                     </div>
                   </div>
@@ -188,8 +223,6 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-
-                      
                       <h1 className="has-accent-2">ULTIMOS VIDEOS</h1>
                       <div
                         className="ptf-spacer"
@@ -330,18 +363,12 @@ const HomeAgency = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-
-<h3
-                        className="ptf-post__title has-accent-2 "
-                        style={{ fontSize: "60px" }}
-                      >
-                        <Link to="/noticias">
-                        ULTIMAS NOTICIAS
-                        </Link>
-                      </h3>
-                  
-              
- 
+                  <h3
+                    className="ptf-post__title has-accent-2 "
+                    style={{ fontSize: "60px" }}
+                  >
+                    <Link to="/noticias">ULTIMAS NOTICIAS</Link>
+                  </h3>
                 </div>
                 {/* End .ptf-animated-block */}
 
