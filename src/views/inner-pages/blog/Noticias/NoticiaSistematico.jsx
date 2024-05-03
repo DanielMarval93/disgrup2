@@ -49,7 +49,7 @@ const NoticiaSistematico = () => {
                   </h3>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Ene 1, 2010</span>
+                    <span className="date"> Dic 1, 2021</span>
                   </div>
                 </div>
               </header>
