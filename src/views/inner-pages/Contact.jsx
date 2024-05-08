@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 import HeaderDefault from "../../components/header/HeaderDefault";
 import CopyRightTwo from "../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../components/footer/FooterTwo";
-import Social from "../../components/social/Social";
 import ContactForm from "../../components/ContactForm";
 import Address from "../../components/Address";
 
@@ -11,7 +10,7 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Icy Media Agency - Contact</title>
+        <title>Fundacion Disgrup - Dona</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -37,8 +36,8 @@ const Contact = () => {
                     data-aos-delay="0"
                   >
                     <h1 className="large-heading">
-                      Dinos como podemos <br />
-                      ayudarte
+                      Colabora con <br />
+                      Fundacion <span className="has-accent-1">Disgrup</span>
                     </h1>
                     {/* <!--Spacer--> */}
                     <div
@@ -46,7 +45,6 @@ const Contact = () => {
                       style={{ "--ptf-xxl": "3rem", "--ptf-md": "2.5rem" }}
                     ></div>
 
-                    <Social />
                     {/* <!--Social Icon--> */}
                   </div>
                 </div>
@@ -62,7 +60,48 @@ const Contact = () => {
             ></div>
           </section>
           {/* End section contact header */}
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay="0"
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-7">
+                  <p>
+                    Donar a la Fundación Disgrup no solo es altruista, también
+                    ofrece ventajas fiscales. La Ley del IRPF permite deducir un
+                    porcentaje de las donaciones en la declaración de la renta,
+                    generalmente entre el 25% y el 75%. Las donaciones
+                    periódicas pueden proporcionar una desgravación adicional.
+                    Esto permite a los contribuyentes destinar una parte de sus
+                    impuestos a apoyar a personas con discapacidad,
+                    contribuyendo así a mejorar su calidad de vida y promover su
+                    inclusión en la sociedad.
+                  </p>
+                </div>
+                <div className="col-lg-5">
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "3rem", "--ptf-md": "1rem" }}
+                  ></div>
+                  <img
+                    alt="Donacion bizum"
+                    src="https://i.imgur.com/7mG5f1v.jpg"
+                  />
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{
+                    "--ptf-xxl": "1.5rem",
+                    "--ptf-md": "1.5rem",
+                  }}
+                ></div>
+              </div>
 
+            </div>
+          </div>
           <section>
             <div className="container-xxl">
               <div className="row">
@@ -104,22 +143,22 @@ const Contact = () => {
 
       {/* <!--Footer--> */}
       <footer className="ptf-footer ptf-footer--style-3">
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-10 offset-xl-2">
-                    <div className="ptf-footer__top">
-                      <FooterTwo />
-                    </div>
-                    {/* End .ptf-footer__top */}
-
-                    <div className="ptf-footer__bottom">
-                      <CopyRightTwo />
-                    </div>
-                    {/* End .ptf-footer__bottom */}
-                  </div>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-10 offset-xl-2">
+              <div className="ptf-footer__top">
+                <FooterTwo />
               </div>
-            </footer>
+              {/* End .ptf-footer__top */}
+
+              <div className="ptf-footer__bottom">
+                <CopyRightTwo />
+              </div>
+              {/* End .ptf-footer__bottom */}
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

@@ -39,15 +39,15 @@ const NoticiaEntrevista = () => {
               >
                 <div className="container-xxl">
                   <h1 className="ptf-single-post__title ">
-                    Exigen aumento la flota de{" "}
+                    Entrevista a Guillermo Egido Conde{" "}
                   </h1>
                   <h1>
-                    taxis para{" "}
-                    <span className="has-accent-1">discapacitados</span>
+                    fundador y presidente de{" "}
+                    <span className="has-accent-1">Disgrup</span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Ene 1, 2010</span>
+                    <span className="date"> Nov 27, 2023</span>
                   </div>
                 </div>
               </header>
@@ -115,87 +115,267 @@ const NoticiaEntrevista = () => {
                       <div className="row">
                         <div className="col-lg-12">
                           <p>
-                            Usuarios del eurotaxi de Barcelona exigen al
-                            Instituto Metropolitano del Taxi (IMET) que cumpla
-                            con la sentencia publicada hace ahora justo un año
-                            por la que la Justicia le condenó a tomar medidas
-                            para ampliar la flota de taxis adaptados a personas
-                            con movilidad reducida en un plazo máximo de seis
-                            meses.
+                            Hoy en día, los programas diseñados para mejorar la
+                            calidad de vida de las personas con discapacidad han
+                            tomado especial relevancia, por el que cada vez más
+                            personas y organizaciones contribuyen con ellos.
                           </p>
+                          <div
+                            className="ptf-spacer"
+                            style={{
+                              "--ptf-xxl": "0.8rem",
+                              "--ptf-md": "0.8rem",
+                            }}
+                          ></div>
+
                           <p>
-                            En noviembre de 2022, el Juzgado de lo Contencioso
-                            Administrativo nº11 de Barcelona condenó al IMET a
-                            planificar las medidas a llevar a cabo para cumplir
-                            con el porcentaje del 5% de licencias de taxis
-                            adaptados sobre la flota total de licencias del Área
-                            Metropolitana de Barcelona.
+                            La Fundación Disgrup propone iniciativas para lograr
+                            un cambio trascendental en la vida de las personas
+                            con discapacidad, a través de diferentes acciones
+                            enfocadas en la asistencia y la concienciación.
+                            Guillermo Egido Conde, fundador de la fundación,
+                            detalla las actividades que llevan a cabo y señala
+                            la importancia del apoyo que brindan otras personas
+                            e instituciones comprometidas con esta causa.
                           </p>
+                          <div
+                            className="ptf-spacer"
+                            style={{
+                              "--ptf-xxl": "0.8rem",
+                              "--ptf-md": "0.8rem",
+                            }}
+                          ></div>
                         </div>
                         <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2rem", "--ptf-md": "1rem" }}
-                      ></div>
-                        
+                          className="ptf-spacer"
+                          style={{ "--ptf-xxl": "2rem", "--ptf-md": "1rem" }}
+                        ></div>
+
                         <div className="col-lg-8 offset-lg-2">
                           <img
-                            src={require("../../../../assets/img/blog/post-10.jpg")}
+                            src={require("../../../../assets/img/blog/post-11.jpg")}
                             alt="imagen"
                             style={{ paddingTop: "0rem" }}
                           />
                         </div>
                         <div
                           className="ptf-spacer"
-                          style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                          style={{ "--ptf-xxl": "2.8rem", "--ptf-md": "1rem" }}
                         ></div>
                       </div>
 
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿Cuál fue el principal motivo para la creación de la
+                        Fundación Disgrup?
+                      </p>
                       <div
                         className="ptf-spacer"
-                        style={{ "--ptf-xxl": "2rem", "--ptf-md": "1rem" }}
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
                       ></div>
 
-                   
                       <p>
-                        La Justicia daba un plazo total máximo de seis meses
-                        desde la resolución fechada el 7 de noviembre de 2022,
-                        para que el número de vehículos adaptados en el servicio
-                        de taxi del AMB al traslado de personas con movilidad
-                        reducida fuera de, al menos, el 5% de la flota total de
-                        taxis. En los primeros dos meses, el IMET quedaba
-                        obligado a presentar la batería de medidas con las que
-                        pretendía llegar a ese porcentaje.
+                        En 2005 sufrí un cavernoma cerebral y siete derrames. Al
+                        sufrir una discapacidad en tu propia carne y estar
+                        ingresado más de un año en el hospital, te da tiempo a
+                        pensar muchas cosas y entre ellas "que las personas con
+                        discapacidad no tienen los servicios y las prestaciones
+                        que deberían tener".
                       </p>
                       <div
                         className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
                       ></div>
-                      <p>
-                        Contra esa resolución cabía recurso, pero, en enero de
-                        2023, tras no haberse presentado, el Juzgado publicó una
-                        diligencia comunicando al IMET la resolución firme de lo
-                        dictado dos meses antes, e instaba al Institut a llevar
-                        a efecto el cumplimiento de la resolución. Es decir,
-                        instaba a la administración barcelonesa a poner remedio
-                        y ampliar la flota de eurotaxis.
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿Qué actividades se llevan a cabo dentro de la fundación
+                        para ayudar a las personas con discapacidad?
                       </p>
                       <div
                         className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
                       ></div>
+
                       <p>
-                        Los denunciantes particulares afectados por la falta de
-                        eurotaxis exigen y recuerdan el IMET, un año después, la
-                        obligación del cumplimiento de la sentencia. La
-                        Fundación Disgrup, a través de su presidente Guillermo
-                        Egido, ha insistido en que, a pesar de llevar quince
-                        años luchando por el taxi accesible, y a pesar de
-                        sentencias judiciales como esta, “les están tomando el
-                        pelo”. Por su parte, el IMET se defiende asegurando que
-                        es imposible cumplir este mandato. Egido también
-                        denuncia lamenta o critica que las instituciones que
-                        reciben dinero público no estén tomando cartas en el
-                        asunto.
+                        La fundación brinda ayudas personalizadas a cada una de
+                        las personas con discapacidad que lo solicitan, siempre
+                        que la fundación esté en predisposición de hacer
+                        efectiva esta, ya que cada persona necesita una ayuda
+                        diferente. También, hacemos acciones genéricas y actos
+                        solidarios, como comidas con personas con discapacidad,
+                        viajes, ferias, carreras solidarias...
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿En qué consisten las charlas de concienciación que
+                        brinda la fundación?
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        Estas charlas van principalmente dirigidas a jóvenes y
+                        niños y lo que se intenta hacer es que desde pequeños
+                        vean a las personas con discapacidad no como bichos
+                        raros, sino como personas que forman parte de la
+                        sociedad y se cuente con ellos para las diferentes
+                        actividades de la vida cotidiana.
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿Cómo logran financiar los servicios a los que acceden
+                        las personas con discapacidad?
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        Nos financiamos a través de empresas y personas
+                        privadas, mediante donaciones privadas. Además, hacemos
+                        estrategias solidarias para recaudar fondos como cenas
+                        benéficas, rifas y también cogemos alguna subvención
+                        pública, aunque muy pocas, para hacer actividades muy
+                        concretas, como, por ejemplo, el Camino de Santiago para
+                        personas con discapacidad, intercambios vacacionales...
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿Qué sensación te genera cuando las personas con
+                        discapacidad que reciben la ayuda de la fundación
+                        mejoran su calidad de vida?
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        Normalmente, le damos ayudas a personas con discapacidad
+                        que no se lo pueden permitir, entonces están muy
+                        agradecidas. Por ejemplo, contribuimos dando cosas que
+                        no pueden tener, como una silla de ruedas eléctrica, una
+                        prótesis ortopédica, sesiones de fisioterapia, terapia
+                        ocupacional, o logopedia. También hay otro tipo de
+                        personas con discapacidad a destacar que es que están
+                        llamando todos los días, pero cuando reciben la ayuda
+                        nunca más se supo.
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿De qué manera pueden contribuir el resto de personas al
+                        trabajo de la Fundación Disgrup?
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        Pueden entrar en la página web de disgrup.org y hacer
+                        una donación. Una donación recurrente donando 12 euros
+                        al mes (144 € al año), de los cual Hacienda les va a
+                        devolver el 80 %. Aparte, pueden hacer donaciones por
+                        Bizum al 06740 y, de forma gratuita, pueden suscribirse
+                        al canal de YouTube de la fundación y dar
+                        visualizaciones. Cuantas más visualizaciones haya mejor,
+                        ya que con un número de visualizaciones determinado, la
+                        plataforma al final paga. Además, hay empresas que les
+                        servimos como imagen, como la reciente incorporación a
+                        la fundación de la marca de sillas de ruedas eléctricas
+                        QUANTUM #1 for rehab power, a la que aprovecho para
+                        agradecerle la confianza depositada en la fundación.
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿Qué rol cumplen las redes sociales y plataformas
+                        digitales en su objetivo de fortalecer y aumentar el
+                        alcance del proyecto?
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        Tanto las redes sociales como las plataformas digitales
+                        son un método muy efectivo y muy económico a la hora de
+                        difundir información. A través de esas redes y
+                        plataformas podemos conseguir financiación y también que
+                        la población en general sepa a qué destinamos los
+                        recursos recibidos, y de las acciones que hacemos.
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p style={{ fontWeight: "bold" }}>
+                        ¿Por qué crees que los derechos de las personas con
+                        discapacidad en España, no se cumplen?
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        Pese a que hay multitud de entidades dedicadas a la
+                        discapacidad grandes e importantes en España, que
+                        reciben subvenciones y dinero público para hacer que las
+                        leyes y los derechos de las personas con discapacidad se
+                        cumplan, desgraciadamente, ese dinero no llega para
+                        todas las demandas del colectivo y las leyes y derechos
+                        que emanan a las personas con discapacidad en España no
+                        se cumplen.
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.8rem", "--ptf-md": "0.8rem" }}
+                      ></div>
+
+                      <p>
+                        En vista de la importancia que tiene el trabajo de la
+                        Fundación Disgrup para las personas con discapacidad, la
+                        colaboración externa resulta fundamental para la
+                        sostenibilidad de los proyectos. Al ser testigo de las
+                        dificultades que sufren las personas con discapacidad,
+                        Guillermo Egido Conde busca generar un cambio sustancial
+                        en el contexto de la sociedad española.
+                      </p>
+
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "1.2rem", "--ptf-md": "1.2rem" }}
+                      ></div>
+
+                      <p style={{ fontStyle: "italic" }}>
+                        Fuente:{" "}
+                        <a href="https://www.diariosigloxxi.com/texto-diario/mostrar/4629549/solidaridad-entrevista-guillermo-egido-conde-fundador-presidente-fundacion-disgrup">
+                          www.diariosigloxxi.com
+                        </a>
                       </p>
 
                       {/* <!--Spacer-->*/}
