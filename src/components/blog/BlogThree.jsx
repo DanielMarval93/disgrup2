@@ -7,7 +7,7 @@ const blogContent = [
     cat: "Noticias",
     date: "27 de Noviembre de 2023",
     title: "Entrevista a Guillermo Egido, fundador de la Fundación Disgrup",
-    route:"/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup"
+    route:"/noticia/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup"
   },
  {
     img: "post-10",
@@ -15,6 +15,13 @@ const blogContent = [
     date: "23 de Noviembre de 2023",
     title: "Exigen al IMET que aumente la flota de taxis para discapacitados.",
     route:"/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados"
+  },
+  {
+    img: "post-12",
+    cat: "Noticias",
+    date: "27 de Junio de 2023",
+    title: "Fundacion Disgrup completa el Camino de Santiago en silla de ruedas.",
+    route:"/noticia/fundacion-disgrup-completa-el-camino-de-santiago"
   },
   {
     img: "post-1",

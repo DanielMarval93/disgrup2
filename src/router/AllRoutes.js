@@ -71,6 +71,7 @@ import Devoluciones from "../views/inner-pages/blog/Devoluciones";
 
 import Test from "../views/inner-pages/blog/Test";
 import CaminoSantiago from "../views/inner-pages/blog/caminoSantiago";
+import NoticiaFinalSantiago from "../views/inner-pages/blog/Noticias/NoticiaFinalSantiago";
 
 const AllRoutes = () => {
   return (
@@ -119,7 +120,8 @@ const AllRoutes = () => {
         <Route path="/noticia/inclumplimiento-normativa-legal-ambito-personas-con-discapacidad" element={<NoticiaSistematico />} />
         <Route path="/noticia/concentracion-en-arrecife-lanzarote" element={<NoticiaConcentracionArrecife />} />
         <Route path="/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados" element={<NoticiaFaltanTaxis />} />
-        <Route path="entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup" element={<NoticiaEntrevista />} />
+        <Route path="/noticia/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup" element={<NoticiaEntrevista />} />
+        <Route path="/noticia/fundacion-disgrup-completa-el-camino-de-santiago" element={<NoticiaFinalSantiago />} />
 
 
         
