@@ -8,6 +8,12 @@
   background-color: #abddfb;
 }
 
+@media (max-width: 768px) {
+  .carrousel-wrapper {
+    display: none !important;
+  }
+}
+
 /* SECTION: PAGE SERVICE DETAIL
 -------------------------------------------- */
 
