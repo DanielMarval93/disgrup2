@@ -44,7 +44,7 @@ const NoticiaProyectoLanzarote = () => {
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Dec 18, 2020</span>
+                    <span className="date"> Dic 22, 2020</span>
                   </div>
                 </div>
               </header>
