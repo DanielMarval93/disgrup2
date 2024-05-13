@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
+    img: "post-13",
+    cat: "Noticias",
+    date: "3 de Diciembre de 2023",
+    title: "Jornada por el dia de la discpacidad en el cabildo de Lanzarote",
+    route:"/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote"
+  },
+  {
     img: "post-11",
     cat: "Noticias",
     date: "27 de Noviembre de 2023",
