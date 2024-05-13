@@ -48,7 +48,7 @@ const NoticiaTeoriaDefienden = () => {
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Ene 1, 2010</span>
+                    <span className="date"> Feb 9, 2021</span>
                   </div>
                 </div>
               </header>
