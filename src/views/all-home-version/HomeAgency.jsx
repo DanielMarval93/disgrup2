@@ -12,7 +12,6 @@ import PortfolioTwo from "../../components/portfolio/PortfolioTwo";
 import BlogHistorias from "../../components/blog/BlogHistorias";
 
 import CookieConsent from "react-cookie-consent";
-import Carrousel from "../carrousel";
 import Slider from "../../components/Slider";
 import Slider2 from "../../components/Slider2";
 
