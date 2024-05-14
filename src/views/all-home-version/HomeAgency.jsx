@@ -13,7 +13,7 @@ import BlogHistorias from "../../components/blog/BlogHistorias";
 
 import CookieConsent from "react-cookie-consent";
 import Carrousel from "../carrousel";
-import SecondCarrousel from "../secondCar";
+import Slider from "../../components/Slider";
 
 
 
@@ -434,7 +434,8 @@ const HomeAgency = () => {
                             >
                               <div>
                                 {/* <!--Divider--> */}
-                                <SecondCarrousel/>
+                                {/*<SecondCarrousel/>*/}
+                                <Slider/>
 
                                 {/* <div className="align-items-center">
                                   <img
