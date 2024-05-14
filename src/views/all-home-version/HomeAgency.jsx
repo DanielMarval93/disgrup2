@@ -13,7 +13,7 @@ import BlogHistorias from "../../components/blog/BlogHistorias";
 
 import CookieConsent from "react-cookie-consent";
 import Carrousel from "../carrousel";
-
+import secondCarrousel from "../secondCar";
 
 
 
@@ -78,7 +78,7 @@ const HomeAgency = () => {
                     <div>
                       {/* <!--Divider--> */}
                       <Carrousel></Carrousel>
-                      <div className="align-items-center" style={{ width: "800px" , display: "inline-block" }} >
+                      {/* <div className="align-items-center" style={{ width: "800px" , display: "inline-block" }} >
                         <img
                           style={{ maxWidth: "150px" , marginRight: "40px", marginLeft: "10px" }}
                           alt="aef"
@@ -114,7 +114,7 @@ const HomeAgency = () => {
                           alt="aef"
                           src="https://upload.wikimedia.org/wikipedia/commons/0/00/Logotipo_del_Ministerio_de_Justicia.svg"
                         />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -434,9 +434,9 @@ const HomeAgency = () => {
                             >
                               <div>
                                 {/* <!--Divider--> */}
-                                
+                                <secondCarrousel></secondCarrousel>
 
-                                <div className="align-items-center">
+                                {/* <div className="align-items-center">
                                   <img
                                     style={{ maxWidth: "150px", marginRight: "40px", marginLeft: "10px"}}
                                     alt="aef"
@@ -472,7 +472,7 @@ const HomeAgency = () => {
                                     alt="aef"
                                     src="https://disgrup.org/wp-content/uploads/2023/04/Ferrocarrils-Generalitat-Cat.jpeg"
                                   />
-                                </div>
+                                </div> */}
                               </div>
                             </div>
                           </div>
