@@ -41,6 +41,8 @@ import NoticiaSistematico from "../views/inner-pages/blog/Noticias/NoticiaSistem
 import NoticiaConcentracionArrecife from "../views/inner-pages/blog/Noticias/NoticiaConcentracionArrecife";
 import NoticiaFaltanTaxis from "../views/inner-pages/blog/Noticias/NoticiaFaltanTaxis";
 import NoticiaEntrevista from "../views/inner-pages/blog/Noticias/NoticiaEntrevista";
+import NoticiaFinalSantiago from "../views/inner-pages/blog/Noticias/NoticiaFinalSantiago";
+import NoticiaJornadaConmemorativa from "../views/inner-pages/blog/Noticias/NoticiaJornadaConmemorativa";
 
 
 // Portfolio
@@ -71,7 +73,6 @@ import Devoluciones from "../views/inner-pages/blog/Devoluciones";
 
 import Test from "../views/inner-pages/blog/Test";
 import CaminoSantiago from "../views/inner-pages/blog/caminoSantiago";
-import NoticiaFinalSantiago from "../views/inner-pages/blog/Noticias/NoticiaFinalSantiago";
 
 const AllRoutes = () => {
   return (
@@ -122,6 +123,7 @@ const AllRoutes = () => {
         <Route path="/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados" element={<NoticiaFaltanTaxis />} />
         <Route path="/noticia/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup" element={<NoticiaEntrevista />} />
         <Route path="/noticia/fundacion-disgrup-completa-el-camino-de-santiago" element={<NoticiaFinalSantiago />} />
+        <Route path="/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote" element={<NoticiaJornadaConmemorativa/>} />
 
 
         
