@@ -100,7 +100,7 @@ const BlogThree = () => {
   return (
     <>
       {blogContent.map((val, i) => (
-        <div className="col-xl-4 col-lg-4" key={i}>
+        <div className="col-xl-4 col-lg-4 col-md-6" key={i}>
           <article className="ptf-post ptf-post--style-1">
 
             <div className="ptf-post__content">

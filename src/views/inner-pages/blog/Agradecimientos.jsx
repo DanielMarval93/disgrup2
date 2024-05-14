@@ -101,6 +101,11 @@ const Agradecimientos = () => {
               <div className="container-xxl">
                 <header className="ptf-single-post__header ptf-single-post__header--style-1">
                   <div className="container ">
+                  <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
                     <h1 className="ptf-single-post__title">
                       <span className="has-accent-1"> Agradecimientos</span>{" "}
                     </h1>
@@ -130,7 +135,8 @@ const Agradecimientos = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                    </div>
+                    </div>
                 </header>
 
              
@@ -223,7 +229,7 @@ const Agradecimientos = () => {
                     }}
                   >
                     {blogContent.map((val, i) => (
-                      <div className="col-xl-4 col-lg-4" key={i}>
+                      <div className="col-xl-4 col-lg-4 col-md-6" key={i}>
                         <article className="ptf-post ptf-post--style-1">
                           <div className="ptf-post__media">
                             <img

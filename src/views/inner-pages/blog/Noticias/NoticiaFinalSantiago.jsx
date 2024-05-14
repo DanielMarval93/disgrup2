@@ -38,7 +38,7 @@ const NoticiaFinalSantiago = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
-                  <h1 className="ptf-single-post__title ">
+                  <h1 className="ptf-single-post__title news-title">
                     Fundacion Disgrup completa el
                   </h1>
                   <h1>
