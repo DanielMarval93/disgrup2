@@ -10948,7 +10948,7 @@
     "clsx" "^1.1.0"
     "prop-types" "^15.5.0"
 
-"react-tooltip@^4.2.21":
+"react-tooltip@^4.5.1":
   "integrity" "sha512-Zo+CSFUGXar1uV+bgXFFDe7VeS2iByeIp5rTgTcc2HqtuOS5D76QapejNNfx320MCY91TlhTQat36KGFTqgcvw=="
   "resolved" "https://registry.npmjs.org/react-tooltip/-/react-tooltip-4.5.1.tgz"
   "version" "4.5.1"
