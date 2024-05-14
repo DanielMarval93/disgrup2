@@ -2,7 +2,7 @@ import React from "react";
 
 const Slider = () => {
   return (
-    <div className="sliderFlan sliderFlanBody" data-aos="fade" data-aos-delay="0">
+    <div className="sliderFlan sliderFlanBody">
       <div className="sliderFlan-logos">
       <div className="sliderFlan-logos-slide">
       <img alt="logo" src="https://disgrup.org/wp-content/uploads/2023/02/ajuntament-de-barcelona-limes_reduides-15_rgb-1-300x112-1.png" />

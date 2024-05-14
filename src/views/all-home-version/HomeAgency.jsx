@@ -14,6 +14,7 @@ import BlogHistorias from "../../components/blog/BlogHistorias";
 import CookieConsent from "react-cookie-consent";
 import Carrousel from "../carrousel";
 import Slider from "../../components/Slider";
+import Slider2 from "../../components/Slider2";
 
 
 
@@ -77,7 +78,7 @@ const HomeAgency = () => {
                   >
                     <div>
                       {/* <!--Divider--> */}
-                      <Carrousel></Carrousel>
+                      <Slider2/>
                       {/* <div className="align-items-center" style={{ width: "800px" , display: "inline-block" }} >
                         <img
                           style={{ maxWidth: "150px" , marginRight: "40px", marginLeft: "10px" }}
