@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 
-const secondCarrousel = () => {
-  const carrouselPhotos = [
+const SecondCarrousel = () => {
+  const photosCar = [
     [
         "https://disgrup.org/wp-content/uploads/2023/02/ajuntament-de-barcelona-limes_reduides-15_rgb-1-300x112-1.png",
         "https://disgrup.org/wp-content/uploads/2023/02/logo_1360597455-300x44-1.jpg"
@@ -25,7 +25,7 @@ const secondCarrousel = () => {
   return (
     <div>
       <Slider {...settings}>
-        {carrouselPhotos.map((photos, index) => (
+        {photosCar.map((photos, index) => (
           <div key={index}>
             {photos.map((photo, photoIndex) => (
               <img key={photoIndex} src={photo} alt={`Slide ${index}-${photoIndex}`} style={{ width: "50%", marginRight: "10px" }} />
@@ -37,4 +37,4 @@ const secondCarrousel = () => {
   );
 };
 
-export default secondCarrousel;
+export default SecondCarrousel;
