@@ -20,7 +20,7 @@ const Carrousel = () => {
 
   const settings = {
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
   };
 
   return (
@@ -29,7 +29,7 @@ const Carrousel = () => {
         {carrouselPhotos.map((photos, index) => (
           <div key={index}>
             {photos.map((photo, photoIndex) => (
-              <img key={photoIndex} src={photo} alt={`Slide ${index}-${photoIndex}`} style={{ width: "50%", marginRight: "10px" }} />
+              <img key={photoIndex} src={photo} alt={`Slide ${index}-${photoIndex}`} style={{display:"inline-block" , width: "10%", marginRight: "10px" }} />
             ))}
           </div>
         ))}
