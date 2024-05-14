@@ -35,6 +35,11 @@ const NoticiaProyectoLanzarote = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">
                     Carta a la alcaldesa{" "}
                   </h1>
@@ -46,6 +51,7 @@ const NoticiaProyectoLanzarote = () => {
                     <span className="cat">Disgrup</span>
                     <span className="date"> Dic 22, 2020</span>
                   </div>
+                </div>
                 </div>
               </header>
             </div>

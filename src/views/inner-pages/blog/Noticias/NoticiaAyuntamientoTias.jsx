@@ -38,6 +38,11 @@ const NoticiaAyuntamientoTias = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">
                     El Ayuntamiento de Tías en{" "}
                   </h1>
@@ -49,6 +54,7 @@ const NoticiaAyuntamientoTias = () => {
                     <span className="cat">Disgrup</span>
                     <span className="date"> Jul 28, 2021</span>
                   </div>
+                </div>
                 </div>
               </header>
             </div>

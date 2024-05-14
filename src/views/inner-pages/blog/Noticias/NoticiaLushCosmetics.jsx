@@ -38,6 +38,11 @@ const NoticiaLushCosmetics = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">
                     Lush Fresh Handmade Cosmetics{" "}
                   </h1>
@@ -50,6 +55,7 @@ const NoticiaLushCosmetics = () => {
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
                     <span className="date"> Mar 22, 2021</span>
+                  </div>
                   </div>
                 </div>
               </header>

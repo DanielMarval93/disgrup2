@@ -138,7 +138,11 @@ const Agradecimientos = () => {
                     </div>
                     </div>
                 </header>
-
+          {/* <!--Spacer--> */}
+          <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.375rem" }}
+              ></div>
              
 
                 <div className="row">
@@ -232,6 +236,17 @@ const Agradecimientos = () => {
                       <div className="col-xl-4 col-lg-4 col-md-6" key={i}>
                         <article className="ptf-post ptf-post--style-1">
                           <div className="ptf-post__media">
+                          <div className="ptf-post__content">
+                            <header className="">
+                              <div
+                                className="ptf-post__meta"
+                                style={{ textAlign: "center" }}
+                              >
+                                <span className="cat">{val.cat}</span>
+                              </div>
+                            
+                            </header>
+                          </div>
                             <img
                               src={`assets/img/blog/grid/${val.img}.jpg`}
                               alt="blog"
@@ -244,12 +259,7 @@ const Agradecimientos = () => {
                           </div>
                           <div className="ptf-post__content">
                             <header className="ptf-post__header">
-                              <div
-                                className="ptf-post__meta"
-                                style={{ textAlign: "center" }}
-                              >
-                                <span className="cat">{val.cat}</span>
-                              </div>
+                         
                               <h3
                                 className="ptf-post__title"
                                 style={{ textAlign: "center" }}

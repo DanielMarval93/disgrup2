@@ -37,6 +37,11 @@ const NoticiaTaxi = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">
                     Faltan más de 400 taxis{" "}
                   </h1>
@@ -47,6 +52,7 @@ const NoticiaTaxi = () => {
                     <span className="cat">Disgrup</span>
                     <span className="date"> Sep 13, 2019</span>
                   </div>
+                </div>
                 </div>
               </header>
             </div>
