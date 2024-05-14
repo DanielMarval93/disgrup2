@@ -40,7 +40,7 @@
 
 .sliderFlan-logos {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 2rem 0;
   white-space: nowrap;
   position: relative;
 
@@ -107,7 +107,7 @@
 
 }
 
-.sliderFlanTwo-logos:hover .sliderFlan-logos-slide{
+.sliderFlanTwo-logos:hover .sliderFlanTwo-logos-slide{
   animation-play-state: paused;
 }
 
