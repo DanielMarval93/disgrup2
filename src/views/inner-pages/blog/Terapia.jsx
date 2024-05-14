@@ -98,11 +98,10 @@ const Terapia = () => {
                       data-aos-delay="0"
                     >
                     <h1 className="ptf-single-post__title">
-                      Terapia Ocupacional
-                    </h1>
-                    <h1>
+                      Terapia 
+                    
                       {" "}
-                      <span className="has-accent-1">con Candi</span>
+                      <span className="has-accent-1">Ocupacional</span>
                     </h1>
                     <div className="row">
                       <div className="col-xl-8 offset-xl-2">
@@ -133,6 +132,11 @@ const Terapia = () => {
                 </header>
 
                 <div className="row">
+                    {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.375rem" }}
+              ></div>
                   <div className="col-xl-8 col-lg-8">
                     {/* <!--Animated Block--> */}
                     <div
@@ -217,9 +221,23 @@ const Terapia = () => {
                       marginRight: "0",
                     }}
                   >
+
+
                     {blogContent.map((val, i) => (
                       <div className="col-xl-4 col-lg-4 col-md-6" key={i}>
                         <article className="ptf-post ptf-post--style-1">
+                        <div className="ptf-post__content">
+                            <header className="">
+                              <div
+                                className="ptf-post__meta"
+                                style={{ textAlign: "center" }}
+                              >
+                                <span className="cat">{val.cat}</span>
+                              </div>
+                           
+                            </header>
+                          </div>
+                          
                           <div className="ptf-post__media">
                             <img
                               src={`assets/img/blog/grid/${val.img}.jpg`}
@@ -233,12 +251,6 @@ const Terapia = () => {
                           </div>
                           <div className="ptf-post__content">
                             <header className="ptf-post__header">
-                              <div
-                                className="ptf-post__meta"
-                                style={{ textAlign: "center" }}
-                              >
-                                <span className="cat">{val.cat}</span>
-                              </div>
                               <h3
                                 className="ptf-post__title"
                                 style={{ textAlign: "center" }}

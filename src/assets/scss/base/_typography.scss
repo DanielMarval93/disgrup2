@@ -158,7 +158,16 @@ h1,
       line-height: 1.1;
     }
   }
+  @include mq("xlarge", min) {
+    &.large-heading2 {
+      font-size: px2rem(72px);
+      line-height: 1.1;
+    }
+  }
+  
 }
+
+
 
 h2,
 .h2 {

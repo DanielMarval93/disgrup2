@@ -1,4 +1,4 @@
-# Moonex - Portfolio & Agency React Template
+# Disgrup - Portfolio & Agency React Template
 
 ## Description
 

@@ -225,7 +225,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
+                      <h2 className="h1 large-heading">Disgrup’s Partners</h2>
                     </div>
                     {/* <!--Spacer--> */}
                     <div

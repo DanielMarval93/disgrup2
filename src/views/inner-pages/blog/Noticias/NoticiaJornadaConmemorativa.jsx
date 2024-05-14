@@ -11,8 +11,7 @@ const NoticiaJornadaConmemorativa = () => {
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Lush Fresh Handmade Cosmetics dona lote de sus
-          productos{" "}
+          Disgrup - Noticias - Disgrup presente en jornada conmemorativa del dia de la discapacidad en el cabildo de Lanzarote{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -38,19 +37,25 @@ const NoticiaJornadaConmemorativa = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">
-                    Lush Fresh Handmade Cosmetics{" "}
+                  Jornada por el dia de la discapacidad{" "}
                   </h1>
                   <h1>
-                    {" "}
+                  en el cabildo de {" "}
                     <span className="has-accent-1">
-                      dona lote de sus productos
+                    Lanzarote
                     </span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Ene 1, 2010</span>
+                    <span className="date"> Dic 3, 2023</span>
                   </div>
+                </div>
                 </div>
               </header>
             </div>
@@ -115,31 +120,45 @@ const NoticiaJornadaConmemorativa = () => {
 
                       */}
                       <div className="row">
-                        <div className="col-lg-6 offset-lg-1 ">
-                          <p>
-                            Recientemente la empresa <span style={{"fontWeight":"700"}}>LUSH FRESH HANDMADES
-                            COSMETICS </span>donaron a la Fundación Disgrup un
-                            fantástico lote de sus productos, para que fueran
-                            entregados al equipo sanitario de
-                            neurorehabilitación del hospital Valle Hebrón de
-                            Barcelona.
-                          </p>
-                          <p>
-                            Aquí os traemos fotografiado el momento de la
-                            entrega a algunos de los miembros del equipo
-                            sanitario.
-                          </p>
-                        </div>
-                        <div className="col-lg-4 offset-lg-1">
+                     
+                        <div className="col-lg-8 offset-lg-2">
+                        <img
+                            src={require("../../../../assets/img/blog/post-13.jpg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                        <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
+                        <img
+                            src={require("../../../../assets/img/blog/lanza1.jpg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                            <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
                           <img
-                            src={require("../../../../assets/img/blog/post-4.jpeg")}
+                            src={require("../../../../assets/img/blog/lanza2.jpg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                            <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
+                          <img
+                            src={require("../../../../assets/img/blog/lanza3.jpg")}
                             alt="imagen"
                             style={{ paddingTop: "0rem" }}
                           />
                         </div>
+                        
                         <div
                           className="ptf-spacer"
-                          style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                          style={{ "--ptf-xxl": "2rem", "--ptf-md": "1rem" }}
                         ></div>
                       </div>
 

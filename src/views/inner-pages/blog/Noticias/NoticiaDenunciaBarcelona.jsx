@@ -37,6 +37,11 @@ const NoticiaDenunciaBarcelona = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">Denunciamos al</h1>
                   <h1>
                     {" "}
@@ -48,6 +53,7 @@ const NoticiaDenunciaBarcelona = () => {
                     <span className="cat">Disgrup</span>
                     <span className="date"> Mar 31, 2019</span>
                   </div>
+                </div>
                 </div>
               </header>
             </div>

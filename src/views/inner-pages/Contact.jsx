@@ -5,6 +5,7 @@ import CopyRightTwo from "../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../components/footer/FooterTwo";
 import ContactForm from "../../components/ContactForm";
 import Address from "../../components/Address";
+import ImageGridFive from "../../components/image-grid/ImageGridFive";
 
 const Contact = () => {
   return (
@@ -18,7 +19,7 @@ const Contact = () => {
       {/* End Header */}
 
       <div className="ptf-main">
-        <div className="ptf-page ptf-page--contact">
+        <div  className="ptf-page ptf-page--contact">
           <section>
             {/* <!--Spacer--> */}
             <div
@@ -26,7 +27,7 @@ const Contact = () => {
               style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
             ></div>
 
-            <div className="container-xxl">
+            <div className="container-xxl" >
               <div className="row">
                 <div className="col-xl-10">
                   {/* <!--Animated Block--> */}
@@ -35,6 +36,7 @@ const Contact = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
+                    
                     <h1 className="large-heading">
                       Colabora con <br />
                       Fundacion <span className="has-accent-1">Disgrup</span>
@@ -42,7 +44,7 @@ const Contact = () => {
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "3rem", "--ptf-md": "2.5rem" }}
+                      style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "2.5rem" }}
                     ></div>
 
                     {/* <!--Social Icon--> */}
@@ -53,11 +55,13 @@ const Contact = () => {
             </div>
             {/* Contact top portion */}
 
-            {/* <!--Spacer--> */}
             <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
-            ></div>
+                  className="ptf-divider"
+                  style={{
+                    "--ptf-height": "1px",
+                    "--ptf-color": "var(--ptf-color-14)",
+                  }}
+                ></div>
           </section>
           {/* End section contact header */}
           <div
@@ -66,9 +70,25 @@ const Contact = () => {
             data-aos-delay="0"
           >
             <div className="container">
+              
               <div className="row">
-                <div className="col-lg-7">
-                  <p>
+                <ImageGridFive/>
+                 {/* <!--Spacer--> */}
+            <div
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "3.25rem", "--ptf-md": "3.125rem" }}
+            ></div>
+
+                <div className="col-lg-5 ">
+                  <h1 className="has-accent-1">Beneficios</h1>
+                  <div
+                  className="ptf-spacer"
+                  style={{
+                    "--ptf-xxl": "1.5rem",
+                    "--ptf-md": "1.5rem",
+                  }}
+                ></div>
+                  <p style={{fontSize:"22px"}}>
                     Donar a la Fundación Disgrup no solo es altruista, también
                     ofrece ventajas fiscales. La Ley del IRPF permite deducir un
                     porcentaje de las donaciones en la declaración de la renta,
@@ -80,11 +100,8 @@ const Contact = () => {
                     inclusión en la sociedad.
                   </p>
                 </div>
-                <div className="col-lg-5">
-                  <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "3rem", "--ptf-md": "1rem" }}
-                  ></div>
+                <div className="col-lg-5 offset-lg-2">
+    
                   <img
                     alt="Donacion bizum"
                     src="https://i.imgur.com/7mG5f1v.jpg"
@@ -99,9 +116,23 @@ const Contact = () => {
                   }}
                 ></div>
               </div>
-
+              
             </div>
           </div>
+                 {/* <!--Divider--> */}
+                 <div
+                  className="ptf-divider"
+                  style={{
+                    "--ptf-height": "1px",
+                    "--ptf-color": "var(--ptf-color-14)",
+                  }}
+                ></div>
+                      <div
+                  className="ptf-spacer"
+                  style={{
+                    "--ptf-xxl": "3.5rem",
+                    "--ptf-md": "1.5rem",
+                  }}></div>
           <section>
             <div className="container-xxl">
               <div className="row">
