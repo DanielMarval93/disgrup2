@@ -55,7 +55,7 @@ const blogContent = [
     img: "post-4",
     cat: "Noticias",
     date: "22 de marzo de 2021",
-    title: "Lush Fresh Handmade Cosmetics dona lote de sus productos",
+    title: "Lush Fresh Handmade Cosmetics dona sus productos",
     route:"/noticia/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos"
   },
   {
