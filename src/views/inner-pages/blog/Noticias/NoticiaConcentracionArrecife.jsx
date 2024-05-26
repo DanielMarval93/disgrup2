@@ -35,6 +35,11 @@ const NoticiaConcentracionArrecife = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h1 className="ptf-single-post__title ">
                     Concentración el 26 de mayo de 2023{" "}
                   </h1>
@@ -48,6 +53,7 @@ const NoticiaConcentracionArrecife = () => {
                     <span className="cat">Disgrup</span>
                     <span className="date"> Abr 17, 2023</span>
                   </div>
+                </div>
                 </div>
               </header>
             </div>
@@ -80,6 +86,11 @@ const NoticiaConcentracionArrecife = () => {
             {/* <!--Post Wrapper--> */}
             <div className="ptf-single-post__wrapper">
               <div className="container">
+              <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                 <div className="row">
                   <div className="col-lg-10 offset-lg-1">
                     {/* <!--Post Info--> 
@@ -167,6 +178,7 @@ const NoticiaConcentracionArrecife = () => {
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </article>
         </div>

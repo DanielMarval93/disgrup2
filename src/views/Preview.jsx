@@ -10,7 +10,7 @@ const Preview = () => {
   return (
     <div className="ptf-site-wrapper animsition">
       <Helmet>
-        <title>Moonex - Preview</title>
+        <title>Disgrup - Preview</title>
       </Helmet>
       <div className="ptf-site-wrapper__inner">
         {/* <!--Header--> */}
@@ -306,7 +306,7 @@ const Preview = () => {
               {/*
               <a
                 className="ptf-btn ptf-btn--success"
-                href="https://themeforest.net/item/moonex-portfolio-agency-react-template/35431456"
+                href="https://themeforest.net/item/Disgrup-portfolio-agency-react-template/35431456"
                 target="_blank"
               >
                 Purchase Now

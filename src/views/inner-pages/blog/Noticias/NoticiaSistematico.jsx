@@ -38,6 +38,11 @@ const NoticiaSistematico = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
                   <h3 className="ptf-single-post__title ">
                     Existe un incumplimiento sistemático de{" "}
                   </h3>
@@ -50,6 +55,7 @@ const NoticiaSistematico = () => {
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
                     <span className="date"> Dic 1, 2021</span>
+                  </div>
                   </div>
                 </div>
               </header>
