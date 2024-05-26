@@ -3,7 +3,7 @@ import ReactTooltip from "react-tooltip";
 
 const Tooltip = () => {
     return (
-      <div className="carrousel-wrapper" style={{ width: "80px" , display: "inline-block" }}>
+      <div className="carrousel-wrapper" style={{ width: "60px" , display: "inline-block" }}>
         <img src="https://pngimg.com/uploads/disabled/disabled_PNG8.png"
           alt="aef" />
         <ReactTooltip id="image-tooltip" effect="solid">
