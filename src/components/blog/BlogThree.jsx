@@ -20,14 +20,14 @@ const blogContent = [
     img: "post-10",
     cat: "Noticias",
     date: "23 de Noviembre de 2023",
-    title: "Exigen al IMET que aumente la flota de taxis para discapacitados.",
+    title: "Exigen al IMET que aumente la flota de taxis para discapacitados",
     route:"/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados"
   },
   {
     img: "post-12",
     cat: "Noticias",
     date: "27 de Junio de 2023",
-    title: "Fundacion Disgrup completa el Camino de Santiago en silla de ruedas.",
+    title: "Fundacion Disgrup completa el Camino de Santiago en silla de ruedas",
     route:"/noticia/fundacion-disgrup-completa-el-camino-de-santiago"
   },
   {

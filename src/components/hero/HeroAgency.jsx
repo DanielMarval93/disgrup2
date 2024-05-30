@@ -26,7 +26,7 @@ const HeroAgency = () => {
                 <div className="col-lg-11">
                   <h1
                     className="fz-100 fz-100--sm lh-1 has-white-color"
-                    style={{ marginLeft: "2.5rem" }}
+                    style={{ marginLeft: "3rem", marginTop: "5rem" }}
                   >
                     <span className="has-accent-1">Fundacion</span> <br />
                     Disgrup
@@ -35,11 +35,11 @@ const HeroAgency = () => {
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"
-                    style={{ "--ptf-xxl": "2.125rem" }}
+                    style={{ "--ptf-xxl": "1rem" }}
                   ></div>
                   <p
                     className="fz-24 has-white-color"
-                    style={{ maxWidth: "34.375rem", marginLeft: "3rem" }}
+                    style={{ maxWidth: "34.375rem", marginLeft: "4rem" }}
                   >
                     Ayudamos a las personas con discapacidad
                   </p>
