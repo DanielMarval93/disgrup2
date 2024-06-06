@@ -65,7 +65,7 @@ const HeaderFreelancer = () => {
             <a className="is-active" href="/">
               Esp
             </a>
-            <a href="/">Eng</a>
+            <a href="/"></a>
             
           </div>
           <span

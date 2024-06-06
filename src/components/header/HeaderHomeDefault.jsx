@@ -100,7 +100,7 @@ const HeaderHomeDefault = () => {
             <a className="is-active" href="/">
               Esp
             </a>
-            <a href="/">Eng</a>
+            <a href="/"></a>
             
           </div>
           <span
@@ -112,7 +112,7 @@ const HeaderHomeDefault = () => {
         </div>
         {/* End .ptf-offcanvas-menu__header */}
 
-        < />
+        
       </div>
       {/* End sidebar menu */}
     </>

@@ -152,7 +152,7 @@ const AllRoutes = () => {
         {/* others */}
         <Route path="/team" element={<Team />} />
         <Route path="/pricing" element={<PricingInner />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/dona" element={<Contact />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="*" element={<NotFound />} />

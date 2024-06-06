@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext} from "react";
 import { Helmet } from "react-helmet";
 import CopyRightTwo from "../../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../../components/footer/FooterTwo";
@@ -6,8 +6,17 @@ import HeaderDefault from "../../../components/header/HeaderDefault";
 import ImageGridTwo from "../../../components/image-grid/ImageGridTwo";
 import ModalVideo from "react-modal-video";
 
+import RefContext from "../../../components/context/RefContext";
+
 const BlogDetails = () => {
   const [isOpen, setOpen] = useState(false);
+   const {
+    charlaSection,
+    boliSection,
+  
+    hacemosSection,
+    scrollDown
+  } = useContext(RefContext);
 
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
@@ -65,7 +74,7 @@ const BlogDetails = () => {
               <div className="ptf-single-post__wrapper">
                 <div className="container">
                   <div className="row">
-                    <div className="col-xl-8 offset-xl-2">
+                    <div className="col-xl-10 offset-xl-1">
                       {/* <!--Post Info--> */}
 
                       <div
@@ -122,10 +131,12 @@ const BlogDetails = () => {
                           className="ptf-spacer"
                           style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
                         ></div>
+                        <div ref={hacemosSection}>
                         <h3 className="has-accent-1">
                           ¿Qué hace la fundación por las personas con
                           discapacidad?
                         </h3>
+                        </div>
                         {/* <!--Spacer--> */}
                         <div
                           className="ptf-spacer"
@@ -149,6 +160,39 @@ const BlogDetails = () => {
                           empresa puede hacer su donación y colaborar para que
                           cada uno de estos proyectos se haga realidad.
                         </p>
+                        <div
+                          className="ptf-spacer"
+                          style={{
+                            "--ptf-xxl": "2.075rem",
+                            "--ptf-md": "1.5625rem",
+                          }}
+                        ></div>
+                         <div ref={charlaSection}>
+                        <h3 className="has-accent-1">
+                          Charlas de concienciación
+                        </h3>
+                        </div>
+                        {/* <!--Spacer--> */}
+                        <div
+                          className="ptf-spacer"
+                          style={{
+                            "--ptf-xxl": "1.275rem",
+                            "--ptf-md": "1.5625rem",
+                          }}
+                        ></div>
+                        <p>
+                          Ofrecemos a escuelas, institutos y universidades,
+                          instituciones públicas o privadas, charlas con el
+                          objetivo de fomentar la concienciación de la realidad
+                          de las personas discapacitadas. Queremos dar a conocer
+                          el punto de vista y la experiencia de la vida
+                          cotidiana desde la discapacidad con la convicción
+                          firme de que las diferencias no nos hacen desiguales y
+                          con el propósito de construir una sociedad más
+                          respetuosa, cohesionada y solidaria. Disgrup es una
+                          fundación que trabaja para la plena integración en la
+                          sociedad de las personas discapacitadas.
+                        </p>
                         <section className="ptf-custom--3992 jarallax">
                           <div className="container">
                             <div className="row">
@@ -167,9 +211,11 @@ const BlogDetails = () => {
                                   data-aos="fade"
                                   data-aos-delay="0"
                                 >
+                                  <div ref={boliSection}>
                                   <h3 className="fz-36 has-accent-1">
                                     Boligrafo Solidario
                                   </h3>
+                                  </div>
                                   {/* <!--Spacer--> */}
                                   <div
                                     className="ptf-spacer"
@@ -184,8 +230,8 @@ const BlogDetails = () => {
                                     }}
                                   ></div>
                                   <p
-                                    className="fz-18 has-black-color"
-                                    style={{ maxWidth: "30rem" }}
+                                    className="fz-18 "
+                                    style={{ maxWidth: "30rem", color:"var(--ptf-color-2)" }}
                                   >
                                     Por último, y para incrementar la cantidad
                                     de ayudas que Disgrup otorga mes a mes,
@@ -204,8 +250,8 @@ const BlogDetails = () => {
                                     lugar de vinculación y contención social.
                                   </p>
                                   <p
-                                    className="fz-18 has-black-color"
-                                    style={{ maxWidth: "30rem" }}
+                                    className="fz-18 "
+                                    style={{ maxWidth: "30rem", color:"var(--ptf-color-2)"}}
                                   >
                                     Nuestro lema, ser innovadores, rápidos y
                                     eficaces. Es por eso que siempre estamos
@@ -249,30 +295,9 @@ const BlogDetails = () => {
                             "--ptf-md": "1.5625rem",
                           }}
                         ></div>
-                        <h3 className="has-accent-1">
-                          Charlas de concienciación
-                        </h3>
-                        {/* <!--Spacer--> */}
-                        <div
-                          className="ptf-spacer"
-                          style={{
-                            "--ptf-xxl": "2.875rem",
-                            "--ptf-md": "1.5625rem",
-                          }}
-                        ></div>
-                        <p>
-                          Ofrecemos a escuelas, institutos y universidades,
-                          instituciones públicas o privadas, charlas con el
-                          objetivo de fomentar la concienciación de la realidad
-                          de las personas discapacitadas. Queremos dar a conocer
-                          el punto de vista y la experiencia de la vida
-                          cotidiana desde la discapacidad con la convicción
-                          firme de que las diferencias no nos hacen desiguales y
-                          con el propósito de construir una sociedad más
-                          respetuosa, cohesionada y solidaria. Disgrup es una
-                          fundación que trabaja para la plena integración en la
-                          sociedad de las personas discapacitadas.
-                        </p>
+
+                        <h1 onClick={() => scrollDown(charlaSection, 20)}>test</h1>
+                        
                       </div>
                     </div>
                   </div>
