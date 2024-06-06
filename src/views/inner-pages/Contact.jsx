@@ -49,9 +49,11 @@ const Contact = () => {
 
                     {/* <!--Social Icon--> */}
                   </div>
+                  
                 </div>
               </div>
-              {/* End .row */}
+              
+              {/* End .row */}''
             </div>
             {/* Contact top portion */}
 
@@ -131,7 +133,7 @@ const Contact = () => {
                   className="ptf-spacer"
                   style={{
                     "--ptf-xxl": "3.5rem",
-                    "--ptf-md": "1.5rem",
+                    "--ptf-md": "1  .5rem",
                   }}></div>
           <section>
             <div className="container-xxl">

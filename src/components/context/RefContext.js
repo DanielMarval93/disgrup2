@@ -3,26 +3,18 @@ import { createContext, useState } from "react";
 const RefContext = createContext();
 
 function Provider({ children }) {
-  const [ayudasSection, setAyudasSection] = useState(null);
-  const [contactSection, setContactSection] = useState(null);
-  const [terapiaSection, setTerapiaSection] = useState(null);
-  const [servicesSection, setServicesSection] = useState(null);
-  const [ultimosVideosSection, setUltimosVideosSection] = useState(null);
-  const [ejerciciosSection, setEjerciciosSection] = useState(null);
+
+  const [hacemosSection, setHacemosSection] = useState(null);
+  const [boliSection, setBoliSection] = useState(null);
+  const [charlaSection, setCharlaSection] = useState(null);
+
+
+
 
   const refs = {
-    ultimosVideosSection,
-    setUltimosVideosSection,
-    ayudasSection,
-    setAyudasSection,
-    contactSection,
-    setContactSection,
-    terapiaSection,
-    setTerapiaSection,
-    servicesSection,
-    setEjerciciosSection,
-    ejerciciosSection,
-    setServicesSection,
+    hacemosSection, setHacemosSection,
+    boliSection, setBoliSection, 
+    charlaSection, setCharlaSection,
     scrollDown: (ref, yValue) => {
       window.scrollTo({
         top: ref.current.offsetTop - yValue,

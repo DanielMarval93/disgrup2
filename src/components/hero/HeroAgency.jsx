@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import Tooltip from "../Tooltip";
 
-
 const HeroAgency = () => {
   const settings = {
     dots: true,
@@ -24,44 +23,47 @@ const HeroAgency = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-11">
-                  <h1
-                    className="fz-100 fz-100--sm lh-1 has-white-color"
-                    style={{ marginLeft: "2.5rem" }}
-                  >
-                    <span className="has-accent-1">Fundacion</span> <br />
-                    Disgrup
-                  </h1>
-
-                  {/* <!--Spacer--> */}
-                  <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "2.125rem" }}
-                  ></div>
-                  <p
-                    className="fz-24 has-white-color"
-                    style={{ maxWidth: "34.375rem", marginLeft: "3rem" }}
-                  >
-                    Ayudamos a las personas con discapacidad
-                  </p>
-
-                  {/* <!--Spacer--> */}
-                  <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "1.625rem" }}
-                  ></div>
-
-                  <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
-                    {/* <!--Button--> */}
-                    <Link
-                      className="ptf-btn ptf-btn--primary"
-                      style={{ fontSize: "36px" }}
-                      to="/contact"
-                      target="_self"
+                  <div className="col-lg-7">
+                    <h1
+                      className="fz-100 fz-100--sm lh-1 has-white-color"
+                      style={{ marginLeft: "2.5rem" }}
                     >
-                      Dona
-                    </Link>
+                      <span className="has-accent-1">Fundacion</span> <br />
+                      Disgrup
+                    </h1>
 
-                    {/*
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "2.125rem" }}
+                    ></div>
+                    <p
+                      className="fz-24 has-white-color"
+                      style={{ maxWidth: "34.375rem", marginLeft: "3rem" }}
+                    >
+                      Ayudamos a las personas con discapacidad
+                    </p>
+
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "1.625rem" }}
+                    ></div>
+                                      </div>
+
+
+                    <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
+                      {/* <!--Button--> */}
+                      <Link
+                        className="ptf-btn ptf-btn--primary"
+                        style={{ fontSize: "36px" }}
+                        to="/dona"
+                        target="_self"
+                      >
+                        Dona
+                      </Link>
+
+                      {/*
                 <div
                     className="ptf-video-button"
                     onClick={() => setOpen(true)}
@@ -80,7 +82,7 @@ const HeroAgency = () => {
                       </div>
                     </div>
                     */}
-                    {/* <!--Button--> 
+                      {/* <!--Button--> 
                 <Link
                   className="ptf-btn ptf-btn--secondary"
                   to="/conocenos"
@@ -88,17 +90,16 @@ const HeroAgency = () => {
                 >
                   Conocenos
                 </Link>*/}
-                  </div>
+                    </div>
+                </div>
 
-                  
-                  </div>
-                
-                
-                <div className="col-lg-1" >
-
-                  <div className="carrousel-wrapper" style={{ width: "800px" , display: "inline-block" }}>
-                    <Tooltip/>
-                        {/* <ImageWithTooltip 
+                <div className="col-lg-1">
+                  <div
+                    className="carrousel-wrapper"
+                    style={{ width: "800px", display: "inline-block" }}
+                  >
+                    <Tooltip />
+                    {/* <ImageWithTooltip 
                           style={{ maxWidth: "60px" }}
                           alt="aef"
                           src="https://pngimg.com/uploads/disabled/disabled_PNG8.png"
@@ -127,8 +128,8 @@ const HeroAgency = () => {
                         alt="aef" 
                         tooltipText="Texto de tooltip 5" 
         /> */}
-      </div>
-    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -151,7 +152,7 @@ const HeroAgency = () => {
               <div className="d-flex justify-content-center">
 
                 {/* <!--Button--> 
-                <Link className="ptf-btn ptf-btn--primary" to="/contact" target="_self">
+                <Link className="ptf-btn ptf-btn--primary" to="/dona" target="_self">
                 
                   Eventos
                 

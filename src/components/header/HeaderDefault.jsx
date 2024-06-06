@@ -101,9 +101,9 @@ const HeaderDefault = () => {
         <div className="ptf-offcanvas-menu__header">
           <div className="ptf-language-switcher">
             <a className="is-active" href="/">
-              Esp
+              
             </a>
-            <a href="/">Eng</a>
+            <a href="/">{""}</a>
             
           </div>
           <span
