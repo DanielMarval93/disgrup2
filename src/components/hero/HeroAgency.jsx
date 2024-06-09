@@ -23,46 +23,11 @@ const HeroAgency = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-11">
-<<<<<<< HEAD
-                  <h1
-                    className="fz-100 fz-100--sm lh-1 has-white-color"
-                    style={{ marginLeft: "3rem", marginTop: "5rem" }}
-                  >
-                    <span className="has-accent-1">Fundacion</span> <br />
-                    Disgrup
-                  </h1>
-
-                  {/* <!--Spacer--> */}
-                  <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "1rem" }}
-                  ></div>
-                  <p
-                    className="fz-24 has-white-color"
-                    style={{ maxWidth: "34.375rem", marginLeft: "4rem" }}
-                  >
-                    Ayudamos a las personas con discapacidad
-                  </p>
-
-                  {/* <!--Spacer--> */}
-                  <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "1.625rem" }}
-                  ></div>
-
-                  <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
-                    {/* <!--Button--> */}
-                    <Link
-                      className="ptf-btn ptf-btn--primary"
-                      style={{ fontSize: "36px" }}
-                      to="/contact"
-                      target="_self"
-=======
+                  
                   <div className="col-lg-7">
                     <h1
                       className="fz-100 fz-100--sm lh-1 has-white-color"
-                      style={{ marginLeft: "2.5rem" }}
->>>>>>> 4004c536182bdf99ae4afbcc67cfa8fb0325a33b
+                      style={{ marginLeft: "2.5rem", marginTop: "4.5rem"}}
                     >
                       <span className="has-accent-1">Fundacion</span> <br />
                       Disgrup
@@ -71,11 +36,11 @@ const HeroAgency = () => {
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "2.125rem" }}
+                      style={{ "--ptf-xxl": "1rem" }}
                     ></div>
                     <p
                       className="fz-24 has-white-color"
-                      style={{ maxWidth: "34.375rem", marginLeft: "3rem" }}
+                      style={{ maxWidth: "34.375rem", marginLeft: "3.5rem" }}
                     >
                       Ayudamos a las personas con discapacidad
                     </p>
