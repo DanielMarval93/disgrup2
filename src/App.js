@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext, useRef} from "react";
 import AllRoutes from "./router/AllRoutes";
 import AOS from "aos";
 import "slick-carousel/slick/slick.css";
@@ -8,7 +8,20 @@ import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
 import AnimatedCursor from "react-animated-cursor";
 
+import RefContext from "./components/context/RefContext";
+
 const App = () => {
+
+  const {
+    setCharlaSection,
+    setBoliSection,
+    setHacemosSection,
+  } = useContext(RefContext);
+
+  setCharlaSection(useRef(null));
+  setBoliSection(useRef(null));
+  setHacemosSection(useRef(null));
+
   useEffect(() => {
     AOS.init({
       duration: 1200,
