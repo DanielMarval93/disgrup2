@@ -109,7 +109,6 @@ const HeaderAgency = () => {
             <a className="is-active has-white-color" href="/">
               
             </a>
-            <a href="/"></a>
           </div>
           <span
             className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
