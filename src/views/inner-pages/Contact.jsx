@@ -3,8 +3,7 @@ import { Helmet } from "react-helmet";
 import HeaderDefault from "../../components/header/HeaderDefault";
 import CopyRightTwo from "../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../components/footer/FooterTwo";
-import ContactForm from "../../components/ContactForm";
-import Address from "../../components/Address";
+
 import ImageGridFive from "../../components/image-grid/ImageGridFive";
 
 const Contact = () => {
@@ -135,16 +134,19 @@ const Contact = () => {
                     "--ptf-xxl": "3.5rem",
                     "--ptf-md": "1  .5rem",
                   }}></div>
+
+
+          {/*  
           <section>
             <div className="container-xxl">
               <div className="row">
                 <div className="col-lg-4">
                   <Address />
                 </div>
-                {/* End .col */}
+                {/* End .col 
 
                 <div className="col-lg-8">
-                  {/* <!--Animated Block--> */}
+                  {/* <!--Animated Block--> 
                   <div
                     className="ptf-animated-block"
                     data-aos="fade"
@@ -153,24 +155,27 @@ const Contact = () => {
                     <h5 className="fz-14 text-uppercase has-3-color fw-normal">
                       Tell us about your project and goals.
                     </h5>
-                    {/* <!--Spacer--> */}
+                    {/* <!--Spacer--> 
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "3.125rem" }}
                     ></div>
                     <ContactForm />
-                    {/* End ContactForm */}
+                    {/* End ContactForm 
                   </div>
                 </div>
-                {/* End .col */}
+                {/* End .col 
               </div>
             </div>
-            {/* <!--Spacer--> */}
+            {/* <!--Spacer--> 
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
             ></div>
           </section>
+
+          
+                */}
         </div>
       </div>
 

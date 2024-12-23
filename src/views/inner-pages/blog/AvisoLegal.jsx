@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import CopyRight from "../../../components/footer/copyright/CopyRight";
-import Footer from "../../../components/footer/Footer";
 import HeaderDefault from "../../../components/header/HeaderDefault";
+import FooterTwo from "../../../components/footer/FooterTwo";
+import CopyRightTwo from "../../../components/footer/copyright/CopyRightTwo";
 
 const AvisoLegal = () => {
   return (
@@ -478,13 +478,13 @@ const AvisoLegal = () => {
         {/* End .main */}
 
         {/* <!--Footer--> */}
-        <footer className="ptf-footer ptf-footer--style-1">
+        <footer className="ptf-footer ptf-footer--style-3">
           <div className="container-xxl">
             <div className="ptf-footer__top has-black-color">
-              <Footer />
+              <FooterTwo />
             </div>
             <div className="ptf-footer__bottom">
-              <CopyRight />
+              <CopyRightTwo />
             </div>
           </div>
         </footer>

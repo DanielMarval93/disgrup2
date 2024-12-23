@@ -296,7 +296,7 @@ const BlogDetails = () => {
                           }}
                         ></div>
 
-                        <h1 onClick={() => scrollDown(charlaSection, 20)}>test</h1>
+                    {/*    <h1 onClick={() => scrollDown(charlaSection, 20)}>test</h1>*/}
                         
                       </div>
                     </div>

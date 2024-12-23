@@ -43,11 +43,11 @@ const Tooltip = () => {
   ];
 
   return (
-    <div className="carrousel-wrapper" style={{ position: "relative", display: "inline-block", marginTop: "1.7rem", marginLeft: "20px" }}>
+    <div className="carrousel-wrapper" style={{ position: "relative", display: "inline-block", marginTop: "5rem", marginLeft: "20px" }}>
       {images.map((image, index) => (
         <div
           key={index}
-          style={{ display: "flex", alignItems: "center", marginBottom: "15px", position: "relative" }}
+          style={{ display: "flex", alignItems: "center", marginBottom: "12px", position: "relative" }}
           onMouseEnter={() => showTooltip(index)}
           onMouseLeave={hideTooltip}
         >
@@ -63,14 +63,15 @@ const Tooltip = () => {
             <div
               style={{
                 position: "absolute",
-                left: "-170px", // Shifted 50px to the left
+                left: "-270px", // Shifted 50px to the left
                 backgroundColor: "var(--ptf-accent-1)",
                 color: "white",
                 padding: "10px",
                 borderRadius: "5px",
-                width: "200px", // Adjust width to fit the new text
+                width: "260px", // 30% wider
                 textAlign: "center",
                 whiteSpace: "normal", // Allow wrapping of long text
+                lineHeight: "1.2", // Reduced space between lines
                 zIndex: 10,
               }}
             >
