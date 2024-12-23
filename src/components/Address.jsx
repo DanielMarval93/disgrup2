@@ -9,9 +9,10 @@ const Address = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          C/ de Sancho de Ávila 65 08018 Barcelona
+          
+Calle Aragón 61 - 3º 2ª
           <br />
-          España
+          08015 - Barcelona - España
         </p>
       </div>
 
@@ -24,8 +25,8 @@ const Address = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          <a href="mailto:hello@moonex.co">
-            info@icymediagency.es
+          <a href="mailto:hello@Disgrup.co">
+          info@disgrup.org
             <br />
           </a>
         </p>
@@ -40,7 +41,19 @@ const Address = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          <a href="tel:+34622063782">+34 622 06 37 82</a>
+          <a href="tel:+34622063782">+34 932 265 050</a>
+        </p>
+      </div>
+    {/* <!--Spacer--> */}
+    <div className="ptf-spacer" style={{ "--ptf-xxl": "2.1875rem" }}></div>
+
+       {/* <!--Animated Block--> */}
+       <div className="ptf-animated-block" data-aos="fade" data-aos-delay="200">
+        <h5 className="fz-14 text-uppercase has-3-color fw-normal">CIF</h5>
+        {/* <!--Spacer--> */}
+        <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
+        <p className="fz-20 lh-1p5 has-black-color">
+          G65195430
         </p>
       </div>
 

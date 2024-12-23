@@ -3,18 +3,32 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
+    img: "post-13",
+    cat: "Noticias",
+    date: "3 de Diciembre de 2023",
+    title: "Jornada por el dia de la discpacidad en el cabildo de Lanzarote",
+    route:"/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote"
+  },
+  {
     img: "post-11",
     cat: "Noticias",
     date: "27 de Noviembre de 2023",
     title: "Entrevista a Guillermo Egido, fundador de la Fundación Disgrup",
-    route:"/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup"
+    route:"/noticia/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup"
   },
  {
     img: "post-10",
     cat: "Noticias",
     date: "23 de Noviembre de 2023",
-    title: "Exigen al IMET que aumente la flota de taxis para discapacitados.",
+    title: "Exigen al IMET que aumente la flota de taxis para discapacitados",
     route:"/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados"
+  },
+  {
+    img: "post-12",
+    cat: "Noticias",
+    date: "27 de Junio de 2023",
+    title: "Fundacion Disgrup completa el Camino de Santiago en silla de ruedas",
+    route:"/noticia/fundacion-disgrup-completa-el-camino-de-santiago"
   },
   {
     img: "post-1",
@@ -41,7 +55,7 @@ const blogContent = [
     img: "post-4",
     cat: "Noticias",
     date: "22 de marzo de 2021",
-    title: "Lush Fresh Handmade Cosmetics dona lote de sus productos",
+    title: "Lush Fresh Handmade Cosmetics dona sus productos",
     route:"/noticia/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos"
   },
   {
@@ -86,7 +100,7 @@ const BlogThree = () => {
   return (
     <>
       {blogContent.map((val, i) => (
-        <div className="col-xl-4 col-lg-4" key={i}>
+        <div className="col-xl-4 col-lg-4 col-md-6" key={i}>
           <article className="ptf-post ptf-post--style-1">
 
             <div className="ptf-post__content">

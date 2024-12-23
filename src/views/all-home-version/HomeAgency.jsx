@@ -12,6 +12,10 @@ import PortfolioTwo from "../../components/portfolio/PortfolioTwo";
 import BlogHistorias from "../../components/blog/BlogHistorias";
 
 import CookieConsent from "react-cookie-consent";
+import Slider from "../../components/Slider";
+import Slider2 from "../../components/Slider2";
+
+
 
 const HomeAgency = () => {
   return (
@@ -46,6 +50,11 @@ const HomeAgency = () => {
                 <HeroAgency />
               </div>
             </div>
+            <section>
+              <div className="col-lg-3 offset-lg-9"> 
+
+              </div>
+            </section>
 
             {/*=============================================
           Start Call to Counter section
@@ -53,7 +62,7 @@ const HomeAgency = () => {
             <section>
               <div
                 className="row align-items-center has-accent-1-background"
-                style={{ "--bs-gutter-y": "2rem", }}
+                style={{ "--bs-gutter-y": "2rem", padding : "10px"}}
               >
                 <div className="col-12">
                   {/* <!--Animated Block--> */}
@@ -68,51 +77,44 @@ const HomeAgency = () => {
                   >
                     <div>
                       {/* <!--Divider--> */}
-                      <div className="ptf-divider"></div>
-
-                      <div className="align-items-center">
+                      <Slider2/>
+                      {/* <div className="align-items-center" style={{ width: "800px" , display: "inline-block" }} >
                         <img
-                          style={{ maxWidth: "150px" }}
+                          style={{ maxWidth: "150px" , marginRight: "40px", marginLeft: "10px" }}
                           alt="aef"
                           src="https://identitatcorporativa.gencat.cat/web/.content/Documentacio/descarregues/identificacio/BN/idb_c_blanc.png"
                         />
                         <img
-                          style={{ maxWidth: "150px" }}
+                          style={{ maxWidth: "150px", marginRight: "40px" }}
                           alt="aef"
                           src="https://ccfundacions.cat/wp-content/uploads/2019/05/logo-white.png"
                         />
                         <img
-                          style={{ maxWidth: "80px" }}
+                          style={{ maxWidth: "80px", marginRight: "40px" }}
                           alt="aef"
                           src="https://disgrup.org/wp-content/uploads/2023/02/carrusel-web-fundacion-500-%C3%97-250-px-5.svg"
                         />
-                         <img
-                          style={{ maxWidth: "100px" }}
+                        <img
+                          style={{ maxWidth: "150px", marginRight: "40px" }}
                           alt="aef"
                           src="https://disgrup.org/wp-content/uploads/2023/02/carrusel-web-fundacion-500-%C3%97-250-px-6.svg"
                         />
                         <img
-                          style={{ maxWidth: "100px" }}
+                          style={{ maxWidth: "170px", marginRight: "40px" }}
                           alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/carrusel-web-fundacion-500-%C3%97-250-px-8.svg"
+                          src="https://www.sanidad.gob.es/diseno/img/MSA.Gob-bn-positivo-gris.svg"
                         />
                         <img
-                          style={{ maxWidth: "100px" }}
+                          style={{ maxWidth: "100px", marginRight: "40px" }}
                           alt="aef"
                           src="https://disgrup.org/wp-content/uploads/2023/05/14-1024x390.png"
                         />
                         <img
-                          style={{ maxWidth: "100px" }}
+                          style={{ maxWidth: "170px", marginRight: "40px" }}
                           alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/05/carrusel-web-fundacion-1024x390.png"
+                          src="https://upload.wikimedia.org/wikipedia/commons/0/00/Logotipo_del_Ministerio_de_Justicia.svg"
                         />
-                        <img
-                          style={{ maxWidth: "100px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/05/carrusel-web-fundacion-1024x390.png"
-                        />
-                        
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -314,7 +316,7 @@ const HomeAgency = () => {
                     <div className="col-lg-8">
                       <h3
                         className="ptf-post__title has-accent-2 "
-                        style={{ fontSize: "50px" }}
+                        style={{ fontSize: "50px"}}
                       >
                         <Link to="/videos-ayudas">
                           DISGRUP AYUDA A LA DISCAPACIDAD
@@ -391,85 +393,98 @@ const HomeAgency = () => {
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "4.25rem" }}
+                      style={{ "--ptf-xxl": "3rem" }}
                     ></div>
+                    <div>
+                      <section>
+                        <h1
+                          className="ptf-acknowledgment"
+                          style={{ fontSize: "60px" }}
+                        >
+                          Agradecimientos
+                        </h1>
+                        <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "1rem" }}
+                    ></div>
+
+                        
+                      </section>
+                    </div>
                     {/* End .ptf-isotope-grid */}
                   </div>
                 </div>
               </div>
             </section>
-
             <section>
+            <div
+                          className="row align-items-center has-white-color"
+                          style={{ "--bs-gutter-y": "2rem" }}
+                        >
+                          <div className="col-13">
+                            {/* <!--Animated Block--> */}
+                            <div
+                              className="ptf-animated-block"
+                              style={{
+                                overflowX: "auto",
+                                whiteSpace: "nowrap",
+                              }}
+                              data-aos="fade"
+                              data-aos-delay="0"
+                            >
+                              <div>
+                                {/* <!--Divider--> */}
+                                {/*<SecondCarrousel/>*/}
+                                <Slider/>
 
-              <h1
-              className="ptf-acknowledgment"
-              style={{ fontSize: "60px" }}>Agradecimientos</h1>
-
-
-              <div
-                className="row align-items-center has-white-color"
-                style={{ "--bs-gutter-y": "2rem", }}
-              >
-                <div className="col-13">
-                  {/* <!--Animated Block--> */}
-                  <div
-                    className="ptf-animated-block"
-                    style={{
-                      overflowX: "auto",
-                      whiteSpace: "nowrap",
-                    }}
-                    data-aos="fade"
-                    data-aos-delay="0"
-                  >
-                    <div>
-                      {/* <!--Divider--> */}
-                      <div className="ptf-divider"></div>
-
-                      <div className="align-items-center">
-                        <img
-                          style={{ maxWidth: "150px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/ajuntament-de-barcelona-limes_reduides-15_rgb-1-300x112-1.png"
-                        />
-                        <img
-                          style={{ maxWidth: "150px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/logo_1360597455-300x44-1.jpg"
-                        />
-                        <img
-                          style={{ maxWidth: "80px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/logo-fundacion-miro-bcn.jpg"
-                        />
-                         <img
-                          style={{ maxWidth: "100px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/logo-immb-300x123-1.jpg"
-                        />
-                        <img
-                          style={{ maxWidth: "100px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/logo-poble-espanyol-Bcn-1.jpg"
-                        />
-                        <img
-                          style={{ maxWidth: "100px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/02/Logo-TMB.svg_-300x139-1.png"
-                        />
-                        <img
-                          style={{ maxWidth: "100px" }}
-                          alt="aef"
-                          src="https://disgrup.org/wp-content/uploads/2023/04/Ferrocarrils-Generalitat-Cat.jpeg"
-                        />
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* End .col */}
-                {/* <CounterTwo />*/}
-              </div>
+                                {/* <div className="align-items-center">
+                                  <img
+                                    style={{ maxWidth: "150px", marginRight: "40px", marginLeft: "10px"}}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/02/ajuntament-de-barcelona-limes_reduides-15_rgb-1-300x112-1.png"
+                                  />
+                                  <img
+                                    style={{ maxWidth: "150px", marginRight: "40px" }}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/02/logo_1360597455-300x44-1.jpg"
+                                  />
+                                  <img
+                                    style={{ maxWidth: "80px", marginRight: "40px" }}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/02/logo-fundacion-miro-bcn.jpg"
+                                  />
+                                  <img
+                                    style={{ maxWidth: "100px", marginRight: "40px" }}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/02/logo-immb-300x123-1.jpg"
+                                  />
+                                  <img
+                                    style={{ maxWidth: "100px", marginRight: "40px" }}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/02/logo-poble-espanyol-Bcn-1.jpg"
+                                  />
+                                  <img
+                                    style={{ maxWidth: "100px", marginRight: "40px" }}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/02/Logo-TMB.svg_-300x139-1.png"
+                                  />
+                                  <img
+                                    style={{ maxWidth: "100px", marginRight: "40px" }}
+                                    alt="aef"
+                                    src="https://disgrup.org/wp-content/uploads/2023/04/Ferrocarrils-Generalitat-Cat.jpeg"
+                                  />
+                                </div> */}
+                              </div>
+                            </div>
+                          </div>
+                          {/* End .col */}
+                          {/* <CounterTwo />*/}
+                        </div>
             </section>
+            <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "2rem" }}
+                    ></div>
 
             {/*=============================================
           Start Our Crew/Team section
@@ -540,3 +555,4 @@ const HomeAgency = () => {
 };
 
 export default HomeAgency;
+

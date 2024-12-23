@@ -1,7 +1,7 @@
 import React from "react";
 
 const heroContent = {
-  title: "Moonex",
+  title: "Disgrup",
   subTitle1: " Crafting Digital",
   subTitle2: "Agency",
   subTitleDescription1: "Good design mean that",

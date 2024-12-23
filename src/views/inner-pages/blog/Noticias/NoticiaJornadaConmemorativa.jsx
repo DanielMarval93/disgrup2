@@ -6,12 +6,12 @@ import FooterTwo from "../../../../components/footer/FooterTwo";
 import HeaderDefault from "../../../../components/header/HeaderDefault";
 import SocialFour from "../../../../components/social/SocialFour";
 
-const NoticiaTaxi = () => {
+const NoticiaJornadaConmemorativa = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Faltan más de 400 taxis adaptados en Barcelona{" "}
+          Disgrup - Noticias - Disgrup presente en jornada conmemorativa del dia de la discapacidad en el cabildo de Lanzarote{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -43,14 +43,17 @@ const NoticiaTaxi = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="ptf-single-post__title ">
-                    Faltan más de 400 taxis{" "}
+                  Jornada por el dia de la discapacidad{" "}
                   </h1>
                   <h1>
-                    adaptados <span className="has-accent-1">en Barcelona</span>
+                  en el cabildo de {" "}
+                    <span className="has-accent-1">
+                    Lanzarote
+                    </span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Sep 13, 2019</span>
+                    <span className="date"> Dic 3, 2023</span>
                   </div>
                 </div>
                 </div>
@@ -117,62 +120,47 @@ const NoticiaTaxi = () => {
 
                       */}
                       <div className="row">
-                        <div className="col-lg-10 offset-lg-1">
-                          <img
-                            src={require("../../../../assets/img/blog/post-7.jpg")}
+                     
+                        <div className="col-lg-8 offset-lg-2">
+                        <img
+                            src={require("../../../../assets/img/blog/post-13.jpg")}
                             alt="imagen"
-                            style={{ paddingTop: "1rem" }}
+                            style={{ paddingTop: "0rem" }}
+                          />
+                        <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
+                        <img
+                            src={require("../../../../assets/img/blog/lanza1.jpg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                            <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
+                          <img
+                            src={require("../../../../assets/img/blog/lanza2.jpg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                            <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
+                          <img
+                            src={require("../../../../assets/img/blog/lanza3.jpg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
                           />
                         </div>
+                        
                         <div
                           className="ptf-spacer"
-                          style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                          style={{ "--ptf-xxl": "2rem", "--ptf-md": "1rem" }}
                         ></div>
                       </div>
-
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-
-                      <h3 className="has-black-color">
-                        Basta Ya! Los discapacitados no somos ciudadanos de
-                        segunda.
-                      </h3>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-                      <h4 className="has-accent-1">
-                        ¿Por qué Barcelona no cumple con la ley de
-                        accesibilidad?
-                      </h4>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-                      <h5>
-                        En la ciudad de Barcelona faltan más de 400 taxis
-                        adaptados. Los responsables son el Ayuntamiento de
-                        Barcelona y la Generalitat de Catalunya.
-                      </h5>
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-                      <p>
-                        En Barcelona hay 91 taxis adaptados y más de 130.000
-                        discapacitados.
-                      </p>
-
-                      <p>
-                        Concentración Viernes 11 de Octubre, 12 horas. Plaza
-                        Universitat, Barcelona.
-                      </p>
 
                       {/* <!--Spacer-->*/}
                       <div
@@ -229,4 +217,4 @@ const NoticiaTaxi = () => {
   );
 };
 
-export default NoticiaTaxi;
+export default NoticiaJornadaConmemorativa;

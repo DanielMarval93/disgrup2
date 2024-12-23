@@ -107,9 +107,8 @@ const HeaderAgency = () => {
         <div className="ptf-offcanvas-menu__header">
           <div className="ptf-language-switcher ">
             <a className="is-active has-white-color" href="/">
-              Esp
+              
             </a>
-            <a href="/">Eng</a>
           </div>
           <span
             className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"

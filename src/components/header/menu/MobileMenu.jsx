@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
 import {
@@ -10,82 +10,100 @@ import {
 } from "react-pro-sidebar";
 import Social from "../../social/Social";
 
-const menuContent = [
-  {
-    name: "Conocenos",
-    dropDownItems: [
-      {
-        name: "Que hace la fundacion?",
-        routerPath: "/conocenos",
-      },
-      {
-        name: "Boligrafo Solidario",
-        routerPath: "/conocenos",
-      },
-      {
-        name: "Charlas de concienciación",
-        routerPath: "/conocenos",
-      },
-    ],
-  },
-  {
-    name: "Dona",
-    dropDownItems: [
-      {
-        name: "Beneficios de donar",
-        routerPath: "/works-grid",
-      },
-      {
-        name: "Dona por Bizum",
-        routerPath: "/works-masonry",
-      },
-      {
-        name: "Hacer Donacion",
-        routerPath: "/works-listing",
-      },
-    ],
-  },
-  {
-    name: "Videos",
-    dropDownItems: [
-      {
-        name: "Agradecimientos",
-        routerPath: "/videos-agradecimientos",
-      },
-      {
-        name: "Ayudas a Personas con Discapacidad",
-        routerPath: "/videos-ayudas",
-      },
-      {
-        name: "Ejercicios Cognitivos  ",
-        routerPath: "/videos-ejercicios",
-      },
-      {
-        name: "Terapia Ocupacional",
-        routerPath: "/videos-terapias",
-      },
-    ],
-  },
-  {
-    name: "Noticias/Galeria",
-    dropDownItems: [      
-      {
-      name: "Noticias",
-      routerPath: "/noticias",
-    },
-    {
-      name: "Galeria",
-      routerPath: "/galeria",
-    }, 
-    {
-      name: "Camino de Santiago",
-      routerPath: "/camino-de-santiago",
-    },
-    ],
-  },
-];
+import RefContext from "../../context/RefContext";
 
 const MobileMenu = () => {
+  const { charlaSection, boliSection, hacemosSection,} =
+    useContext(RefContext);
+
+  const menuContent = [
+    {
+      name: "Conocenos",
+      dropDownItems: [
+        {
+          name: "Que hace la fundacion?",
+          routerPath: "/conocenos",
+          click: { hacemosSection },
+        },
+        {
+          name: "Boligrafo Solidario",
+          routerPath: "/conocenos",
+          click: { boliSection },
+        },
+        {
+          name: "Charlas de concienciación",
+          routerPath: "/conocenos",
+          click: { charlaSection },
+        },
+      ],
+    },
+    {
+      name: "Dona",
+      dropDownItems: [
+        {
+          name: "Beneficios de donar",
+          routerPath: "/dona",
+          click: "",
+        },
+        {
+          name: "Dona por Bizum",
+          routerPath: "/dona",
+          click: "",
+        },
+        {
+          name: "Hacer Donacion",
+          routerPath: "/dona",
+          click: "",
+        },
+      ],
+    },
+    {
+      name: "Videos",
+      dropDownItems: [
+        {
+          name: "Agradecimientos",
+          routerPath: "/videos-agradecimientos",
+          click: "",
+        },
+        {
+          name: "Ayudas a Personas con Discapacidad",
+          routerPath: "/videos-ayudas",
+          click: "",
+        },
+        {
+          name: "Ejercicios Cognitivos  ",
+          routerPath: "/videos-ejercicios",
+          click: "",
+        },
+        {
+          name: "Terapia Ocupacional",
+          routerPath: "/videos-terapias",
+          click: "",
+        },
+      ],
+    },
+    {
+      name: "Noticias/Galeria",
+      dropDownItems: [
+        {
+          name: "Noticias",
+          routerPath: "/noticias",
+          click: "",
+        },
+        {
+          name: "Galeria",
+          routerPath: "/galeria",
+          click: "",
+        },
+        {
+          name: "Camino de Santiago",
+          routerPath: "/camino-de-santiago",
+          click: "",
+        },
+      ],
+    },
+  ];
+
   return (
     <>
       <div className="ptf-offcanvas-menu__navigation">
@@ -96,7 +114,13 @@ const MobileMenu = () => {
                 <SubMenu title={item.name} key={i}>
                   {item.dropDownItems.map((val, i) => (
                     <MenuItem key={i}>
-                      <Link to={val.routerPath}>{val.name}</Link>
+                      <Link to={val.routerPath}>
+                        <div >
+                          {val.name}
+                        </div>
+                      </Link>
+
+                  
                     </MenuItem>
                   ))}
                 </SubMenu>
@@ -108,7 +132,6 @@ const MobileMenu = () => {
       {/* End .ptf-offcanvas-menu__navigation */}
 
       <div className="ptf-offcanvas-menu__footer">
-
         <Social />
       </div>
       {/* End .ptf-offcanvas-menu__footer */}

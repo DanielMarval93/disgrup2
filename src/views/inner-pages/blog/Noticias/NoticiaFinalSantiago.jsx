@@ -6,13 +6,13 @@ import FooterTwo from "../../../../components/footer/FooterTwo";
 import HeaderDefault from "../../../../components/header/HeaderDefault";
 import SocialFour from "../../../../components/social/SocialFour";
 
-const NoticiaAyuntamientoTias = () => {
+const NoticiaFinalSantiago = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - El Ayuntamiento de Tías en Lanzarote NO cumple la
-          Ley{" "}
+          Disgrup - Noticias - Fundacion Disgrup completa el Camino de Santiago
+          en silla de ruedas{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -43,16 +43,16 @@ const NoticiaAyuntamientoTias = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h1 className="ptf-single-post__title ">
-                    El Ayuntamiento de Tías en{" "}
+                  <h1 className="ptf-single-post__title news-title">
+                    Fundacion Disgrup completa el
                   </h1>
                   <h1>
-                    Lanzarote{" "}
-                    <span className="has-accent-1">NO cumple la Ley</span>
+                    <span className="has-accent-1">Camino de Santiago</span> en
+                    silla de ruedas
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Jul 28, 2021</span>
+                    <span className="date"> Feb 9, 2021</span>
                   </div>
                 </div>
                 </div>
@@ -118,34 +118,81 @@ const NoticiaAyuntamientoTias = () => {
                       ></div>
 
                       */}
+
                       <div className="row">
-                        <div className="col-lg-12">
-                          <h4 className="has-accent-1">
-                            Pese que casí todos los ayuntamientos de España no
-                            cumplen las leyes de accesibilidad, cuando renuevan
-                            calles, cumplen la ley, en Tías “NO”:
-                          </h4>
+                        <div>
+                          <p>
+                            En el turismo español, el recorrido histórico,
+                            natural y cultural que propone el Camino de Santiago
+                            es uno de los más interesantes de la región. En la
+                            Fundación Disgrup, que ayuda a personas con
+                            discapacidad, se han propuesto recorrer el camino de
+                            Santiago en silla de ruedas para defender los
+                            derechos de los discapacitados.
+                          </p>
+                          <p>
+                            Esta iniciativa es parte de un movimiento de reclamo
+                            que lleva adelante esta fundación, en torno a la
+                            premisa de que los derechos de las personas con
+                            discapacidad no están garantizados en España.
+                          </p>
                         </div>
-                        {/* <!--Spacer-->*/}
+
                         <div
                           className="ptf-spacer"
                           style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                         ></div>
-                        <div className="col-lg-6">
+                      </div>
+                      <row>
+                        <h5>
+                          El recorrido de la Fundación Disgrup en el Camino de
+                          Santiago en silla de ruedas
+                        </h5>
+                      </row>
+                      {/* <!--Spacer-->*/}
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                      ></div>
+
+                      <div className="row">
+                        <div className="col-lg-8">
                           <p>
-                            El pasado año, una vez terminada la obra de la calle
-                            Roque nublo y dos de sus perpendiculares, calle el
-                            Paraíso y calle los Afrechos, de Puerto Del Carmen (
-                            Ayuntamiento de Tías-Lanzarote-Islas Canarias ). Nos
-                            dimos cuenta de la mala fe de dicho consistorio; la
-                            calle no reúne las medidas contempladas por la ley
-                            de accesibilidad actual ( ¿dónde está el
-                            interventor? ):
+                            La aventura empezó el 17 de junio y terminó el 24 de
+                            junio llegando a la conocida Plaza Do Obradoiro en
+                            Santiago, lugar donde todos los peregrinos se
+                            encuentran al finalizar el Camino. Allí, los
+                            aventureros de la Fundación Disgrup pudieron
+                            reivindicar que hay muchos caminos durante el
+                            recorrido que no están adaptados y no se cumplen los
+                            derechos de este colectivo.
+                          </p>
+                          <p>
+                            Debido a los largos kilómetros de recorrido, el
+                            nivel de resistencia física necesaria para este
+                            recorrido es alto. Por ello, la preparación previa
+                            determina en gran parte la capacidad del grupo para
+                            sortear dificultades en el camino. Algunos de los
+                            obstáculos que surgen por el camino se relacionan
+                            con la adaptación de las sillas de ruedas a esta
+                            actividad. Por momentos incluso se necesitan ajustar
+                            o reponer partes para poder continuar. Otra
+                            dificultad importante, que además es parte del
+                            reclamo fundamental que realiza la Fundación
+                            Disgrup, es la escasa cantidad de opciones de
+                            hoteles y albergues adaptados para personas con
+                            silla de ruedas. Se debe tener en cuenta también que
+                            la época más recomendable para realizar este
+                            recorrido para personas con movilidad reducida no es
+                            precisamente el verano, ya que las altas
+                            temperaturas y una mayor concurrencia de personas
+                            puede generar inconvenientes para avanzar a paso
+                            constante en cada etapa.
                           </p>
                         </div>
-                        <div className="col-lg-5 offset-lg-1">
+                        <div className="col-lg-4" style={{ paddingTop: "5rem" }}>
                           <img
-                            src={require("../../../../assets/img/blog/post-3.jpg")}
+                            src={require("../../../../assets/img/blog/post-12.jpg")}
                             alt="imagen"
                             style={{ paddingTop: "0rem" }}
                           />
@@ -155,75 +202,51 @@ const NoticiaAyuntamientoTias = () => {
                           style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                         ></div>
                       </div>
-
-                      {/* <!--Spacer-->*/}
-                      <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-
-                      <p>
-                        Roque Nublo tiene una pendiente mucho mayor que el 4%
-                        máximo permitido por la ley, y las calles el Paraíso y
-                        los Afrechos tienen aproximadamente 90 cm de ancho de
-                        acera, cuando la actual ley dice que no pueden tener
-                        menos de 150 cm. libres.
-                      </p>
-                      <div className="col-lg-8 offset-lg-2">
-                      <div class="ratio ratio-16x9">
-                          <iframe
-                            src="https://www.youtube.com/embed/xB88QxnK__E?si=8cwYp1l9AV5YyTWE"
-                            title="YouTube video"
-                            allowfullscreen
-                          ></iframe>
-                        </div>
-                        </div>
-   {/* <!--Spacer-->*/}
-   <div
-                        className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                      ></div>
-
                       <h5>
-                        Consultamos al ayuntamiento y nos dicen que hacerlo bajo
-                        los parámetros de la ley es muy caro y no es posible
-                        para las arcas municipales (¿Será verdad?).
+                        Fundación Disgrup peregrina hasta el fin del Camino de
+                        Santiago por los derechos de las personas con
+                        discapacidad
                       </h5>
 
-                      
-                      {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
-                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                        style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
                       ></div>
 
                       <p>
-                        Prevalece la economía a la vida, si has tenido un
-                        problema y sufres una discapacidad o has nacido con una
-                        discapacidad que sepas que el ayuntamiento de Tías
-                        seguirá sin cumplir las leyes de accesibilidad para
-                        ponerte la vida más difícil y complicada, si tienes un
-                        accidente, que puede ser mortal, “SE SIENTE”, no haber
-                        tenido discapacidad.
-                      </p>
+                        La labor de la Fundación Disgrup se centra en promover
+                        los derechos de las personas con discapacidad. Una de
+                        sus mayores contribuciones a este objetivo es su
+                        servicio de auditorías de accesibilidad. Por otro lado,
+                        la meta de hacer respetar y ampliar los derechos de las
+                        personas con discapacidad es lo que originó la
+                        peregrinación por el Camino de Santiago. Esta se
+                        desarrolla en el marco de un reclamo por el respeto y
+                        cumplimiento de estos derechos en toda España, y
+                        llegando a la catedral de Santiago el 24 de junio. Con
+                        una gran concurrencia, Fundación Disgrup espera plasmar
+                        esta experiencia en su canal de YouTube para compartir
+                        el mensaje de su lucha por la mejora de calidad de vida
+                        de las personas con discapacidad y para que todo el
+                        mundo que lo desee, pueda ayudar gratuitamente a las
+                        personas con discapacidad cada vez que vea un vídeo del
+                        canal.
+                      </p>  
+                      
+                        <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "0.5rem", "--ptf-md": "0.5rem" }}
+                      ></div>
+
+                  
+
                       <p>
-                        Aquí se vuelve a demostrar lo poco que le importan a las
-                        administraciones, las personas con discapacidad. En
-                        especial al ayuntamiento de Tías, el cual no cumple la
-                        ley, ni los derechos humanos de las personas con
-                        discapacidad; pero eso si, no cumplimos ni la ley, ni
-                        los derechos humanos, pero pedimos subvenciones a la
-                        Comunidad Europea.
+                        Fuente:{" "}
+                        <a href="https://www.diariocomo.es/la-fundacion-disgrup-reivindica-el-cumplimiento-de-los-derechos-de-las-personas-con-discapacidad-en-espana-con-su-llegada-al-final-del-camino-de-santiago-en-sillas-de-ruedas/?fbclid=IwAR0_LzIK8kWIbN6MBQF950P-fd00WTwtwBvCf487oHZ9KIwK-ygri6-gEmw">
+                        www.diariocomo.es
+                        </a>
                       </p>
-                      <p>
-                        Y no es lo único también podríamos hablar entre varias
-                        actuaciones del Ayuntamiento obviando a las personas con
-                        discapacidad, las duchas de la playa de Matagorda, que
-                        en el proyecto iban con asiento para personas con
-                        movilidad reducida y cuando se ejecutó se pusieron
-                        duchas sin asiento ó el plan de accesibilidad del
-                        municipio que no sale.
-                      </p>
+
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
@@ -279,4 +302,4 @@ const NoticiaAyuntamientoTias = () => {
   );
 };
 
-export default NoticiaAyuntamientoTias;
+export default NoticiaFinalSantiago;
