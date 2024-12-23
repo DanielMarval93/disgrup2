@@ -14,10 +14,8 @@ const BlogDetails = () => {
     charlaSection,
     boliSection,
   
-    hacemosSection,
+    hacemosSection
   } = useContext(RefContext);
-
-{/*scrollDown DISABLED */}
 
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
