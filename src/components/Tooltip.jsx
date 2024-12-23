@@ -1,41 +1,86 @@
-import React from "react";
-import ReactTooltip from "react-tooltip";
+import React, { useState } from "react";
 
 const Tooltip = () => {
-    return (
-      <div className="carrousel-wrapper" style={{ width: "60px" , display: "inline-block", marginTop: "100px", marginLeft: "70px"}}>
-        <img src="https://pngimg.com/uploads/disabled/disabled_PNG8.png"
-          alt="aef" />
-        <ReactTooltip id="image-tooltip" effect="solid">
-          <img src="https://pngimg.com/uploads/disabled/disabled_PNG8.png"
-         alt="aef" />
-        </ReactTooltip>
-        <img src="https://th.bing.com/th/id/R.7109d9ada3c7245323c7648f9fdb6b7c?rik=WaWvmP4wCTnQCg&riu=http%3a%2f%2fcdn-01.media-brady.com%2fstore%2fstfr%2fmedia%2fcatalog%2fproduct%2fd%2fm%2fdmeu_pslc2_670_1_std.lang.all.png&ehk=zfbj9zE%2fFs5w6icSY%2b9TkSSyDDNI%2ffrC9liZx%2bY%2f608%3d&risl=&pid=ImgRaw&r=0" alt="aef" style={{marginTop: "10px"}}/>
+  const [hoveredImage, setHoveredImage] = useState(null);
 
-        <ReactTooltip id="image-tooltip" effect="solid">
-          <img src="https://th.bing.com/th/id/R.7109d9ada3c7245323c7648f9fdb6b7c?rik=WaWvmP4wCTnQCg&riu=http%3a%2f%2fcdn-01.media-brady.com%2fstore%2fstfr%2fmedia%2fcatalog%2fproduct%2fd%2fm%2fdmeu_pslc2_670_1_std.lang.all.png&ehk=zfbj9zE%2fFs5w6icSY%2b9TkSSyDDNI%2ffrC9liZx%2bY%2f608%3d&risl=&pid=ImgRaw&r=0"
-         alt="aef" />
-        </ReactTooltip>
-        <img src="https://th.bing.com/th/id/OIP.yGoK0gv0wh63HrkmxFndcgHaHa?rs=1&pid=ImgDetMain"
-          alt="aef" style={{marginTop: "10px"}}/>
-        <ReactTooltip id="image-tooltip" effect="solid">
-          <img src="https://th.bing.com/th/id/OIP.yGoK0gv0wh63HrkmxFndcgHaHa?rs=1&pid=ImgDetMain"
-         alt="aef" />
-        </ReactTooltip>
-        <img src="https://w7.pngwing.com/pngs/117/374/png-transparent-intellectual-disability-international-day-of-disabled-persons-gizarteratzea-mentally-s-text-area-learning-disability-thumbnail.png"
-          alt="aef" style={{marginTop: "10px"}} />
-        <ReactTooltip id="image-tooltip" effect="solid">
-          <img src="https://w7.pngwing.com/pngs/117/374/png-transparent-intellectual-disability-international-day-of-disabled-persons-gizarteratzea-mentally-s-text-area-learning-disability-thumbnail.png"
-         alt="aef" />
-        </ReactTooltip>
-        <img src="https://i.imgur.com/7oXavVK.jpeg"
-          alt="aef" style={{marginTop: "10px"}}/>
-        <ReactTooltip id="image-tooltip" effect="solid">
-          <img src="https://i.imgur.com/7oXavVK.jpeg"
-         alt="aef" />
-        </ReactTooltip>
-      </div>
-    );
+  // Function to show the tooltip
+  const showTooltip = (index) => {
+    setHoveredImage(index);
   };
-  
-  export default Tooltip;
+
+  // Function to hide the tooltip
+  const hideTooltip = () => {
+    setHoveredImage(null);
+  };
+
+  // Image data and tooltip texts with corresponding disability definitions in Spanish
+  const images = [
+    {
+      src: "https://i.imgur.com/uJpJQ7U.png",
+      alt: "Ceguera",
+      text: "Ceguera: Una condición en la que una persona no tiene visión o tiene visión muy limitada.",
+    },
+    {
+      src: "https://i.imgur.com/wk0vStY.png",
+      alt: "Discapacidad auditiva",
+      text: "Discapacidad auditiva: Una condición en la que una persona tiene incapacidad parcial o total para escuchar.",
+    },
+    {
+      src: "https://i.imgur.com/p1aaELq.png",
+      alt: "Discapacidad de movimiento parcial",
+      text: "Discapacidad de movimiento parcial: Una condición en la que una persona tiene movilidad limitada en uno o más miembros.",
+    },
+    {
+      src: "https://i.imgur.com/rOvp42J.png",
+      alt: "Discapacidad de movimiento total",
+      text: "Discapacidad de movimiento total: Una condición en la que una persona no tiene capacidad de movimiento en los miembros o partes del cuerpo.",
+    },
+    {
+      src: "https://i.imgur.com/3XjILLk.png",
+      alt: "Discapacidad mental",
+      text: "Discapacidad mental: Una condición en la que una persona tiene discapacidades cognitivas o intelectuales que afectan su funcionamiento diario.",
+    },
+  ];
+
+  return (
+    <div className="carrousel-wrapper" style={{ position: "relative", display: "inline-block", marginTop: "1.7rem", marginLeft: "20px" }}>
+      {images.map((image, index) => (
+        <div
+          key={index}
+          style={{ display: "flex", alignItems: "center", marginBottom: "15px", position: "relative" }}
+          onMouseEnter={() => showTooltip(index)}
+          onMouseLeave={hideTooltip}
+        >
+          {/* Image */}
+          <img
+            src={image.src}
+            alt={image.alt}
+            style={{ width: "60px", height: "60px" }}
+          />
+
+          {/* Tooltip */}
+          {hoveredImage === index && (
+            <div
+              style={{
+                position: "absolute",
+                left: "-170px", // Shifted 50px to the left
+                backgroundColor: "var(--ptf-accent-1)",
+                color: "white",
+                padding: "10px",
+                borderRadius: "5px",
+                width: "200px", // Adjust width to fit the new text
+                textAlign: "center",
+                whiteSpace: "normal", // Allow wrapping of long text
+                zIndex: 10,
+              }}
+            >
+              {image.text}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Tooltip;
