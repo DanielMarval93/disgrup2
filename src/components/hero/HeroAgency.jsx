@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import Tooltip from "../Tooltip";
@@ -15,6 +15,19 @@ const HeroAgency = () => {
     autoplay: false,
     adaptiveHeight: false,
   };
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleButtonClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOverlayClick = (e) => {
+    if (e.target.className === "modal-overlay") {
+      setIsModalOpen(false);
+    }
+  };
+
   return (
     <>
       <Slider {...settings}>
@@ -23,75 +36,53 @@ const HeroAgency = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-11">
-                  
                   <div className="col-lg-7">
                     <h1
-                      className="fz-100 fz-100--sm lh-1 has-white-color"
-                      style={{ marginLeft: "2.5rem", marginTop: "4.5rem"}}
+                      className="fz-80 fz-80--sm lh-1 has-white-color"
+                      style={{ marginLeft: "3.5rem", marginTop: "5.5rem" }}
                     >
                       <span className="has-accent-1">Fundacion</span> <br />
                       Disgrup
                     </h1>
 
-                    {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "1rem" }}
                     ></div>
                     <p
                       className="fz-24 has-white-color"
-                      style={{ maxWidth: "34.375rem", marginLeft: "3.5rem" }}
+                      style={{ maxWidth: "34.375rem", marginLeft: "4rem" }}
                     >
                       Ayudamos a las personas con discapacidad
                     </p>
 
-                    {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "1.625rem" }}
+                      style={{ "--ptf-xxl": "0.625rem" }}
                     ></div>
-                                      </div>
+                  </div>
 
+                  <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
+                    {/* Dona Button */}
+                    <Link
+                      className="ptf-btn ptf-btn--primary"
+                      style={{ fontSize: "36px" }}
+                      to="/dona"
+                      target="_self"
+                    >
+                      Dona
+                    </Link>
 
-                    <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
-                      {/* <!--Button--> */}
-                      <Link
-                        className="ptf-btn ptf-btn--primary"
-                        style={{ fontSize: "36px" }}
-                        to="/dona"
-                        target="_self"
-                      >
-                        Dona
-                      </Link>
-
-                      {/*
-                <div
-                    className="ptf-video-button"
-                    onClick={() => setOpen(true)}
-                    style={{
-                      "--ptf-title-color": "var(--ptf-color-white)",
-                      marginLeft: "2rem",
-                    }}
-                  >
-                    <a href="/" rel="nofollow">
-                      <i className="lnil lnil-play"></i>
-                    </a>
-                    <div className="ptf-video-button__title">
-                      Nuestra <br />
-                      historia
-
-                      </div>
-                    </div>
-                    */}
-                      {/* <!--Button--> 
-                <Link
-                  className="ptf-btn ptf-btn--secondary"
-                  to="/conocenos"
-                  style={{ marginLeft: "2rem", marginRight: "2rem" }}
-                >
-                  Conocenos
-                </Link>*/}
-                    </div>
+                    {/* Bizum Button */}
+                    <Link
+                      className="ptf-btn ptf-btn--primary ptf-btn--inversed"
+                      style={{ fontSize: "36px", marginLeft: "2.3rem" }}
+                      onClick={handleButtonClick} // Attach click handler
+                      target="_self"
+                    >
+                      Bizum
+                    </Link>
+                  </div>
                 </div>
 
                 <div className="col-lg-1">
@@ -100,135 +91,53 @@ const HeroAgency = () => {
                     style={{ width: "800px", display: "inline-block" }}
                   >
                     <Tooltip />
-                    {/* <ImageWithTooltip 
-                          style={{ maxWidth: "60px" }}
-                          alt="aef"
-                          src="https://pngimg.com/uploads/disabled/disabled_PNG8.png"
-                          tooltipText= "jfdskfdksjhfdskfsd"
-                          />
-                        <ImageWithTooltip
-                          style={{ maxWidth: "60px", marginTop: "20px" }}
-                          alt="aef"
-                          src="https://th.bing.com/th/id/R.7109d9ada3c7245323c7648f9fdb6b7c?rik=WaWvmP4wCTnQCg&riu=http%3a%2f%2fcdn-01.media-brady.com%2fstore%2fstfr%2fmedia%2fcatalog%2fproduct%2fd%2fm%2fdmeu_pslc2_670_1_std.lang.all.png&ehk=zfbj9zE%2fFs5w6icSY%2b9TkSSyDDNI%2ffrC9liZx%2bY%2f608%3d&risl=&pid=ImgRaw&r=0"
-                          tooltipText= "jfdskfdksjhfdskfsd"
-                        />
-                        <ImageWithTooltip
-                          style={{ maxWidth: "60px" , marginTop: "20px"}}
-                          alt="aef"
-                          src="https://th.bing.com/th/id/OIP.yGoK0gv0wh63HrkmxFndcgHaHa?rs=1&pid=ImgDetMain"
-                          tooltipText= "jfdskfdksjhfdskfsd"
-                        />
-                        <ImageWithTooltip
-                          style={{ maxWidth: "60px", marginTop: "20px" }}
-                          alt="aef"
-                          src="https://w7.pngwing.com/pngs/117/374/png-transparent-intellectual-disability-international-day-of-disabled-persons-gizarteratzea-mentally-s-text-area-learning-disability-thumbnail.png"
-                          tooltipText= "jfdskfdksjhfdskfsd"
-                        />
-                        <ImageWithTooltip
-                        src="https://i.imgur.com/7oXavVK.jpeg" 
-                        alt="aef" 
-                        tooltipText="Texto de tooltip 5" 
-        /> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* End .ptf-showcase-image 
-
-        <div className="ptf-showcase-image image-2">
-          <div className="ptf-showcase-slide">
-            <div className="container">
-              <h1 className="fz-100 fz-90--lg lh-1 has-white-color text-center">
-                 <br />
-                  <span className="has-accent-1"><br />Participa</span> 
-              </h1>
-              {/* <!--Spacer--> 
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "2.125rem" }}
-              ></div>
-
-              <div className="d-flex justify-content-center">
-
-                {/* <!--Button--> 
-                <Link className="ptf-btn ptf-btn--primary" to="/dona" target="_self">
-                
-                  Eventos
-                
-                </Link>
-                {/* <!--Button--> 
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End .ptf-showcase-image 
-
-        <div className="ptf-showcase-image image-1">
-          <div className="ptf-showcase-slide">
-            <div className="container">
-              <h1 className="fz-100 fz-100--sm lh-1 has-white-color text-center">
-              Haz una
-              <br/>
-              <span className="has-accent-3"> Donacion</span> 
-              </h1>
-
-              {/* <!--Spacer--> 
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "2.125rem" }}
-              ></div>
-
-
-              {/* <!--Spacer--> 
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "3.625rem" }}
-              ></div>
-              <div className="d-flex  justify-content-center">
-                
-                {/* <!--Button--> 
-                <Link className="ptf-btn ptf-btn--primary" to="/contact" target="_self">
-                
-                  Ayudanos
-                
-                </Link>
-                {/* <!--Video Button--> 
-                <div
-                  className="ptf-video-button"
-                  onClick={() => setOpen(true)}
-                  style={{
-                    "--ptf-title-color": "var(--ptf-color-white)",
-                    marginLeft: "2rem",
-                  }}
-                >
-                  <a href="/" rel="nofollow">
-                    <i className="lnil lnil-play"></i>
-                  </a>
-                  <div className="ptf-video-button__title">
-                    Nuestra <br />
-                    Hitoria
-                  </div>
-                </div>
-              
-
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End .ptf-showcase-image */}
       </Slider>
-      {/*
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="D6daFM-p8Mg"
-        onClose={() => setOpen(false)}
-      />
-      */}
-      {/* End Youtube Modal video */}
+
+      {/* Modal Image - Render it outside of the container */}
+      {isModalOpen && (
+        <div
+          className="modal-overlay"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "rgba(0, 0, 0, 0.8)",
+            zIndex: 9999,
+          }}
+          onClick={handleOverlayClick} // Close modal if overlay clicked
+        >
+          <div
+            style={{
+              width: "50%", // Reduce width to 50%
+              height: "90%", // Reduce height to 60%
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src="https://i.imgur.com/7mG5f1v.jpg"
+              alt="Hello World!"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "contain", // Maintain aspect ratio
+              }}
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 };

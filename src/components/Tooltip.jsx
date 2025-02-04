@@ -43,11 +43,11 @@ const Tooltip = () => {
   ];
 
   return (
-    <div className="carrousel-wrapper" style={{ position: "relative", display: "inline-block", marginTop: "5rem", marginLeft: "20px" }}>
+    <div className="carrousel-wrapper" style={{ position: "relative", display: "inline-block", marginTop: "5rem", marginLeft: "2rem" }}>
       {images.map((image, index) => (
         <div
           key={index}
-          style={{ display: "flex", alignItems: "center", marginBottom: "12px", position: "relative" }}
+          style={{ display: "flex", alignItems: "center", marginBottom: "10px", position: "relative" }}
           onMouseEnter={() => showTooltip(index)}
           onMouseLeave={hideTooltip}
         >
@@ -55,7 +55,7 @@ const Tooltip = () => {
           <img
             src={image.src}
             alt={image.alt}
-            style={{ width: "60px", height: "60px" }}
+            style={{ width: "55px", height: "55px" }}
           />
 
           {/* Tooltip */}

@@ -42,7 +42,7 @@ const HeaderAgency = () => {
           <div className="container-xxl">
             <div className="ptf-navbar-inner">
               {/* <!--Logo--> */}
-              <Link className="ptf-navbar-logo" to="/" onClick={scrollToTop}>
+              <Link className="ptf-navbar-logo" to="/" onClick={scrollToTop} style={{marginLeft:"-0.2rem"}}>
                 <img
                   className="black"
                   src="assets/img/root/logo-dark.png"

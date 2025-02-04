@@ -10780,6 +10780,11 @@
   "resolved" "https://registry.npmjs.org/react-masonry-css/-/react-masonry-css-1.0.16.tgz"
   "version" "1.0.16"
 
+"react-modal-image@^2.6.0":
+  "integrity" "sha512-NNc1xPKzFAn0VsNMdJ8NXt6c54aL/z0fcoYmw9qn4SBUONdGl+8LOQ0sTfo0wtdzcjLiby/ncloHcAL+UI+wIA=="
+  "resolved" "https://registry.npmjs.org/react-modal-image/-/react-modal-image-2.6.0.tgz"
+  "version" "2.6.0"
+
 "react-modal-video@^2.0.0":
   "integrity" "sha512-KvR6XYH36t5W5J4EvLjWdoJYboghVA0VZbfMhLN3NnAHt8O95kokoS0mAwlhE5HrDHvW+20OtPc+Zhk9uufvWw=="
   "resolved" "https://registry.npmjs.org/react-modal-video/-/react-modal-video-2.0.0.tgz"

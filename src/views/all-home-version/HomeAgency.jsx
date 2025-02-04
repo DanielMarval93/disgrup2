@@ -10,6 +10,7 @@ import PortfolioTwo from "../../components/portfolio/PortfolioTwo";
 //import Team from "../../components/team/Team";
 //import TestimonialTwo from "../../components/testimonial/TestimonialTwo";//
 import BlogHistorias from "../../components/blog/BlogHistorias";
+import BlogDestacados from "../../components/blog/BlogDestacados";
 
 import CookieConsent from "react-cookie-consent";
 import Slider from "../../components/Slider";
@@ -132,7 +133,7 @@ const HomeAgency = () => {
             <section className="ptf-custom--3993 jarallax">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-5 offset-lg-7">
+                  <div className="col-lg-5 offset-lg-6">
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -204,6 +205,11 @@ const HomeAgency = () => {
             {/* End  Advertising Banner */}
 
             <section>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+              ></div>
               <div
                 className="ptf-divider"
                 style={{
@@ -214,73 +220,55 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "3rem", "--ptf-md": "2rem" }}
+                style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container">
-                <div className="row ">
-                  <div className="col-xl-12 ">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h1 className="has-accent-2">ULTIMOS VIDEOS</h1>
-                      <div
-                        className="ptf-spacer"
-                        style={{
-                          "--ptf-xxl": "3.125rem",
-                          "--ptf-md": "2.0625rem",
-                        }}
-                      ></div>
-                      <div className="row">
-                        <div className="col-lg-7">
-                          <div className="ptf-video">
-                            <div class="ratio ratio-16x9">
-                              <iframe
-                                src={`https://www.youtube.com/embed/uRINHRkbhqY?si=SD8zmGBTUAo_-Mpb`}
-                                title="YouTube video"
-                                allowfullscreen
-                              ></iframe>
-                            </div>
-                          </div>
-                          <div
-                            className="ptf-spacer"
-                            style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                          ></div>
-                          <div className="ptf-video">
-                            <div class="ratio ratio-16x9">
-                              <iframe
-                                src={`https://www.youtube.com/embed/12RBdsn4TSo?si=JXu68wX9Fezu-3Mz`}
-                                title="YouTube video"
-                                allowfullscreen
-                              ></iframe>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-5">
-                          <div
-                            className="ptf-spacer"
-                            style={{ "--ptf-xxl": "3rem", "--ptf-md": "1rem" }}
-                          ></div>
-                          <img
-                            alt="Donacion bizum"
-                            src="https://i.imgur.com/7mG5f1v.jpg"
-                          />
-                        </div>
-                        {/* <!--Spacer--> */}
-                        <div
-                          className="ptf-spacer"
-                          style={{
-                            "--ptf-xxl": "1.5rem",
-                            "--ptf-md": "1.5rem",
-                          }}
-                        ></div>
-                      </div>
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <row>
+                    <div className="col-lg-8">
+                      <h3
+                        className="ptf-post__title has-accent-2 "
+                        style={{ fontSize: "60px"}}
+                      >
+                        <Link to="/videos-ayudas">
+                          Videos Destacados
+                        </Link>
+                      </h3>
                     </div>
+                  </row>
+                </div>
+
+                <div
+                  className="row"
+                  style={{
+                    "--bs-gutter-x": "10.625rem",
+                    "--bs-gutter-y": " 5.3125rem",
+                  }}
+                >
+                  <div
+                    className="ptf-isotope-grid row"
+                    style={{
+                      "--bs-gutter-x": "3rem",
+                      "--bs-gutter-y": "3rem",
+                      marginLeft: "0",
+                      marginRight: "0",
+                    }}
+                  >
+                    <BlogDestacados />
                   </div>
                 </div>
               </div>
+
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "0.5rem", "--ptf-md": "0rem" }}
+              ></div>
             </section>
             {/* End  Advertising Big Title */}
 
