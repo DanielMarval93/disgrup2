@@ -144,33 +144,64 @@
 
     .ptf-widget-contacts {
       max-width: px2rem(500px);
-
-      ul {
-        margin: 0;
-        padding: 0;
-
-        list-style-type: none;
-
-        li {
-          display: grid;
-
-          line-height: 1.875;
-
-          grid-template-columns: 130px 1fr;
-
-          span {
-            text-transform: uppercase;
-            font-size: px2rem(14px);
-            line-height: 2.2;
-            font-weight: 600;
-          }
-        }
-
-        li + li {
-          margin-top: px2rem(15px);
-        }
+    }
+    
+    .ptf-widget-contacts ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    
+    .ptf-widget-contacts ul li {
+      display: grid;
+      line-height: 1.875;
+      grid-template-columns: 130px 1fr;
+    }
+    
+    .ptf-widget-contacts ul li span {
+      text-transform: uppercase;
+      font-size: px2rem(14px);
+      line-height: 2.2;
+      font-weight: 600;
+    }
+    
+    .ptf-widget-contacts ul li + li {
+      margin-top: px2rem(15px);
+    }
+    
+    /* Mobile specific styling */
+    @media (max-width: 768px) {
+      .ptf-widget-contacts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .ptf-widget-contacts ul {
+        width: 48%; /* Each column will take about 50% of the width */
+        margin-bottom: 1rem;
+      }
+    
+      .ptf-widget-contacts ul li {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+      }
+    
+      /* Ensure address breaks properly on two lines */
+      .ptf-widget-contacts ul li:first-of-type span {
+        white-space: normal;
+      }
+    
+      /* Fix the CIF and phone number breaking issue */
+      .ptf-widget-contacts ul li:nth-of-type(4) {
+        display: block;
+        margin-top: 0.5rem;
       }
     }
+    
+    
+    
   }
 
   .ptf-footer__bottom {
