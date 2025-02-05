@@ -211,7 +211,7 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
               ></div>
               <div
                 className="ptf-divider"
@@ -223,7 +223,7 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
               ></div>
               <div className="container">
                 {/* <!--Animated Block--> */}
@@ -397,6 +397,16 @@ const HomeAgency = () => {
                     <div className="ptf-isotope-grid col-lg-7">
                       <PortfolioTwo />
                     </div>
+
+
+                    <div
+                className="ptf-divider"
+                style={{
+                  "--ptf-height": "1px",
+                  "--ptf-color": "var(--ptf-color-14)",
+                }}
+              ></div>
+
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -404,6 +414,10 @@ const HomeAgency = () => {
                     ></div>
                     <div>
                       <section>
+
+
+                        
+                        
                         <h3
                           className="ptf-post__title has-accent-1"
                           style={{ fontSize: "48px" }}

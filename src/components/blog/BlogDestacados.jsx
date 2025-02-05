@@ -46,7 +46,7 @@ const BlogHistorias = () => {
           <div
             className="col-xl-6 col-lg-6 col-md-6"
             key={i}
-            style={{ marginBottom: "0.3rem", marginTop: i === 3 ? "3.5rem" : "0" }} // Adds space between rows and margin-top for the 4th item
+            style={{ marginBottom: "0.3rem", marginTop: i === 3 ? "2.7rem" : "0" }} // Adds space between rows and margin-top for the 4th item
           >
             {i === 3 ? (
               <a

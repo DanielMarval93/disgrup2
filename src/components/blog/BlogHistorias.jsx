@@ -90,7 +90,7 @@ const BlogHistorias = (videoId) => {
               </header>
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                style={{ "--ptf-xxl": "1rem", "--ptf-md": "2rem" }}
               ></div>
             </div>
             <div className="ptf-post__media">
