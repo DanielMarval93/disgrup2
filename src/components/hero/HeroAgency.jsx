@@ -65,7 +65,7 @@ const HeroAgency = () => {
                   <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
                     {/* Dona Button */}
                     <Link
-                      className="ptf-btn ptf-btn--primary"
+                      className="ptf-btn ptf-btn--primary ptf-btn--inversed"
                       style={{ fontSize: "36px" }}
                       to="/dona"
                       target="_self"

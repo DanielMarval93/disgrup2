@@ -130,7 +130,7 @@ const HomeAgency = () => {
             </section>
             {/* End .ptf-devider */}
 
-            <section className="ptf-custom--3993 jarallax">
+            <section className="ptf-custom--3993 jarallax" style={{ marginLeft: "1rem", marginRight: "1rem" }}>
               <div className="container">
                 <div className="row">
                   <div className="col-lg-5 offset-lg-6">
@@ -145,9 +145,12 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h6 className="fz-40 has-accent-1 text-uppercase">
+                      <h3
+                        className="ptf-post__title has-accent-1"
+                        style={{ fontSize: "48px" }}
+                      >
                         Quienes Somos
-                      </h6>
+                      </h3>
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
@@ -204,7 +207,7 @@ const HomeAgency = () => {
             </section>
             {/* End  Advertising Banner */}
 
-            <section>
+            <section style={{ marginLeft: "1rem", marginRight: "1rem" }}>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -232,8 +235,8 @@ const HomeAgency = () => {
                   <row>
                     <div className="col-lg-8">
                       <h3
-                        className="ptf-post__title has-accent-2 "
-                        style={{ fontSize: "60px"}}
+                        className="ptf-post__title has-accent-1 "
+                        style={{ fontSize: "48px"}}
                       >
                         <Link to="/videos-ayudas">
                           Videos Destacados
@@ -275,7 +278,7 @@ const HomeAgency = () => {
             {/*============================================}=
         Service Section
       ============================================== */}
-            <section>
+            <section style={{ marginLeft: "1rem", marginRight: "1rem" }}>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -303,11 +306,11 @@ const HomeAgency = () => {
                   <row>
                     <div className="col-lg-8">
                       <h3
-                        className="ptf-post__title has-accent-2 "
+                        className="ptf-post__title has-accent-1 "
                         style={{ fontSize: "50px"}}
                       >
                         <Link to="/videos-ayudas">
-                          DISGRUP AYUDA A LA DISCAPACIDAD
+                          Disgrup Ayuda a<br></br>la Discapacidad
                         </Link>
                       </h3>
                     </div>
@@ -338,15 +341,31 @@ const HomeAgency = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "6rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "4.5rem", "--ptf-md": "5rem" }}
               ></div>
+              
             </section>
 
             {/*=============================================
           Start Latest Works section
           ============================================== */}
-            <section>
+            
+            
+            <section style={{ marginLeft: "1rem", marginRight: "1rem" }}>
+              <div
+                className="ptf-divider"
+                style={{
+                  "--ptf-height": "1px",
+                  "--ptf-color": "var(--ptf-color-14)",
+                }}
+              ></div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+              ></div>
               <div className="container">
+                
                 {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"
@@ -354,10 +373,10 @@ const HomeAgency = () => {
                   data-aos-delay="0"
                 >
                   <h3
-                    className="ptf-post__title has-accent-2 "
-                    style={{ fontSize: "60px" }}
+                    className="ptf-post__title has-accent-1 "
+                    style={{ fontSize: "48px" }}
                   >
-                    <Link to="/noticias">ULTIMAS NOTICIAS</Link>
+                    <Link to="/noticias">Ultimas Noticias</Link>
                   </h3>
                 </div>
                 {/* End .ptf-animated-block */}
@@ -385,12 +404,12 @@ const HomeAgency = () => {
                     ></div>
                     <div>
                       <section>
-                        <h1
-                          className="ptf-acknowledgment"
-                          style={{ fontSize: "60px" }}
+                        <h3
+                          className="ptf-post__title has-accent-1"
+                          style={{ fontSize: "48px" }}
                         >
                           Agradecimientos
-                        </h1>
+                        </h3>
                         <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "1rem" }}
@@ -404,7 +423,7 @@ const HomeAgency = () => {
                 </div>
               </div>
             </section>
-            <section>
+            <section style={{ marginLeft: "1rem", marginRight: "1rem" }}>
             <div
                           className="row align-items-center has-white-color"
                           style={{ "--bs-gutter-y": "2rem" }}

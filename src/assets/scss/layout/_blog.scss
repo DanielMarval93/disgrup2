@@ -1,0 +1,24 @@
+.ptf-post__content {
+  overflow: hidden;
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+.ptf-post__media img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .ptf-post__content {
+    padding: 0.5rem;
+  }
+
+  .ptf-post__title {
+    font-size: 1.25rem;
+  }
+
+  .ptf-post__meta {
+    font-size: 0.875rem;
+  }
+}

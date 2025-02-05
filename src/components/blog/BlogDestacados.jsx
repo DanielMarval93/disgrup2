@@ -25,7 +25,9 @@ const blogContent = [
     videoId: "KJK-mxNAotM?si=N7_BfKDrkrB0bxR8",
   },
   {
-    img: "dest-0", // The special 4th item (image without video)
+    img: "dest-0",
+    title: "Suscribete al canal de Youtube",
+    videoId: "2Ig0nEx0RGM",
   },
 ];
 
@@ -44,55 +46,51 @@ const BlogHistorias = () => {
           <div
             className="col-xl-6 col-lg-6 col-md-6"
             key={i}
-            style={{ marginBottom: "0.3rem" }} // Adds space between rows
+            style={{ marginBottom: "0.3rem", marginTop: i === 3 ? "3.5rem" : "0" }} // Adds space between rows and margin-top for the 4th item
           >
-            <article className="ptf-post ptf-post--style-1">
-              <div className="ptf-post__content">
-                <header className="ptf-post__header">
-                  {val.cat && (
+            {i === 3 ? (
+              <a
+                href="https://www.youtube.com/@fundaciondisgrup"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: "block", textAlign: "center" }}
+              >
+                <img
+                  src={`assets/img/blog/grid/${val.img}.jpg`}
+                  alt={val.title}
+                  loading="lazy"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    borderRadius: "8px",
+                  }}
+                />
+              </a>
+            ) : (
+              <article className="ptf-post ptf-post--style-1">
+                <div className="ptf-post__content">
+                  <header className="ptf-post__header">
                     <div
                       className="ptf-post__meta"
                       style={{ textAlign: "center" }}
                     >
-                      <span className="cat">{val.cat}</span>&nbsp;
+                      <span className="cat">{val.cat}</span>
+                      {(val.cat && val.date) ? ' ' : ''}
                       <span className="date">{val.date}</span>
                     </div>
-                  )}
-                  {val.title && (
                     <h3
                       className="ptf-post__title"
-                      style={{ textAlign: "center" }}
+                      style={{ textAlign: "center", marginBottom: "1.5rem" }}
                     >
                       <Link to="/blog-details">{val.title}</Link>
                     </h3>
-                  )}
-                  <div
-                    className="ptf-spacer"
-                    style={{ "--ptf-xxl": "0.5rem", "--ptf-md": "0rem" }}
-                  ></div>
-                </header>
-              </div>
-              <div className="ptf-post__media">
-                {i === 3 ? (
-                  // For the 4th item: just an image with a link
-                  <a
-                    href="https://www.youtube.com/@fundaciondisgrup"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={`assets/img/blog/grid/${val.img}.jpg`}
-                      alt="Fundación Disgrup"
-                      loading="lazy"
-                      style={{
-                        width: "100%",
-                        borderRadius: "8px",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </a>
-                ) : (
-                  // For other items: clickable image to open modal
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "0.5rem", "--ptf-md": "0rem" }}
+                    ></div>
+                  </header>
+                </div>
+                <div className="ptf-post__media">
                   <div
                     style={{
                       position: "relative",
@@ -121,9 +119,9 @@ const BlogHistorias = () => {
                       }}
                     />
                   </div>
-                )}
-              </div>
-            </article>
+                </div>
+              </article>
+            )}
           </div>
         ))}
       </div>
