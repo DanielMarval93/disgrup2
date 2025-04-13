@@ -5,14 +5,10 @@ const imageList = [
   {
     img: "assets/img/blog/single-post/content-image-3.png",
     delayAnimation: "0",
-    imageOwner: "@element5digital",
-    link: "https://element5digital.com/",
   },
   {
     img: "assets/img/blog/single-post/content-image-4.png",
     delayAnimation: "100",
-    imageOwner: "@insideweather",
-    link: "https://insideweather.com/",
   },
 ];
 

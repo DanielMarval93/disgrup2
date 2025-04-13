@@ -4,14 +4,14 @@ import ModalVideo from "react-modal-video";
 
 const blogContent = [
   {
-    img: "dest-2",
+    img: "dest-3",
     cat: "Noticias",
     date: "Eventos",
     title: "Halloween para personas con discapacidad en Lanzarote 2024 🎃👻",
     videoId: "LsxHaS35TP4",
   },
   {
-    img: "dest-3",
+    img: "dest-2",
     cat: "Noticias",
     date: "Camino de Santiago",
     title: "Camino De Santiago para personas con discapacidad 2024 ♿️",

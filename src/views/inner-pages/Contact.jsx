@@ -4,10 +4,10 @@ import HeaderDefault from "../../components/header/HeaderDefault";
 import CopyRightTwo from "../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../components/footer/FooterTwo";
 
-import ImageGridFive from "../../components/image-grid/ImageGridFive";
 
 const Contact = () => {
   return (
+                                                                                                                                                                                                                             
     <div>
       <Helmet>
         <title>Fundacion Disgrup - Dona</title>
@@ -18,51 +18,14 @@ const Contact = () => {
       {/* End Header */}
 
       <div className="ptf-main">
-        <div  className="ptf-page ptf-page--contact">
+        <div className="ptf-page ptf-page--contact">
           <section>
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
             ></div>
 
-            <div className="container-xxl" >
-              <div className="row">
-                <div className="col-xl-10">
-                  {/* <!--Animated Block--> */}
-                  <div
-                    className="ptf-animated-block"
-                    data-aos="fade"
-                    data-aos-delay="0"
-                  >
-                    
-                    <h1 className="large-heading">
-                      Colabora con <br />
-                      Fundacion <span className="has-accent-1">Disgrup</span>
-                    </h1>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "2.5rem" }}
-                    ></div>
-
-                    {/* <!--Social Icon--> */}
-                  </div>
-                  
-                </div>
-              </div>
-              
-              {/* End .row */}''
-            </div>
-            {/* Contact top portion */}
-
-            <div
-                  className="ptf-divider"
-                  style={{
-                    "--ptf-height": "1px",
-                    "--ptf-color": "var(--ptf-color-14)",
-                  }}
-                ></div>
           </section>
           {/* End section contact header */}
           <div
@@ -71,25 +34,21 @@ const Contact = () => {
             data-aos-delay="0"
           >
             <div className="container">
-              
               <div className="row">
-                <ImageGridFive/>
-                 {/* <!--Spacer--> */}
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "3.25rem", "--ptf-md": "3.125rem" }}
-            ></div>
+              <h1 className="large-heading">
+                      Colabora con <br />
+                      Fundacion <span className="has-accent-1">Disgrup</span>
+                    </h1>
 
-                <div className="col-lg-5 ">
-                  <h1 className="has-accent-1">Beneficios</h1>
+                    
                   <div
-                  className="ptf-spacer"
-                  style={{
-                    "--ptf-xxl": "1.5rem",
-                    "--ptf-md": "1.5rem",
-                  }}
-                ></div>
-                  <p style={{fontSize:"22px"}}>
+                    className="ptf-spacer"
+                    style={{
+                      "--ptf-xxl": "1.5rem",
+                      "--ptf-md": "1.5rem",
+                    }}
+                  ></div>
+                  <p style={{ fontSize: "20px", marginRight: "2" }}>
                     Donar a la Fundación Disgrup no solo es altruista, también
                     ofrece ventajas fiscales. La Ley del IRPF permite deducir un
                     porcentaje de las donaciones en la declaración de la renta,
@@ -99,14 +58,39 @@ const Contact = () => {
                     impuestos a apoyar a personas con discapacidad,
                     contribuyendo así a mejorar su calidad de vida y promover su
                     inclusión en la sociedad.
-                  </p>
+                  </p>   
+                  
+            <div
+              className="ptf-spacer"
+              style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
+            ></div>
+                    
+
+                <div className="col-lg-6 ">
+
+                <iframe
+  src="https://donorbox.org/embed/general-165?default_interval=m&amount=20"
+  name="donorbox"
+  allowPaymentRequest
+  seamless
+  frameBorder="0"
+  scrolling="no"
+  title="payment"
+  height="900px"
+  width="100%"
+  style={{ maxWidth: "500px", minWidth: "250px", maxHeight: "none!important" }}
+  allow="payment"
+></iframe> 
                 </div>
-                <div className="col-lg-5 offset-lg-2">
-    
-                  <img
+                <div className="col-lg-6">
+                <img
                     alt="Donacion bizum"
                     src="https://i.imgur.com/7mG5f1v.jpg"
-                  />
+                  />                                                                                                                                                                                                                                                                                         
+                {/*  <img
+                    alt="Donacion bizum"
+                    src="https://i.imgur.com/7mG5f1v.jpg"
+                  />*/}
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -117,24 +101,10 @@ const Contact = () => {
                   }}
                 ></div>
               </div>
-              
             </div>
           </div>
-                 {/* <!--Divider--> */}
-                 <div
-                  className="ptf-divider"
-                  style={{
-                    "--ptf-height": "1px",
-                    "--ptf-color": "var(--ptf-color-14)",
-                  }}
-                ></div>
-                      <div
-                  className="ptf-spacer"
-                  style={{
-                    "--ptf-xxl": "3.5rem",
-                    "--ptf-md": "1  .5rem",
-                  }}></div>
-
+          {/* <!--Divider--> */}
+  
 
           {/*  
           <section>

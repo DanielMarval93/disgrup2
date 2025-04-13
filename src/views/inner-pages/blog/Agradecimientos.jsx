@@ -7,7 +7,14 @@ import { Link } from "react-router-dom";
 import ModalVideo from "react-modal-video";
 
 const blogContent = [
-
+  {
+    img: "thanks-9",
+    cat: "4 Titan Deserts con dispacidad",
+    title: "Lester Fernandez",
+    date:"",
+    videoId: "Y-kCRb4C65U",
+    route: "https://www.youtube.com/watch?v=Y-kCRb4C65U",
+  },
   {
     img: "thanks-1",
     cat: "Fundador de la Casa del Tíbet",

@@ -133,7 +133,7 @@ const HomeAgency = () => {
             <section className="ptf-custom--3993 jarallax" style={{ marginLeft: "1rem", marginRight: "1rem" }}>
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-5 offset-lg-6">
+                  <div className="col-lg-5 offset-lg-7">
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -146,7 +146,7 @@ const HomeAgency = () => {
                       data-aos-delay="0"
                     >
                       <h3
-                        className="ptf-post__title has-accent-1"
+                        className="ptf-post__title has-accent-1 agradecimientos-title"
                         style={{ fontSize: "48px" }}
                       >
                         Quienes Somos
@@ -158,7 +158,7 @@ const HomeAgency = () => {
                       ></div>
                       <h5
                         className="has-black-color"
-                        style={{ maxWidth: "30rem" }}
+                        style={{ maxWidth: "30rem", fontSize: "20px" }}
                       >
                         «Cada uno sabe sus dificultades. Las personas con
                         discapacidad ya bastante tienen con lo que tienen»{" "}
@@ -170,7 +170,7 @@ const HomeAgency = () => {
                       ></div>
                       <p
                         className="fz-18 has-black-color"
-                        style={{ maxWidth: "30rem" }}
+                        style={{ maxWidth: "26rem",fontSize: "16px" }}
                       >
                         Señala su fundador al referirse al sentido que le impuso
                         a este grupo de personas que trabajan desde hace más de
@@ -186,7 +186,7 @@ const HomeAgency = () => {
                       ></div>
                       <p
                         className="fz-18 has-black-color"
-                        style={{ maxWidth: "30rem" }}
+                        style={{ maxWidth: "26rem",fontSize: "16px" }}
                       >
                         Sin embargo, el objetivo de la Fundación no sólo es el
                         de la asistencia, sino que también se realizan trabajos
@@ -235,7 +235,7 @@ const HomeAgency = () => {
                   <row>
                     <div className="col-lg-8">
                       <h3
-                        className="ptf-post__title has-accent-1 "
+                        className="ptf-post__title has-accent-1 agradecimientos-title"
                         style={{ fontSize: "48px"}}
                       >
                         <Link to="/videos-ayudas">
@@ -306,7 +306,7 @@ const HomeAgency = () => {
                   <row>
                     <div className="col-lg-8">
                       <h3
-                        className="ptf-post__title has-accent-1 "
+                        className="ptf-post__title has-accent-1 agradecimientos-title"
                         style={{ fontSize: "50px"}}
                       >
                         <Link to="/videos-ayudas">
@@ -373,7 +373,7 @@ const HomeAgency = () => {
                   data-aos-delay="0"
                 >
                   <h3
-                    className="ptf-post__title has-accent-1 "
+                    className="ptf-post__title has-accent-1 agradecimientos-title"
                     style={{ fontSize: "48px" }}
                   >
                     <Link to="/noticias">Ultimas Noticias</Link>
@@ -418,12 +418,12 @@ const HomeAgency = () => {
 
                         
                         
-                        <h3
-                          className="ptf-post__title has-accent-1"
+                        <h4
+                          className="ptf-post__title has-accent-1 agradecimientos-title"
                           style={{ fontSize: "48px" }}
                         >
                           Agradecimientos
-                        </h3>
+                        </h4>
                         <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "1rem" }}
@@ -576,4 +576,3 @@ const HomeAgency = () => {
 };
 
 export default HomeAgency;
-

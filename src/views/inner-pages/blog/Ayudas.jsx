@@ -8,6 +8,38 @@ import ModalVideo from "react-modal-video";
 
 const blogContent = [
   {
+    img: "ayudas-23",
+    cat: "Ayudas a la discapacidad",
+    title: "Remedios",
+    route: "https://www.youtube.com/watch?v=BMWRVBJ8sD0",
+    videoId: "BMWRVBJ8sD0",
+    date:"",
+  },
+  {
+    img: "ayudas-22",
+    cat: "Ayudas a la discapacidad",
+    title: "Bekaddour Mohamed",
+    route: "https://www.youtube.com/watch?v=vhVOObk3dOE",
+    videoId: "vhVOObk3dOE",
+    date:"",
+  },
+   {
+    img: "ayudas-21",
+    cat: "Ayudas a la discapacidad",
+    title: "Lidia",
+    route: "https://www.youtube.com/watch?v=sQW4iynIXkY",
+    videoId: "sQW4iynIXkY",
+    date:"",
+  },
+  {
+    img: "ayudas-20",
+    cat: "Ayudas a la discapacidad",
+    title: "Aurora y su hijo",
+    route: "https://www.youtube.com/watch?v=-sLnu32tY00",
+    videoId: "-sLnu32tY00",
+    date:"",
+  },
+  {
     img: "ayudas-1",
     cat: "Ayudas a la discapacidad",
     title: "Bayane",

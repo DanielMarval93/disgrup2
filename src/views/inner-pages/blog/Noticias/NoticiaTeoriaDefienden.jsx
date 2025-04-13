@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import CopyRightTwo from "../../../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../../../components/footer/FooterTwo";
 import HeaderDefault from "../../../../components/header/HeaderDefault";
-import SocialFour from "../../../../components/social/SocialFour";
 
 const NoticiaTeoriaDefienden = () => {
   return (
@@ -211,14 +210,13 @@ const NoticiaTeoriaDefienden = () => {
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
                       ></div>
-
-                      <footer className="ptf-single-post__footer2">
-                        {/* <!--Post Socials--> */}
+        {/* <footer className="ptf-single-post__footer2">
+                        {/* <!--Post Socials--> 
                         <div className="ptf-post-socials">
                           <span>Compartir</span>
                           <SocialFour />
                         </div>
-                      </footer>
+                      </footer>*/}
                     </div>
 
                     {/* <!--Post Footer--> */}

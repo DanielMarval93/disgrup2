@@ -383,3 +383,9 @@
     padding: 8px 12px;
   }
 }
+
+@media (max-width: 576px) {
+  .agradecimientos-title {
+    font-size: 42px !important;
+  }
+}

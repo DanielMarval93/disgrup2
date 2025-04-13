@@ -50,7 +50,7 @@ const HeroAgency = () => {
                       style={{ "--ptf-xxl": "1rem" }}
                     ></div>
                     <p
-                      className="fz-24 has-white-color"
+                      className="fz-20 has-white-color"
                       style={{ maxWidth: "34.375rem", marginLeft: "4rem" }}
                     >
                       Ayudamos a las personas con discapacidad
@@ -62,7 +62,7 @@ const HeroAgency = () => {
                     ></div>
                   </div>
 
-                  <div className="d-flex " style={{ marginLeft: "5.3rem" }}>
+                  <div className="d-flex " style={{ marginLeft: "4.8rem" }}>
                     {/* Dona Button */}
                     <Link
                       className="ptf-btn ptf-btn--primary ptf-btn--inversed"

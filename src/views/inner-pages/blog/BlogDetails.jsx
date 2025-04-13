@@ -201,7 +201,7 @@ const BlogDetails = () => {
                                   className="ptf-spacer"
                                   style={{
                                     "--ptf-xxl": "3.125rem",
-                                    "--ptf-lg": "0",
+                                    "--ptf-md": "1.875rem",
                                   }}
                                 ></div>
                                 {/* <!--Animated Block--> */}
@@ -225,7 +225,7 @@ const BlogDetails = () => {
                                     className="ptf-spacer"
                                     style={{
                                       "--ptf-xxl": "1rem",
-                                      "--ptf-md": "2.5rem",
+                                      "--ptf-md": "0rem",
                                     }}
                                   ></div>
                                   <p
@@ -267,7 +267,7 @@ const BlogDetails = () => {
                                   className="ptf-spacer"
                                   style={{
                                     "--ptf-xxl": "2.125rem",
-                                    "--ptf-lg": "0",
+                                    "--ptf-lg": "1rem",
                                   }}
                                 ></div>
                               </div>
