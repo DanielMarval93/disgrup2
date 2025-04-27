@@ -46,11 +46,6 @@ const MobileMenu = () => {
           click: "",
         },
         {
-          name: "Dona por Bizum",
-          routerPath: "/dona",
-          click: "",
-        },
-        {
           name: "Hacer Donacion",
           routerPath: "/dona",
           click: "",
@@ -78,6 +73,11 @@ const MobileMenu = () => {
         {
           name: "Terapia Ocupacional",
           routerPath: "/videos-terapias",
+          click: "",
+        },
+        {
+          name: "100 Preguntas Y Curiosidades",
+          routerPath: "/videos-curiosidades",
           click: "",
         },
       ],

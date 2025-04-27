@@ -4,10 +4,8 @@ import HeaderDefault from "../../components/header/HeaderDefault";
 import CopyRightTwo from "../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../components/footer/FooterTwo";
 
-
 const Contact = () => {
   return (
-                                                                                                                                                                                                                             
     <div>
       <Helmet>
         <title>Fundacion Disgrup - Dona</title>
@@ -25,7 +23,6 @@ const Contact = () => {
               className="ptf-spacer"
               style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
             ></div>
-
           </section>
           {/* End section contact header */}
           <div
@@ -35,63 +32,72 @@ const Contact = () => {
           >
             <div className="container">
               <div className="row">
-              <h1 className="large-heading">
-                      Colabora con <br />
-                      Fundacion <span className="has-accent-1">Disgrup</span>
-                    </h1>
+                <h1 className="large-heading">
+                  Colabora con <br />
+                  Fundacion <span className="has-accent-1">Disgrup</span>
+                </h1>
 
-                    
-                  <div
-                    className="ptf-spacer"
-                    style={{
-                      "--ptf-xxl": "1.5rem",
-                      "--ptf-md": "1.5rem",
-                    }}
-                  ></div>
-                  <p style={{ fontSize: "20px", marginRight: "2" }}>
-                    Donar a la Fundación Disgrup no solo es altruista, también
-                    ofrece ventajas fiscales. La Ley del IRPF permite deducir un
-                    porcentaje de las donaciones en la declaración de la renta,
-                    generalmente entre el 25% y el 75%. Las donaciones
-                    periódicas pueden proporcionar una desgravación adicional.
-                    Esto permite a los contribuyentes destinar una parte de sus
-                    impuestos a apoyar a personas con discapacidad,
-                    contribuyendo así a mejorar su calidad de vida y promover su
-                    inclusión en la sociedad.
-                  </p>   
-                  
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
-            ></div>
-                    
+                <div
+                  className="ptf-spacer"
+                  style={{
+                    "--ptf-xxl": "1.5rem",
+                    "--ptf-md": "1.5rem",
+                  }}
+                ></div>
+                <p style={{ fontSize: "20px", marginRight: "2" }}>
+                  Donar a la Fundación Disgrup no solo es altruista, también
+                  ofrece ventajas fiscales. La Ley del IRPF permite deducir un
+                  porcentaje de las donaciones en la declaración de la renta,
+                  generalmente entre el 25% y el 75%. Las donaciones periódicas
+                  pueden proporcionar una desgravación adicional. Esto permite a
+                  los contribuyentes destinar una parte de sus impuestos a
+                  apoyar a personas con discapacidad, contribuyendo así a
+                  mejorar su calidad de vida y promover su inclusión en la
+                  sociedad.
+                </p>
 
-                <div className="col-lg-6 ">
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
+                ></div>
 
-                <iframe
-  src="https://donorbox.org/embed/general-165?default_interval=m&amount=20"
-  name="donorbox"
-  allowPaymentRequest
-  seamless
-  frameBorder="0"
-  scrolling="no"
-  title="payment"
-  height="900px"
-  width="100%"
-  style={{ maxWidth: "500px", minWidth: "250px", maxHeight: "none!important" }}
-  allow="payment"
-></iframe> 
-                </div>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  
+  }}
+>
+  <iframe
+    src="https://donorbox.org/embed/general-165?default_interval=m&amount=20"
+    name="donorbox"
+    allowPaymentRequest
+    seamless
+    frameBorder="0"
+    scrolling="no"
+    title="payment"
+    height="900px"
+    width="100%"
+    style={{
+      maxWidth: "500px",
+      minWidth: "250px",
+      maxHeight: "none!important",
+    }}
+    allow="payment"
+  ></iframe>
+</div>
+    {/*
+
                 <div className="col-lg-6">
-                <img
+              
+                  {/*  <img
                     alt="Donacion bizum"
                     src="https://i.imgur.com/7mG5f1v.jpg"
-                  />                                                                                                                                                                                                                                                                                         
-                {/*  <img
-                    alt="Donacion bizum"
-                    src="https://i.imgur.com/7mG5f1v.jpg"
-                  />*/}
-                </div>
+                  />
+                </div>*/}
+
+                
                 {/* <!--Spacer--> */}
                 <div
                   className="ptf-spacer"
@@ -104,7 +110,6 @@ const Contact = () => {
             </div>
           </div>
           {/* <!--Divider--> */}
-  
 
           {/*  
           <section>

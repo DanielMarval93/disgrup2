@@ -68,6 +68,10 @@ const menuContent = [
         name: "Terapia ocupacional con Candi",
         routerPath: "/videos-terapias",
       },
+      {
+        name: "100 Preguntas Y Curiosidades",
+        routerPath: "/videos-curiosidades",
+      },
     ],
   },
 ];

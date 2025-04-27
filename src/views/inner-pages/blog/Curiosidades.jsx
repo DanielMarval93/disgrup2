@@ -8,47 +8,79 @@ import ModalVideo from "react-modal-video";
 
 const blogContent = [
   {
-    img: "himno-1",
-    cat: "Himno de la fundacion",
-    date: "29 Septiembre 2024",
-    title: "Himno Oficial de la Fundacion Disgrup",
-    route: "https://www.youtube.com/watch?v=6MrfFWsmQYc",
-    videoId: "6MrfFWsmQYc",
+    img: "curio-8",
+    cat: "Preguntas",
+    date: "19 Abril 2025",
+    title: "100 Preguntas celebridades con discapacidad - Parte 1",
+    route: "https://www.youtube.com/watch?v=xE6_ZdxiHRk",
+    videoId: "xE6_ZdxiHRk",
   },
   {
-    img: "lolo-1",
-    cat: "Desventuras de Lolo",
-    date: "14 Mayo 2021",
-    title: "Ascensores publicos",
-    route: "https://www.youtube.com/watch?v=V4sZcIzwTXY",
-    videoId: "V4sZcIzwTXY",
+    img: "curio-7",
+    cat: "Preguntas",
+    date: "2 Abril 2025",
+    title: "25 Preguntas celebridades con discapacidad - Parte 2",
+    route: "https://www.youtube.com/watch?v=LwJF0TISnWA",
+    videoId: "LwJF0TISnWA",
   },
   {
-    img: "lolo-2",
-    cat: "Desventuras de Lolo",
-    date: "9 Junio De 2021",
-    title: "Deposiciones Caninas",
-    route: "https://www.youtube.com/watch?v=3rhEq64CTcA",
-    videoId: "3rhEq64CTcA",
+    img: "curio-6",
+    cat: "Preguntas",
+    date: "22 March 2025",
+    title: "25 Preguntas celebridades con discapacidad - Parte 1",
+    route: "https://www.youtube.com/watch?v=L2bul2GsJjg",
+    videoId: "L2bul2GsJjg",
   },
   {
-    img: "lolo-3",
-    cat: "Desventuras de Lolo",
-    date: "1 de Julio De 2021",
-    title: "Superando Barreras",
-    route: "https://www.youtube.com/watch?v=S8mdkNkI3f8",
-    videoId: "S8mdkNkI3f8",
+    img: "curio-5",
+    cat: "Curiosidades",
+    date: "13 March 2025",
+    title: "Celebridades con discapacidad",
+    route: "https://www.youtube.com/watch?v=Ox8cECjzwyU",
+    videoId: "Ox8cECjzwyU",
+  },
+  {
+    img: "curio-4",
+    cat: "Preguntas",
+    date: "1 Marzo 2025",
+    title: "Banderas y Capitales - Parte 2",
+    route: "https://www.youtube.com/watch?v=tvS00u3qgk8",
+    videoId: "tvS00u3qgk8",
+  },
+  {
+    img: "curio-3",
+    cat: "Preguntas",
+    date: "18 Febrero 2025",
+    title: "Banderas y Capitales - Parte 1",
+    route: "https://www.youtube.com/watch?v=6CIefLROp5o",
+    videoId: "6CIefLROp5o",
+  },
+  {
+    img: "curio-2",
+    cat: "Preguntas",
+    date: "1 Febrero 2025",
+    title: "Cultura General - Parte 2",
+    route: "https://www.youtube.com/watch?v=9-diObeKiDA",
+    videoId: "9-diObeKiDA",
+  },
+  {
+    img: "curio-1",
+    cat: "Preguntas",
+    date: "29 Enero 2025",
+    title: "Cultura General - Parte 1",
+    route: "https://www.youtube.com/watch?v=cjLJYQyi9Mc",
+    videoId: "cjLJYQyi9Mc",
   },
 ];
 
-const Galeria = () => {
+const Curiosidades = () => {
   const [isOpen, setOpen] = useState(false);
   const [isVideoId, setVideoId] = useState(false);
 
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
-        <title>Fundacion Disgrup - Galeria</title>
+        <title>Fundacion Disgrup - 100 Preguntas y Curiosidades</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -77,7 +109,7 @@ const Galeria = () => {
                         className="large-heading has-accent-1"
                         style={{ marginLeft: "1.4rem" }}
                       >
-                        Galeria
+                        100 Preguntas y <span className="has-black-color">Curiosidades </span>
                       </h1>
                     </div>
                   </div>
@@ -158,9 +190,12 @@ const Galeria = () => {
                     }}
                   >
                     {blogContent.map((val, i) => (
+
+                      
+
                       <div className="col-xl-4 col-lg-4" key={i}>
                         <article className="ptf-post ptf-post--style-1">
-                     
+                          
                           <div className="ptf-post__content">
                             <header className="ptf-post__header">
                               <div
@@ -169,26 +204,15 @@ const Galeria = () => {
                               >
                                 <span className="cat">{val.cat}</span>
                                 <span className="date">{val.date}</span>
-                              </div>
-                              <h3
-                                className="ptf-post__title"
-                                style={{ textAlign: "center" }}
-                              >
-                                <Link onClick={() => {
-                                setOpen(true);
-                                setVideoId(val.videoId);
-                              }}>{val.title}</Link>
-                              </h3>
-                            </header>
-                          </div>
- {/* <!--Spacer--> */}
- <div
-                          className="ptf-spacer"
-                          style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
-                        ></div>
-                          <div className="ptf-post__media">
+
+                                <div className="ptf-post__media">
+                                         {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+              ></div>
                             <img
-                              src={`assets/img/blog/grid/${val.img}.png`}
+                              src={`assets/img/blog/grid/${val.img}.jpg`}
                               alt="blog"
                               loading="lazy"
                               onClick={() => {
@@ -196,6 +220,19 @@ const Galeria = () => {
                                 setVideoId(val.videoId);
                               }}
                             />
+                          </div>
+                              </div>
+
+                              <h3
+                                className="ptf-post__title"
+                                style={{ textAlign: "center" }}
+                              >
+                                <Link    onClick={() => {
+                                setOpen(true);
+                                setVideoId(val.videoId);
+                              }}>{val.title}</Link>
+                              </h3>
+                            </header>
                           </div>
                         </article>
                       </div>
@@ -232,8 +269,9 @@ const Galeria = () => {
       </div>
       {/* End .main */}
 
-        {/* <!--Footer--> */}
-        <footer className="ptf-footer ptf-footer--style-3">
+      {/* <!--Footer--> */}
+      {/* <!--Footer--> */}
+      <footer className="ptf-footer ptf-footer--style-3">
               <div className="container">
                 <div className="row">
                   <div className="col-xl-10 offset-xl-2">
@@ -263,4 +301,4 @@ const Galeria = () => {
   );
 };
 
-export default Galeria;
+export default Curiosidades;

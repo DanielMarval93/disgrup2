@@ -12,6 +12,12 @@ const SocialShare = [
     link: "https://www.facebook.com/FundacionDisgrup",
     iconClass: "facebook",
   },
+  {
+    iconName: "socicon-instagram",
+    link: "https://www.instagram.com/fundaciondisgrup/",
+    iconClass: "instagram",
+  },
+
 ];
 const Social = () => {
   return (

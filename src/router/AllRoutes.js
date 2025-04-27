@@ -25,6 +25,7 @@ import Ayudas from "../views/inner-pages/blog/Ayudas";
 import Agradecimientos from "../views/inner-pages/blog/Agradecimientos"
 import Ejercicios from "../views/inner-pages/blog/Ejercicios";
 import Terapia from "../views/inner-pages/blog/Terapia"
+import Curiosidades from "../views/inner-pages/blog/Curiosidades";
 
 // Noticias
 
@@ -104,7 +105,7 @@ const AllRoutes = () => {
         <Route path="/videos-agradecimientos" element={<Agradecimientos />} />
         <Route path="/videos-ejercicios" element={<Ejercicios />} />
         <Route path="/videos-terapias" element={<Terapia />} />
-
+        <Route path="/videos-curiosidades" element={<Curiosidades />} />
         
         {/* Noticias */}
         <Route path="/noticias" element={<BlogGrid />} />
@@ -115,6 +116,17 @@ const AllRoutes = () => {
         <Route path="/noticia/avanza-el-proyecto-de-una-residencia-para-discapacitados-en-lanzarote" element={<NoticiaProyectoLanzarote />} />
         <Route path="/noticia/faltan-mas-de-400-taxis-adaptados-en-barcelona" element={<NoticiaTaxi />} />
         <Route path="/noticia/carta-a-la-alcaldesa-de-barcelona/" element={<NoticiaCartaAlcaldesa />} />
+        <Route path="/noticia/los-que-en-teoria-difienden-nuestros-derechos" element={<NoticiaTeoriaDefienden />} />
+        <Route path="/noticia/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos" element={<NoticiaLushCosmetics />} />
+        <Route path="/noticia/el-ayuntamiento-de-tias-en-lanzarote-no-cumple-la-ley" element={<NoticiaAyuntamientoTias />} />
+        <Route path="/noticia/inclumplimiento-normativa-legal-ambito-personas-con-discapacidad" element={<NoticiaSistematico />} />
+        <Route path="/noticia/concentracion-en-arrecife-lanzarote" element={<NoticiaConcentracionArrecife />} />
+        <Route path="/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados" element={<NoticiaFaltanTaxis />} />
+        <Route path="/noticia/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup" element={<NoticiaEntrevista />} />
+        <Route path="/noticia/fundacion-disgrup-completa-el-camino-de-santiago" element={<NoticiaFinalSantiago />} />
+        <Route path="/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote" element={<NoticiaJornadaConmemorativa/>} />
+
+
         <Route path="/noticia/los-que-en-teoria-difienden-nuestros-derechos" element={<NoticiaTeoriaDefienden />} />
         <Route path="/noticia/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos" element={<NoticiaLushCosmetics />} />
         <Route path="/noticia/el-ayuntamiento-de-tias-en-lanzarote-no-cumple-la-ley" element={<NoticiaAyuntamientoTias />} />

@@ -7,8 +7,17 @@ import { Link } from "react-router-dom";
 import ModalVideo from "react-modal-video";
 
 const blogContent = [
+
   {
-    img: "ayudas-23",
+    img: "ayudas-24",
+    cat: "Ayudas a la discapacidad",
+    title: "Victor",
+    route: "https://www.youtube.com/watch?v=zyNL42aIrdQ",
+    videoId: "zyNL42aIrdQ",
+    date:"",
+  },
+  {
+    img: "ayudas-22",
     cat: "Ayudas a la discapacidad",
     title: "Remedios",
     route: "https://www.youtube.com/watch?v=BMWRVBJ8sD0",
@@ -16,7 +25,7 @@ const blogContent = [
     date:"",
   },
   {
-    img: "ayudas-22",
+    img: "ayudas-23",
     cat: "Ayudas a la discapacidad",
     title: "Bekaddour Mohamed",
     route: "https://www.youtube.com/watch?v=vhVOObk3dOE",

@@ -12,6 +12,11 @@ const socialList = [
     link: "https://www.youtube.com/channel/UCT27QafVVL5BLAo9O_QBEcA",
     iconClass: "youtube",
   },
+  {
+    iconName: "socicon-instagram",
+    link: "https://www.instagram.com/fundaciondisgrup/",
+    iconClass: "instagram",
+  },
 ];
 
 const SocialTwo = () => {
