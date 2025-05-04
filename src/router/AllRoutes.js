@@ -44,6 +44,16 @@ import NoticiaFaltanTaxis from "../views/inner-pages/blog/Noticias/NoticiaFaltan
 import NoticiaEntrevista from "../views/inner-pages/blog/Noticias/NoticiaEntrevista";
 import NoticiaFinalSantiago from "../views/inner-pages/blog/Noticias/NoticiaFinalSantiago";
 import NoticiaJornadaConmemorativa from "../views/inner-pages/blog/Noticias/NoticiaJornadaConmemorativa";
+import Noticia1 from "../views/inner-pages/blog/Noticias/Noticia1";
+import Noticia2 from "../views/inner-pages/blog/Noticias/Noticia2";
+import Noticia3 from "../views/inner-pages/blog/Noticias/Noticia3";
+import Noticia4 from "../views/inner-pages/blog/Noticias/Noticia4";
+import Noticia5 from "../views/inner-pages/blog/Noticias/Noticia5";
+import Noticia6 from "../views/inner-pages/blog/Noticias/Noticia6";
+import Noticia7 from "../views/inner-pages/blog/Noticias/Noticia7";
+import Noticia8 from "../views/inner-pages/blog/Noticias/Noticia8";
+import Noticia9 from "../views/inner-pages/blog/Noticias/Noticia9";
+import Noticia10 from "../views/inner-pages/blog/Noticias/Noticia10";
 
 
 // Portfolio
@@ -127,15 +137,16 @@ const AllRoutes = () => {
         <Route path="/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote" element={<NoticiaJornadaConmemorativa/>} />
 
 
-        <Route path="/noticia/los-que-en-teoria-difienden-nuestros-derechos" element={<NoticiaTeoriaDefienden />} />
-        <Route path="/noticia/lush-fresh-handmade-cosmetics-dona-lote-de-sus-productos" element={<NoticiaLushCosmetics />} />
-        <Route path="/noticia/el-ayuntamiento-de-tias-en-lanzarote-no-cumple-la-ley" element={<NoticiaAyuntamientoTias />} />
-        <Route path="/noticia/inclumplimiento-normativa-legal-ambito-personas-con-discapacidad" element={<NoticiaSistematico />} />
-        <Route path="/noticia/concentracion-en-arrecife-lanzarote" element={<NoticiaConcentracionArrecife />} />
-        <Route path="/noticia/exigen-aumento-de-la-flota-de-taxis-para-discapacitados" element={<NoticiaFaltanTaxis />} />
-        <Route path="/noticia/entrevista-a-guillermo-egido-fundador-de-la-fundacion-disgrup" element={<NoticiaEntrevista />} />
-        <Route path="/noticia/fundacion-disgrup-completa-el-camino-de-santiago" element={<NoticiaFinalSantiago />} />
-        <Route path="/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote" element={<NoticiaJornadaConmemorativa/>} />
+        <Route path="/noticia/Felices-fiestas-2024" element={<Noticia1 />} />
+        <Route path="/noticia/liga-canaria-de-baloncesto-sin-limites" element={<Noticia2 />} />
+        <Route path="/noticia/Disgrup-crea-su-himno" element={<Noticia3 />} />
+        <Route path="/noticia/comida-conferencia-coloquio-con-el-molt-honorable-josep-rull-i-andreu" element={<Noticia4 />} />
+        <Route path="/noticia/proyecto-inclusivo-del-camino-de-santiago-para-personas-con-discapacidad" element={<Noticia5 />} />
+        <Route path="/noticia/haz-tu-donacion-a-la-fundacion-disgrup" element={<Noticia6 />} />
+        <Route path="/noticia/ley-de-dependencia-y-su-aplicacion" element={<Noticia7 />} />
+        <Route path="/noticia/recogida-de-juguetes-para-los-reyes-magos-junto-a-la-cruz-roja" element={<Noticia8 />} />
+        <Route path="/noticia/volvemos-a-reactivar-nuestra-cuenta-de-instagram" element={<Noticia9/>} />
+        <Route path="/noticia/halloween-para-personas-con-discapacidad-en-lanzarote" element={<Noticia10/>} />
 
 
         
