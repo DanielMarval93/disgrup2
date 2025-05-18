@@ -6,23 +6,23 @@ const blogContent = [
   {
     img: "dest-3",
     cat: "Noticias",
-    date: "Eventos",
-    title: "Halloween para personas con discapacidad en Lanzarote 2024 🎃👻",
-    videoId: "LsxHaS35TP4",
+    date: "Ayudas",
+    title: "⭕️ La Fundación Disgrup ayuda a Víctor y su familia 🤝👨‍🦽",
+    videoId: "zyNL42aIrdQ",
   },
   {
     img: "dest-2",
-    cat: "Noticias",
-    date: "Camino de Santiago",
-    title: "Camino De Santiago para personas con discapacidad 2024 ♿️",
-    videoId: "z6xeytX4Li8",
+    cat: "Actividades",
+    date: "Curiosidades",
+    title: "100 Preguntas sobre actores con discapacidad 🎭 Parte 1",
+    videoId: "xE6_ZdxiHRk",
   },
   {
-    img: "thanks-1",
-    cat: "Agradecimientos",
-    date: "Fundador de la Casa del Tíbet",
-    title: "Thubten Wangchen",
-    videoId: "KJK-mxNAotM?si=N7_BfKDrkrB0bxR8",
+    img: "dest-1",
+    cat: "Actividades",
+    date: "Curiosidades",
+    title: "25 Preguntas sobre celebridades con discapacidad ♿️ Parte 2",
+    videoId: "LwJF0TISnWA",
   },
   {
     img: "dest-0",
@@ -78,12 +78,12 @@ const BlogHistorias = () => {
                       {(val.cat && val.date) ? ' ' : ''}
                       <span className="date">{val.date}</span>
                     </div>
-                    <h3
+                    <h4
                       className="ptf-post__title"
                       style={{ textAlign: "center", marginBottom: "1.5rem" }}
                     >
                       <Link to="/blog-details">{val.title}</Link>
-                    </h3>
+                    </h4>
                     <div
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "0.5rem", "--ptf-md": "0rem" }}

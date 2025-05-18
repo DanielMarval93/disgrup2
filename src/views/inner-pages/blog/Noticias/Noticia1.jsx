@@ -10,7 +10,8 @@ const Noticia1 = () => {
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Los que en teoría defienden nuestros derechos{" "}
+          Disgrup - La Fundación Disgrup desea a todos unas Felices Fiestas
+          llenas de Inclusión y Solidaridad{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -36,25 +37,25 @@ const Noticia1 = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h1 className="ptf-single-post__title ">
-                  Los que en teoría defienden{" "}
-                  </h1>
-                  <h1>
-                    {" "}
-                    <span className="has-accent-1">
-                    nuestros derechos
-                    </span>
-                  </h1>
-                  <div className="ptf-single-post__meta">
-                    <span className="cat">Disgrup</span>
-                    <span className="date"> Feb 9, 2021</span>
+                  <div
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    <h1 className="ptf-single-post__title ">
+                      Felices Fiestas llenas de{" "}
+                    </h1>
+                    <h1>
+                      {" "}
+                      <span className="has-accent-1">
+                        Inclusión y Solidaridad
+                      </span>
+                    </h1>
+                    <div className="ptf-single-post__meta">
+                      <span className="cat">Disgrup</span>
+                      <span className="date"> Dec 23, 2024</span>
+                    </div>
                   </div>
-                </div>
                 </div>
               </header>
             </div>
@@ -121,23 +122,28 @@ const Noticia1 = () => {
                       <div className="row">
                         <div className="col-lg-6">
                           <p>
-                            Ser una persona con discapacidad en esta sociedad es
-                            complicado porque no se cumplen todos los requisitos
-                            para vivir en un mundo accessible. Y para esto
-                            tenemos unas grandes entidades y federaciones que en
-                            teoría luchan por los derechos de las personas con
-                            discapacidad.
+                            En estas fechas tan especiales, la Fundación
+                            Disgrup, una organización dedicada a mejorar la
+                            calidad de vida de las personas con discapacidad,
+                            quiere enviar un mensaje de alegría, esperanza y
+                            gratitud a todos sus beneficiarios, colaboradores,
+                            voluntarios y amigos. *¡Felices fiestas! * es el
+                            deseo que la fundación comparte con toda la
+                            comunidad, recordando que la Navidad es una época
+                            para celebrar la inclusión, la solidaridad y el
+                            espíritu de superación.
                           </p>
                           <p>
-                            No obstante, me he dado cuenta que muchas veces esta
-                            protección que nos otorgan no se cumple del todo.
-                            Sobre todo si ves que són ellas mismas las que
-                            incumplen las normativas que nos afectan.
+                            Este año ha estado lleno de desafíos, pero también
+                            de logros significativos. Desde la organización de
+                            talleres inclusivos. Disgrup ha trabajado
+                            incansablemente para romper barreras y crear
+                            oportunidades.
                           </p>
                         </div>
                         <div className="col-lg-6 ">
                           <img
-                            src={require("../../../../assets/img/blog/post-5.jpg")}
+                            src={require("../../../../assets/img/blog/post-15.jpeg")}
                             alt="imagen"
                             style={{ paddingTop: "0rem" }}
                           />
@@ -153,56 +159,46 @@ const Noticia1 = () => {
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
+                      <p>Cada sonrisa, cada avance y cada
+                            testimonio de superación han sido la mayor
+                            recompensa para todos los que forman parte de esta
+                            gran familia. En estas fiestas, la fundación quiere
+                            destacar la importancia de la inclusión. Por ello,
+                            ha organizado diversas actividades navideñas
+                            adaptadas y eventos solidarios, para que todos, sin
+                            importar sus capacidades, puedan disfrutar de la
+                            magia de la Navidad. Además, en colaboración con la
+                            Cruz Roja, ha participado en la recogida de juguetes
+                            inclusivos, asegurando que los Reyes Magos lleguen a
+                            todos los hogares.
+                            </p>
                       <p>
-                        A modo de ejemplo puedo decir fehacientemente que hay
-                        una federación de personas con discapacidad física en
-                        Barcelona que no tiene ni adaptada su sede, y llevan
-                        allí más de 10 años. Su excusa es que están pendientes
-                        de trasladarse a una planta baja, cuando una adaptación
-                        accesible tendría un coste menor y además estaría
-                        subvencionada en parte por la administración.
+                        La Fundación Disgrup también quiere agradecer a todas
+                        las personas y entidades que han apoyado su labor
+                        durante este año. Gracias a las donaciones, el
+                        voluntariado y el compromiso de empresas y particulares,
+                        ha sido posible llevar a cabo proyectos que transforman
+                        vidas y construyen un futuro más justo y accesible. Cada
+                        gesto de generosidad ha sido una luz que ilumina el
+                        camino hacia la inclusión.
                       </p>
 
                       <p>
-                        En mi opinión, eso se llama desinterés y una falta de
-                        respeto al colectivo. Así, nos encontramos que en 2021
-                        ni los que en teoría defienden nuestros derechos cumplen
-                        con las leyes de accesibilidad ni con los derechos de
-                        las personas con discapacidad.
+                        En este mensaje navideño, la fundación invita a todos a
+                        reflexionar sobre el verdadero significado de estas
+                        fiestas: compartir, cuidar y celebrar la diversidad. Que
+                        estas Navidades sean una oportunidad para acercarnos a
+                        quienes más lo necesitan, para tender puentes y para
+                        recordar que, juntos, somos más fuertes.
                       </p>
 
                       <p>
-                        Pero es que, además, esa federación permite a las
-                        administraciones incumplir las leyes y los derechos
-                        humanos que afectan a las personas con discapacidad. La
-                        entidad que presido le comunicó por escrito el pasado
-                        mes de enero un incumplimiento sistemático de estas
-                        leyes y derechos humanos de las personas con
-                        discapacidad por parte del Ayuntamiento de Barcelona. A
-                        día de hoy todavía no hemos recibido respuesta. ¿Por
-                        qué?
-                      </p>
-
-                      <p>
-                        Todo esto me lleva a pensar, ¿realmente estas grandes
-                        entidades que reciben subvenciones millonarias defienden
-                        todos los derechos de las personas con discapacidad, o
-                        sólo algunos?. Por otro lado, hay que reconocer que no
-                        todo lo que hacen estas grandes entidades y federaciones
-                        es malo. Yo, por ejemplo, he podido ir al gimnasio como
-                        cada viernes gracias a que esa federación gestiona al
-                        Ayuntamiento de Barcelona los asistentes de vestuario
-                        para las personas con discapacidad. Una de cal y otra de
-                        arena. No es suficiente.
-                      </p>
-
-                      <p style={{"fontStyle":"italic"}}>Guillermo Egido, presidente de la Fundación Disgrup</p>
-
-                      <p>
-                        Fuente:{" "}
-                        <a href="https://diarideladiscapacitat.cat/">
-                          https://diarideladiscapacitat.cat/
-                        </a>
+                        La Fundación Disgrup les desea unas felices fiestas
+                        llenas de amor, paz y momentos inolvidables. Que el
+                        próximo año esté cargado de nuevos proyectos, logros y,
+                        sobre todo, de inclusión. ¡Gracias por ser parte de esta
+                        gran familia y por hacer posible un mundo mejor para
+                        todos! ¡Feliz Navidad y próspero Ano Nuevo! 🎄✨
                       </p>
 
                       {/* <!--Spacer-->*/}
@@ -210,7 +206,7 @@ const Noticia1 = () => {
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
                       ></div>
-        {/* <footer className="ptf-single-post__footer2">
+                      {/* <footer className="ptf-single-post__footer2">
                         {/* <!--Post Socials--> 
                         <div className="ptf-post-socials">
                           <span>Compartir</span>

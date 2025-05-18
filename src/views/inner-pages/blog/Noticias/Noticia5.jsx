@@ -10,7 +10,9 @@ const Noticia5 = () => {
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Los que en teoría defienden nuestros derechos{" "}
+          Disgrup - Noticias - La Fundación Disgrup presenta en la Casa del
+          Tíbet de Barcelona su proyecto inclusivo del Camino de Santiago para
+          personas con discapacidad{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -36,25 +38,25 @@ const Noticia5 = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h1 className="ptf-single-post__title ">
-                  Los que en teoría defienden{" "}
-                  </h1>
-                  <h1>
-                    {" "}
-                    <span className="has-accent-1">
-                    nuestros derechos
-                    </span>
-                  </h1>
-                  <div className="ptf-single-post__meta">
-                    <span className="cat">Disgrup</span>
-                    <span className="date"> Feb 9, 2021</span>
+                  <div
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    <h1 className="ptf-single-post__title ">
+                      Presentamos en la Casa del Tíbet de Barcelona proyecto de{" "}
+                    </h1>
+                    <h1>
+                      {" "}
+                      <span className="has-accent-1">
+                        Camino de Santiago para personas con discapacidad
+                      </span>
+                    </h1>
+                    <div className="ptf-single-post__meta">
+                      <span className="cat">Disgrup</span>
+                      <span className="date"> Jun 27, 2024</span>
+                    </div>
                   </div>
-                </div>
                 </div>
               </header>
             </div>
@@ -121,25 +123,25 @@ const Noticia5 = () => {
                       <div className="row">
                         <div className="col-lg-6">
                           <p>
-                            Ser una persona con discapacidad en esta sociedad es
-                            complicado porque no se cumplen todos los requisitos
-                            para vivir en un mundo accessible. Y para esto
-                            tenemos unas grandes entidades y federaciones que en
-                            teoría luchan por los derechos de las personas con
-                            discapacidad.
+                            El pasado 27 de Junio, la Fundación Disgrup,
+                            una organización dedicada a mejorar la calidad de
+                            vida de las personas con discapacidad, realizó una
+                            emotiva presentación en la Casa del Tibet de
+                            Barcelona. El acto estuvo centrado en su próximo
+                            proyecto: facilitar la realización del Camino de
+                            Santiago para personas con discapacidad, que tendrá́
+                            lugar del 1 al 7 de julio. Este evento marcó un hito
+                            en la promoción de la inclusión y la accesibilidad
+                            en una de las rutas de peregrinación más
+                            emblemáticas del mundo.
                           </p>
-                          <p>
-                            No obstante, me he dado cuenta que muchas veces esta
-                            protección que nos otorgan no se cumple del todo.
-                            Sobre todo si ves que són ellas mismas las que
-                            incumplen las normativas que nos afectan.
-                          </p>
+            
                         </div>
                         <div className="col-lg-6 ">
                           <img
-                            src={require("../../../../assets/img/blog/post-5.jpg")}
+                            src={"https://i.imgur.com/tJIuk9Z.jpeg"}
                             alt="imagen"
-                            style={{ paddingTop: "0rem" }}
+                            style={{ paddingTop: "3rem" }}
                           />
                         </div>
                         <div
@@ -148,39 +150,74 @@ const Noticia5 = () => {
                         ></div>
                       </div>
 
+                                  <p>
+                            Durante la presentación, los representantes de la
+                            Fundación Disgrup explicaron los detalles de esta
+                            iniciativa, que busca romper barreras y demostrar
+                            que el Camino de Santiago es una experiencia
+                            accesible para todos, independientemente de sus
+                            capacidades físicas o cognitivas. El proyecto
+                            incluirá́ adaptaciones específicas, como vehículos
+                            especializados, guías capacitados y rutas diseñadas
+                            para garantizar la seguridad y comodidad de los
+                            participantes. Además, se contará con el apoyo de
+                            voluntarios y profesionales que acompañaran a los
+                            peregrinos en cada etapa del recorrido.
+                          </p>
+                      <p>
+                        La elección de la Casa del Tíbet como sede de la
+                        presentación no fue casual. Este espacio, conocido por
+                        su compromiso con la paz y la inclusión, simboliza los
+                        valores que la Fundación Disgrup quiere transmitir con
+                        este proyecto: solidaridad, respeto y superación
+                        personal. Durante el acto, se proyectaron testimonios de
+                        personas con discapacidad que han participado en
+                        ediciones anteriores, destacando como esta experiencia
+                        transformadora les permitió́ conectar con la naturaleza,
+                        consigo mismos y con los demás.
+                      </p>
+
+
+
+                      <p>
+                        El Camino de Santiago, declarado Patrimonio de la
+                        Humanidad por la UNESCO, es un viaje espiritual y
+                        cultural que atrae a miles de peregrinos cada año. Sin
+                        embargo, para las personas con discapacidad, esta
+                        travesía puede presentar desafíos significativos. La
+                        Fundación Disgrup busca cambiar esta realidad,
+                        promoviendo una visión inclusiva que permita a todos
+                        vivir esta experiencia única.
+                      </p>
+
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
-                      <p>
-                        A modo de ejemplo puedo decir fehacientemente que hay
-                        una federación de personas con discapacidad física en
-                        Barcelona que no tiene ni adaptada su sede, y llevan
-                        allí más de 10 años. Su excusa es que están pendientes
-                        de trasladarse a una planta baja, cuando una adaptación
-                        accesible tendría un coste menor y además estaría
-                        subvencionada en parte por la administración.
-                      </p>
 
-                      <p>
-                        En mi opinión, eso se llama desinterés y una falta de
-                        respeto al colectivo. Así, nos encontramos que en 2021
-                        ni los que en teoría defienden nuestros derechos cumplen
-                        con las leyes de accesibilidad ni con los derechos de
-                        las personas con discapacidad.
-                      </p>
+                      <div className="col-lg-8 offset-lg-2  ">
+                          <img
+                            src={"https://i.imgur.com/T6AG3sV.jpeg"}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                        </div>
 
+                        
+                      {/* <!--Spacer-->*/}
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
+                      ></div>
+                        
                       <p>
-                        Pero es que, además, esa federación permite a las
-                        administraciones incumplir las leyes y los derechos
-                        humanos que afectan a las personas con discapacidad. La
-                        entidad que presido le comunicó por escrito el pasado
-                        mes de enero un incumplimiento sistemático de estas
-                        leyes y derechos humanos de las personas con
-                        discapacidad por parte del Ayuntamiento de Barcelona. A
-                        día de hoy todavía no hemos recibido respuesta. ¿Por
-                        qué?
+                        Con este proyecto, la Fundación Disgrup no solo busca
+                        facilitar el acceso al Camino de Santiago, sino también
+                        sensibilizar a la sociedad sobre la importancia de la
+                        inclusión y la accesibilidad. Del 1 al 7 de julio, un
+                        grupo de valientes peregrinos demostrará que, con el
+                        apoyo adecuado, no hay límites para alcanzar los sueños.{" "}
                       </p>
 
                       <p>
@@ -196,21 +233,14 @@ const Noticia5 = () => {
                         arena. No es suficiente.
                       </p>
 
-                      <p style={{"fontStyle":"italic"}}>Guillermo Egido, presidente de la Fundación Disgrup</p>
-
-                      <p>
-                        Fuente:{" "}
-                        <a href="https://diarideladiscapacitat.cat/">
-                          https://diarideladiscapacitat.cat/
-                        </a>
-                      </p>
+           
 
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
                       ></div>
-        {/* <footer className="ptf-single-post__footer2">
+                      {/* <footer className="ptf-single-post__footer2">
                         {/* <!--Post Socials--> 
                         <div className="ptf-post-socials">
                           <span>Compartir</span>

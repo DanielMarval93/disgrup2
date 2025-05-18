@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useState} from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import CopyRightTwo from "../../../../components/footer/copyright/CopyRightTwo";
 import FooterTwo from "../../../../components/footer/FooterTwo";
 import HeaderDefault from "../../../../components/header/HeaderDefault";
+import ModalVideo from "react-modal-video";
+
+
+
 
 const Noticia3 = () => {
+
+  const [isOpen, setOpen] = useState(false);
+const [isVideoId, setVideoId,] = useState(false);
+
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Los que en teoría defienden nuestros derechos{" "}
+        Disgrup - Noticias - La Fundación Disgrup crea su himno: un canto a la
+        inclusión y la superación{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -42,17 +51,16 @@ const Noticia3 = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="ptf-single-post__title ">
-                  Los que en teoría defienden{" "}
-                  </h1>
+                  La Fundación Disgrup crea su himno:{" "}                  </h1>
                   <h1>
                     {" "}
                     <span className="has-accent-1">
-                    nuestros derechos
+                    un canto a la inclusión y la superación
                     </span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Feb 9, 2021</span>
+                    <span className="date"> Sep 20, 2024</span>
                   </div>
                 </div>
                 </div>
@@ -119,28 +127,46 @@ const Noticia3 = () => {
 
                       */}
                       <div className="row">
-                        <div className="col-lg-6">
+                      <div className="col-lg-12">
                           <p>
-                            Ser una persona con discapacidad en esta sociedad es
-                            complicado porque no se cumplen todos los requisitos
-                            para vivir en un mundo accessible. Y para esto
-                            tenemos unas grandes entidades y federaciones que en
-                            teoría luchan por los derechos de las personas con
-                            discapacidad.
+                            La Fundación Disgrup, una organización comprometida
+                            con mejorar la vida de las personas con
+                            discapacidad, ha dado un paso más en su misión de
+                            promover la inclusión y la igualdad con la creación
+                            de su propio **himno. Esta pieza musical, compuesta
+                            especialmente para la fundación, se ha convertido en
+                            un símbolo de esperanza, superación y unidad para
+                            todos aquellos que forman parte de esta gran
+                            familia.
                           </p>
                           <p>
-                            No obstante, me he dado cuenta que muchas veces esta
-                            protección que nos otorgan no se cumple del todo.
-                            Sobre todo si ves que són ellas mismas las que
-                            incumplen las normativas que nos afectan.
+                            El himno, titulado "Juntos somos más fuertes", es
+                            una obra emotiva y motivadora que refleja los
+                            valores fundamentales de la Fundación Disgrup: la
+                            inclusión, la solidaridad y la lucha por un mundo
+                            sin barreras. La letra, escrita en colaboración con
+                            personas con discapacidad, voluntarios y
+                            profesionales de la fundación, transmite un mensaje
+                            claro: *"Nada es imposible cuando caminamos
+                            juntos"*. La música, por su parte, combina melodías
+                            inspiradoras con ritmos que invitan a la reflexión y
+                            al optimismo.
                           </p>
                         </div>
-                        <div className="col-lg-6 ">
-                          <img
-                            src={require("../../../../assets/img/blog/post-5.jpg")}
-                            alt="imagen"
-                            style={{ paddingTop: "0rem" }}
-                          />
+                        <div
+                          className="ptf-spacer"
+                          style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1rem" }}
+                        ></div>
+                        <div className="col-lg-8 offset-lg-2 ">
+                        <img
+                              src={"https://i.imgur.com/QzY9VrG.jpeg"}
+                              alt="blog"
+                              loading="lazy"
+                              onClick={() => {
+                                setOpen(true);
+                                setVideoId("6MrfFWsmQYc");
+                              }}
+                            />
                         </div>
                         <div
                           className="ptf-spacer"
@@ -154,56 +180,18 @@ const Noticia3 = () => {
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
                       <p>
-                        A modo de ejemplo puedo decir fehacientemente que hay
-                        una federación de personas con discapacidad física en
-                        Barcelona que no tiene ni adaptada su sede, y llevan
-                        allí más de 10 años. Su excusa es que están pendientes
-                        de trasladarse a una planta baja, cuando una adaptación
-                        accesible tendría un coste menor y además estaría
-                        subvencionada en parte por la administración.
+                      La presentación del himno tuvo lugar durante un evento especial organizado por la fundación, donde asistieron beneficiarios, colaboradores y representantes de entidades aliadas. El momento más emotivo llegó cuando un coro formado por personas con discapacidad interpretó por primera vez el himno, arrancando aplausos y lágrimas entre el público. Este acto no solo celebró la creación de una canción, sino que también reafirmó el compromiso de la fundación con la inclusión y la diversidad.
+El himno de la Fundación Disgrup no es solo una canción, sino una herramienta más para sensibilizar a la sociedad sobre la importancia de la inclusión
+
                       </p>
 
                       <p>
-                        En mi opinión, eso se llama desinterés y una falta de
-                        respeto al colectivo. Así, nos encontramos que en 2021
-                        ni los que en teoría defienden nuestros derechos cumplen
-                        con las leyes de accesibilidad ni con los derechos de
-                        las personas con discapacidad.
+                      Próximamente, estará́ disponible en las redes sociales y plataformas digitales de la fundación, para que todos puedan escucharlo, compartirlo y sentirse parte de este movimiento.
+Con este himno, la Fundación Disgrup demuestra una vez más que, a través de la música y la unión, es posible construir un mundo más justo y accesible para todos. "Juntos somos más fuertes" es el lema que guía esta iniciativa y que seguirá́ inspirando a miles de personas.
+
                       </p>
 
-                      <p>
-                        Pero es que, además, esa federación permite a las
-                        administraciones incumplir las leyes y los derechos
-                        humanos que afectan a las personas con discapacidad. La
-                        entidad que presido le comunicó por escrito el pasado
-                        mes de enero un incumplimiento sistemático de estas
-                        leyes y derechos humanos de las personas con
-                        discapacidad por parte del Ayuntamiento de Barcelona. A
-                        día de hoy todavía no hemos recibido respuesta. ¿Por
-                        qué?
-                      </p>
-
-                      <p>
-                        Todo esto me lleva a pensar, ¿realmente estas grandes
-                        entidades que reciben subvenciones millonarias defienden
-                        todos los derechos de las personas con discapacidad, o
-                        sólo algunos?. Por otro lado, hay que reconocer que no
-                        todo lo que hacen estas grandes entidades y federaciones
-                        es malo. Yo, por ejemplo, he podido ir al gimnasio como
-                        cada viernes gracias a que esa federación gestiona al
-                        Ayuntamiento de Barcelona los asistentes de vestuario
-                        para las personas con discapacidad. Una de cal y otra de
-                        arena. No es suficiente.
-                      </p>
-
-                      <p style={{"fontStyle":"italic"}}>Guillermo Egido, presidente de la Fundación Disgrup</p>
-
-                      <p>
-                        Fuente:{" "}
-                        <a href="https://diarideladiscapacitat.cat/">
-                          https://diarideladiscapacitat.cat/
-                        </a>
-                      </p>
+          
 
                       {/* <!--Spacer-->*/}
                       <div
@@ -255,6 +243,13 @@ const Noticia3 = () => {
           </div>
         </div>
       </footer>
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={isOpen}
+        videoId={isVideoId}
+        onClose={() => setOpen(false)}
+      />
     </div>
   );
 };

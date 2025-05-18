@@ -137,9 +137,9 @@ const AllRoutes = () => {
         <Route path="/noticia/fundacion-disgrup-participa-en-jornada-conmemorativa-del-cabildo-de-Lanzarote" element={<NoticiaJornadaConmemorativa/>} />
 
 
-        <Route path="/noticia/Felices-fiestas-2024" element={<Noticia1 />} />
+        <Route path="/noticia/felices-fiestas-2024" element={<Noticia1 />} />
         <Route path="/noticia/liga-canaria-de-baloncesto-sin-limites" element={<Noticia2 />} />
-        <Route path="/noticia/Disgrup-crea-su-himno" element={<Noticia3 />} />
+        <Route path="/noticia/disgrup-crea-su-himno" element={<Noticia3 />} />
         <Route path="/noticia/comida-conferencia-coloquio-con-el-molt-honorable-josep-rull-i-andreu" element={<Noticia4 />} />
         <Route path="/noticia/proyecto-inclusivo-del-camino-de-santiago-para-personas-con-discapacidad" element={<Noticia5 />} />
         <Route path="/noticia/haz-tu-donacion-a-la-fundacion-disgrup" element={<Noticia6 />} />

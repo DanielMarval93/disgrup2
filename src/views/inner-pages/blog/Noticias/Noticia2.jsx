@@ -10,7 +10,8 @@ const Noticia2 = () => {
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Los que en teoría defienden nuestros derechos{" "}
+          Disgrup - Noticias - La Fundación Disgrup está hoy en el Pabellón
+          Municipal de Tías en la Liga Canaria de Baloncesto Sin Límites{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -36,25 +37,23 @@ const Noticia2 = () => {
                 style={{ position: "absolute", top: 0, left: 0, width: "100%" }}
               >
                 <div className="container-xxl">
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h1 className="ptf-single-post__title ">
-                  Los que en teoría defienden{" "}
-                  </h1>
-                  <h1>
-                    {" "}
-                    <span className="has-accent-1">
-                    nuestros derechos
-                    </span>
-                  </h1>
-                  <div className="ptf-single-post__meta">
-                    <span className="cat">Disgrup</span>
-                    <span className="date"> Feb 9, 2021</span>
+                  <div
+                    className="ptf-animated-block"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                  >
+                    <h1 className="ptf-single-post__title ">
+                      Liga Canaria de Baloncesto{" "}
+                    </h1>
+                    <h1>
+                      {" "}
+                      <span className="has-accent-1">Sin Límites</span>
+                    </h1>
+                    <div className="ptf-single-post__meta">
+                      <span className="cat">Disgrup</span>
+                      <span className="date"> Dec 24, 2024</span>
+                    </div>
                   </div>
-                </div>
                 </div>
               </header>
             </div>
@@ -121,23 +120,26 @@ const Noticia2 = () => {
                       <div className="row">
                         <div className="col-lg-6">
                           <p>
-                            Ser una persona con discapacidad en esta sociedad es
-                            complicado porque no se cumplen todos los requisitos
-                            para vivir en un mundo accessible. Y para esto
-                            tenemos unas grandes entidades y federaciones que en
-                            teoría luchan por los derechos de las personas con
-                            discapacidad.
+                            Este fin de semana, el Pabellón Municipal de Tiras
+                            se convirtió́ en el escenario de un evento deportivo
+                            lleno de emoción y superación. Este torneo, que
+                            promueve la inclusión y el deporte adaptado, reunió́
+                            a equipos de toda Canarias, demostrando que el
+                            baloncesto no tiene barreras cuando se trata de
+                            pasión y esfuerzo.
                           </p>
                           <p>
-                            No obstante, me he dado cuenta que muchas veces esta
-                            protección que nos otorgan no se cumple del todo.
-                            Sobre todo si ves que són ellas mismas las que
-                            incumplen las normativas que nos afectan.
+                            La Fundación Disgrup, conocida por su compromiso con
+                            la inclusión social y el fomento del deporte entre
+                            personas con diversidad funcional, dio soporte a los
+                            equipos, dejando en claro que el baloncesto es una
+                            herramienta poderosa para romper estereotipos y
+                            construir comunidad.
                           </p>
                         </div>
                         <div className="col-lg-6 ">
                           <img
-                            src={require("../../../../assets/img/blog/post-5.jpg")}
+                            src={require("../../../../assets/img/blog/post-16.jpeg")}
                             alt="imagen"
                             style={{ paddingTop: "0rem" }}
                           />
@@ -154,63 +156,42 @@ const Noticia2 = () => {
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
                       <p>
-                        A modo de ejemplo puedo decir fehacientemente que hay
-                        una federación de personas con discapacidad física en
-                        Barcelona que no tiene ni adaptada su sede, y llevan
-                        allí más de 10 años. Su excusa es que están pendientes
-                        de trasladarse a una planta baja, cuando una adaptación
-                        accesible tendría un coste menor y además estaría
-                        subvencionada en parte por la administración.
+                        El ambiente en el pabellón fue vibrante, con familiares,
+                        amigos y aficionados animando desde las gradas. Cada
+                        canasta, cada pase y cada defensa fueron celebrados con
+                        entusiasmo, recordándonos que el deporte va más allá́ de
+                        la competencia: es una forma de unir a las personas y
+                        celebrar la diversidad.
                       </p>
 
                       <p>
-                        En mi opinión, eso se llama desinterés y una falta de
-                        respeto al colectivo. Así, nos encontramos que en 2021
-                        ni los que en teoría defienden nuestros derechos cumplen
-                        con las leyes de accesibilidad ni con los derechos de
-                        las personas con discapacidad.
+                        La Liga Canaria de Baloncesto Sin Límites no solo es un
+                        espacio para competir, sino también para inspirar. La
+                        Fundación Está, con su presencia, refuerza su misión de
+                        promover la inclusión y demostrar que, con esfuerzo y
+                        apoyo, todos podemos alcanzar nuestras metas. Este
+                        evento es un recordatorio de que, en el deporte y en la
+                        vida, no hay límites cuando hay pasión y dedicación.
                       </p>
+                                    {/* <!--Spacer-->*/}
+                                    <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1rem" }}
+                      ></div>
 
-                      <p>
-                        Pero es que, además, esa federación permite a las
-                        administraciones incumplir las leyes y los derechos
-                        humanos que afectan a las personas con discapacidad. La
-                        entidad que presido le comunicó por escrito el pasado
-                        mes de enero un incumplimiento sistemático de estas
-                        leyes y derechos humanos de las personas con
-                        discapacidad por parte del Ayuntamiento de Barcelona. A
-                        día de hoy todavía no hemos recibido respuesta. ¿Por
-                        qué?
-                      </p>
-
-                      <p>
-                        Todo esto me lleva a pensar, ¿realmente estas grandes
-                        entidades que reciben subvenciones millonarias defienden
-                        todos los derechos de las personas con discapacidad, o
-                        sólo algunos?. Por otro lado, hay que reconocer que no
-                        todo lo que hacen estas grandes entidades y federaciones
-                        es malo. Yo, por ejemplo, he podido ir al gimnasio como
-                        cada viernes gracias a que esa federación gestiona al
-                        Ayuntamiento de Barcelona los asistentes de vestuario
-                        para las personas con discapacidad. Una de cal y otra de
-                        arena. No es suficiente.
-                      </p>
-
-                      <p style={{"fontStyle":"italic"}}>Guillermo Egido, presidente de la Fundación Disgrup</p>
-
-                      <p>
-                        Fuente:{" "}
-                        <a href="https://diarideladiscapacitat.cat/">
-                          https://diarideladiscapacitat.cat/
-                        </a>
-                      </p>
-
+                      <div className="col-lg-8 offset-lg-2  ">
+                          <img
+                            src={require("../../../../assets/img/blog/post-17.jpeg")}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                        </div>
                       {/* <!--Spacer-->*/}
                       <div
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
                       ></div>
-        {/* <footer className="ptf-single-post__footer2">
+                      {/* <footer className="ptf-single-post__footer2">
                         {/* <!--Post Socials--> 
                         <div className="ptf-post-socials">
                           <span>Compartir</span>

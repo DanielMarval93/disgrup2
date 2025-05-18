@@ -10,7 +10,7 @@ const Noticia7 = () => {
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <Helmet>
         <title>
-          Disgrup - Noticias - Los que en teoría defienden nuestros derechos{" "}
+          Disgrup - Noticias - La Fundación Disgrup explica de manera sencilla la Ley de Dependencia y su aplicación{" "}
         </title>
       </Helmet>
       {/* End Page SEO Content */}
@@ -42,17 +42,17 @@ const Noticia7 = () => {
                   data-aos-delay="0"
                 >
                   <h1 className="ptf-single-post__title ">
-                  Los que en teoría defienden{" "}
+                  La Fundación Disgrup explica la{" "}
                   </h1>
                   <h1>
                     {" "}
                     <span className="has-accent-1">
-                    nuestros derechos
+                    Ley de Dependencia y su aplicación
                     </span>
                   </h1>
                   <div className="ptf-single-post__meta">
                     <span className="cat">Disgrup</span>
-                    <span className="date"> Feb 9, 2021</span>
+                    <span className="date"> Jul 24, 2024</span>
                   </div>
                 </div>
                 </div>
@@ -121,23 +121,14 @@ const Noticia7 = () => {
                       <div className="row">
                         <div className="col-lg-6">
                           <p>
-                            Ser una persona con discapacidad en esta sociedad es
-                            complicado porque no se cumplen todos los requisitos
-                            para vivir en un mundo accessible. Y para esto
-                            tenemos unas grandes entidades y federaciones que en
-                            teoría luchan por los derechos de las personas con
-                            discapacidad.
+                          La Fundación Disgrup, una organización comprometida con mejorar la calidad de vida de las personas con discapacidad, organizó una conferencia para explicar de manera clara y accesible la **Ley de Dependencia y su aplicación. Este evento, dirigido a familias, cuidadores y personas con discapacidad, tuvo como objetivo despejar dudas y facilitar el acceso a los recursos y prestaciones que ofrece esta ley.
                           </p>
-                          <p>
-                            No obstante, me he dado cuenta que muchas veces esta
-                            protección que nos otorgan no se cumple del todo.
-                            Sobre todo si ves que són ellas mismas las que
-                            incumplen las normativas que nos afectan.
+                          <p> La Ley de Dependencia, oficialmente conocida como Ley 39/2006, es una normativa española que busca garantizar el derecho de las personas en situación de dependencia a recibir atención y apoyo para realizar actividades básicas de la vida diaria.
                           </p>
                         </div>
                         <div className="col-lg-6 ">
                           <img
-                            src={require("../../../../assets/img/blog/post-5.jpg")}
+                            src={"https://i.imgur.com/uTgCWGL.jpeg"}
                             alt="imagen"
                             style={{ paddingTop: "0rem" }}
                           />
@@ -153,57 +144,31 @@ const Noticia7 = () => {
                         className="ptf-spacer"
                         style={{ "--ptf-xxl": "1rem", "--ptf-md": "1rem" }}
                       ></div>
+<p> Durante la conferencia, los expertos de la Fundación Disgrup explicaron los aspectos clave de la ley, como los **tres grados de dependencia (moderada, severa y gran dependencia), los tipos de prestaciones económicas y los servicios disponibles, que incluyen ayudas a domicilio, centros de día y residencias.                                </p>
+                          <p>
+                          Uno de los puntos destacados de la conferencia fue la explicación paso a paso del proceso para solicitar el reconocimiento de la dependencia. Los asistentes aprendieron como presentar la solicitud, qué documentación es necesaria y como se realiza la valoración por parte de los equipos de profesionales. Además, se abordaron temas como los plazos de resolución y los recursos disponibles en caso de desacuerdo con la valoración.
+                          </p>
                       <p>
-                        A modo de ejemplo puedo decir fehacientemente que hay
-                        una federación de personas con discapacidad física en
-                        Barcelona que no tiene ni adaptada su sede, y llevan
-                        allí más de 10 años. Su excusa es que están pendientes
-                        de trasladarse a una planta baja, cuando una adaptación
-                        accesible tendría un coste menor y además estaría
-                        subvencionada en parte por la administración.
+                      La Fundación Disgrup también destacó la importancia de conocer los derechos que ampara esta ley, especialmente en lo relacionado con la autonomía personal y la calidad de vida. La conferencia finalizó con un espacio de preguntas y respuestas, donde los participantes pudieron resolver dudas específicas y recibir asesoramiento personalizado.
                       </p>
 
                       <p>
-                        En mi opinión, eso se llama desinterés y una falta de
-                        respeto al colectivo. Así, nos encontramos que en 2021
-                        ni los que en teoría defienden nuestros derechos cumplen
-                        con las leyes de accesibilidad ni con los derechos de
-                        las personas con discapacidad.
+                      Este tipo de iniciativas reflejan el compromiso de la Fundación Disgrup con la inclusión y el empoderamiento de las personas con discapacidad y sus familias. Al facilitar el acceso a información clara y práctica, la fundación contribuye a que más personas puedan beneficiarse de los recursos que ofrece la Ley de Dependencia, promoviendo una sociedad más justa y solidaria.
+
                       </p>
 
-                      <p>
-                        Pero es que, además, esa federación permite a las
-                        administraciones incumplir las leyes y los derechos
-                        humanos que afectan a las personas con discapacidad. La
-                        entidad que presido le comunicó por escrito el pasado
-                        mes de enero un incumplimiento sistemático de estas
-                        leyes y derechos humanos de las personas con
-                        discapacidad por parte del Ayuntamiento de Barcelona. A
-                        día de hoy todavía no hemos recibido respuesta. ¿Por
-                        qué?
-                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "1.5rem", "--ptf-md": "1.5rem" }}
+                      ></div>
 
-                      <p>
-                        Todo esto me lleva a pensar, ¿realmente estas grandes
-                        entidades que reciben subvenciones millonarias defienden
-                        todos los derechos de las personas con discapacidad, o
-                        sólo algunos?. Por otro lado, hay que reconocer que no
-                        todo lo que hacen estas grandes entidades y federaciones
-                        es malo. Yo, por ejemplo, he podido ir al gimnasio como
-                        cada viernes gracias a que esa federación gestiona al
-                        Ayuntamiento de Barcelona los asistentes de vestuario
-                        para las personas con discapacidad. Una de cal y otra de
-                        arena. No es suficiente.
-                      </p>
-
-                      <p style={{"fontStyle":"italic"}}>Guillermo Egido, presidente de la Fundación Disgrup</p>
-
-                      <p>
-                        Fuente:{" "}
-                        <a href="https://diarideladiscapacitat.cat/">
-                          https://diarideladiscapacitat.cat/
-                        </a>
-                      </p>
+                      <div className="col-lg-8 offset-lg-2  ">
+                          <img
+                            src={"https://i.imgur.com/F0KsdD5.jpeg"}
+                            alt="imagen"
+                            style={{ paddingTop: "0rem" }}
+                          />
+                        </div>
 
                       {/* <!--Spacer-->*/}
                       <div

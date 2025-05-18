@@ -3,6 +3,77 @@ import { Link } from "react-router-dom";
 
 const blogContent = [
   {
+    img: "post-23",
+    cat: "Noticias",
+    date: "20 de Febrero de 2025",
+    title: "Conferencia con el molt honorable Josep Rull i Andreu",
+    route:"/noticia/comida-conferencia-coloquio-con-el-molt-honorable-josep-rull-i-andreu"
+  },
+  {
+    img: "post-22",
+    cat: "Noticias",
+    date: "29 de Diciembre de 2024",
+    title: "Fundación Disgrup se une a la Cruz Roja en la recogida de juguetes para los Reyes Magos",
+    route:"/noticia/recogida-de-juguetes-para-los-reyes-magos-junto-a-la-cruz-roja"
+  },
+  {
+    img: "post-21",
+    cat: "Noticias",
+    date: "24 de Diciembre de 2024",
+    title: "La Fundación Disgrup está en la Liga Canaria de Baloncesto Sin Límite",
+    route:"/noticia/liga-canaria-de-baloncesto-sin-limites"
+  },
+  {
+    img: "post-20",
+    cat: "Noticias",
+    date: "23 de Diciembre de 2024",
+    title: "Felices Fiestas llenas de Inclusión y Solidaridad",
+    route:"/noticia/felices-fiestas-2024"
+  },
+  {
+    img: "post-19",
+    cat: "Noticias",
+    date: "2 de Noviembre de 2024",
+    title: "Haz tu donación a la Fundación Disgrup y apoya a las personas con discapacidad",
+    route:"/noticia/haz-tu-donacion-a-la-fundacion-disgrup"
+  },
+  {
+    img: "post-18",
+    cat: "Noticias",
+    date: "30 de Octubre de 2024",
+    title: "Halloween para personas con discapacidad en Lanzarote",
+    route:"/noticia/halloween-para-personas-con-discapacidad-en-lanzarote"
+  },
+  {
+    img: "post-17",
+    cat: "Noticias",
+    date: "18 de Octubre de 2024",
+    title: "Volvemos a reactivar nuestra cuenta de Instagram!",
+    route:"/noticia/volvemos-a-reactivar-nuestra-cuenta-de-instagram"
+  },
+  {
+    img: "post-16",
+    cat: "Noticias",
+    date: "20 de Septiembre de 2024",
+    title: "La Fundación Disgrup crea su himno: un canto a la inclusión y la superación",
+    route:"/noticia/disgrup-crea-su-himno"
+  },
+  {
+    img: "post-15",
+    cat: "Noticias",
+    date: "24 de Julio de 2024",
+    title: "La Fundación Disgrup explica de manera sencilla la Ley de Dependencia y su aplicación",
+    route:"/noticia/ley-de-dependencia-y-su-aplicacion"
+  },
+  {
+    img: "post-14",
+    cat: "Noticias",
+    date: "27 de Junio de 2024",
+    title: "Presentamos en la Casa del Tíbet de Barcelona proyecto de Camino de Santiago para personas con discapacidad",
+    route:"/noticia/proyecto-inclusivo-del-camino-de-santiago-para-personas-con-discapacidad"
+  },
+
+  {
     img: "post-13",
     cat: "Noticias",
     date: "3 de Diciembre de 2023",
