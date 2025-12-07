@@ -16,7 +16,7 @@ const HeroAgency = () => {
     adaptiveHeight: false,
   };
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(true);
 
   const handleButtonClick = () => {
     setIsModalOpen(true);
@@ -80,7 +80,7 @@ const HeroAgency = () => {
                       onClick={handleButtonClick} // Attach click handler
                       target="_self"
                     >
-                      Bizum
+                      Promo
                     </Link>
                   </div>
                 </div>
@@ -126,15 +126,13 @@ const HeroAgency = () => {
               alignItems: "center",
             }}
           >
+            <a href="https://fundacion-disgrup.sumupstore.com/" target="_blank" rel="noopener noreferrer">
             <img
-              src="https://i.imgur.com/7mG5f1v.jpg"
+              src="https://i.imgur.com/iAtz2Zw.jpeg"
               alt="Hello World!"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "contain", // Maintain aspect ratio
-              }}
+              className="promo-image"
             />
+            </a>
           </div>
         </div>
       )}

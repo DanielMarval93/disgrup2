@@ -1,6 +1,23 @@
 /* COLORS
 -------------------------------------------- */
 
+.promo-image {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  margin-left: 5rem;
+}
+
+@media (max-width: 768px) {
+  .promo-image {
+    width: 220%;
+    height: 100%;
+    margin-left: 0;
+  }
+
+}
+
+
 .has-white-color {
   color: var(--ptf-color-white);
 }
@@ -20,6 +37,7 @@
 .has-accent-1 {
   color: var(--ptf-accent-1) !important;
 }
+
 
 .has-accent-1-background {
   background-color: var(--ptf-accent-1);

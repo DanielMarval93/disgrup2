@@ -3,26 +3,27 @@ import { Link } from "react-router-dom";
 import ModalVideo from "react-modal-video";
 
 const blogContent = [
-  {
-    img: "dest-3",
-    cat: "Noticias",
-    date: "Ayudas",
-    title: "⭕️ La Fundación Disgrup ayuda a Víctor y su familia 🤝👨‍🦽",
-    videoId: "zyNL42aIrdQ",
-  },
-  {
-    img: "dest-2",
-    cat: "Actividades",
-    date: "Curiosidades",
-    title: "100 Preguntas sobre actores con discapacidad 🎭 Parte 1",
-    videoId: "xE6_ZdxiHRk",
-  },
+
   {
     img: "dest-1",
     cat: "Actividades",
     date: "Curiosidades",
-    title: "25 Preguntas sobre celebridades con discapacidad ♿️ Parte 2",
-    videoId: "LwJF0TISnWA",
+    title: "100 preguntas de cultura general 🧠 GEOGRAFÍA parte 1 🗺️🌎",
+    videoId: "H6vBvPF6Ut8",
+  },
+  {
+    img: "dest-2",
+    cat: "Noticias",
+    date: "Denuncias",
+    title: "RENFE en 2025, no cumple la ley de accesibilidad de 2007",
+    videoId: "xE6_ZdxiHRk",
+  },
+  {
+    img: "dest-3",
+    cat: "Noticias",
+    date: "KHLIPPER",
+    title: "KHLIPPER (perro robot), en Lanzarote.",
+    videoId: "3L93hImQD1M",
   },
   {
     img: "dest-0",

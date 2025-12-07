@@ -6,7 +6,7 @@ import HeaderDefault from "../../../components/header/HeaderDefault";
 import { Link } from "react-router-dom";
 import ModalVideo from "react-modal-video";
 
-const blogContent = [
+const blogContent2 = [
   {
     img: "santi-1",
     cat: "Camino de Santiago",
@@ -56,6 +56,42 @@ const blogContent = [
     videoId: "UyKOdfJLHP0",
   },
 ];
+const blogContent1 = [
+
+  {
+    img: "santi-7",
+    cat: "Camino de Santiago",
+    date: "22 Julio 2025",
+    title: "Presentación",
+    route: "https://www.youtube.com/watch?v=yZEf4qTu6II",
+    videoId: "yZEf4qTu6II",
+  },
+  {
+    img: "santi-8",
+    cat: "Camino de Santiago",
+    date: "3 Agosto 2025",
+    title: "Parte 1",
+    route: "https://www.youtube.com/watch?v=0JjHxIsgKrc",
+    videoId: "0JjHxIsgKrc",
+  },
+  {
+    img: "santi-9",
+    cat: "Camino de Santiago",
+    date: "6 Agosto 2025",
+    title: "Parte 2",
+    route: "https://www.youtube.com/watch?v=HlhQquJL1XU",
+    videoId: "HlhQquJL1XU",
+  },
+  
+  {
+    img: "santi-10",
+    cat: "Camino de Santiago",
+    date: "21 Agosto 2025",
+    title: "Final",
+    route: "https://www.youtube.com/watch?v=BpaJiHPIsmw",
+    videoId: "BpaJiHPIsmw",
+  },
+];
 
 const CaminoSantiago = () => {
   const [isOpen, setOpen] = useState(false);
@@ -93,7 +129,8 @@ const CaminoSantiago = () => {
                         className="large-heading has-accent-1"
                         style={{ marginLeft: "1.4rem" }}
                       >
-                        Camino de <span className="has-black-color">Santiago </span>
+                        Camino de{" "}
+                        <span className="has-black-color">Santiago </span>
                       </h1>
                     </div>
                   </div>
@@ -173,10 +210,13 @@ const CaminoSantiago = () => {
                       marginRight: "0",
                     }}
                   >
-                    {blogContent.map((val, i) => (
-
-                      
-
+                    <h2
+                      className="large-heading has-accent-1"
+                      style={{ marginLeft: "1.4rem" }}
+                    >
+                      2025 <span className="has-black-color"> KHLIPPER (El Perro Robot) </span>
+                    </h2>
+                    {blogContent1.map((val, i) => (
                       <div className="col-xl-4 col-lg-4" key={i}>
                         <article className="ptf-post ptf-post--style-1">
                           <div className="ptf-post__media">
@@ -203,10 +243,78 @@ const CaminoSantiago = () => {
                                 className="ptf-post__title"
                                 style={{ textAlign: "center" }}
                               >
-                                <Link    onClick={() => {
+                                <Link
+                                  onClick={() => {
+                                    setOpen(true);
+                                    setVideoId(val.videoId);
+                                  }}
+                                >
+                                  {val.title}
+                                </Link>
+                              </h3>
+                            </header>
+                          </div>
+                        </article>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div
+                    className="ptf-isotope-grid row"
+                    style={{
+                      "--bs-gutter-x": "3rem",
+                      "--bs-gutter-y": "3rem",
+                      marginLeft: "0",
+                      marginRight: "0",
+                    }}
+                  >
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "0.5rem", "--ptf-md": "1.375rem" }}
+                    ></div>
+
+                    <h2
+                      className="large-heading has-accent-1"
+                      style={{ marginLeft: "1.4rem" }}
+                    >
+                      2023
+                    </h2>
+
+                    {blogContent2.map((val, i) => (
+                      <div className="col-xl-4 col-lg-4" key={i}>
+                        <article className="ptf-post ptf-post--style-1">
+                          <div className="ptf-post__media">
+                            <img
+                              src={`assets/img/blog/grid/${val.img}.jpg`}
+                              alt="blog"
+                              loading="lazy"
+                              onClick={() => {
                                 setOpen(true);
                                 setVideoId(val.videoId);
-                              }}>{val.title}</Link>
+                              }}
+                            />
+                          </div>
+                          <div className="ptf-post__content">
+                            <header className="ptf-post__header">
+                              <div
+                                className="ptf-post__meta"
+                                style={{ textAlign: "center" }}
+                              >
+                                <span className="cat">{val.cat}</span>
+                                <span className="date">{val.date}</span>
+                              </div>
+                              <h3
+                                className="ptf-post__title"
+                                style={{ textAlign: "center" }}
+                              >
+                                <Link
+                                  onClick={() => {
+                                    setOpen(true);
+                                    setVideoId(val.videoId);
+                                  }}
+                                >
+                                  {val.title}
+                                </Link>
                               </h3>
                             </header>
                           </div>
@@ -248,22 +356,22 @@ const CaminoSantiago = () => {
       {/* <!--Footer--> */}
       {/* <!--Footer--> */}
       <footer className="ptf-footer ptf-footer--style-3">
-              <div className="container">
-                <div className="row">
-                  <div className="col-xl-10 offset-xl-2">
-                    <div className="ptf-footer__top">
-                      <FooterTwo />
-                    </div>
-                    {/* End .ptf-footer__top */}
-
-                    <div className="ptf-footer__bottom">
-                      <CopyRightTwo />
-                    </div>
-                    {/* End .ptf-footer__bottom */}
-                  </div>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-10 offset-xl-2">
+              <div className="ptf-footer__top">
+                <FooterTwo />
               </div>
-            </footer>
+              {/* End .ptf-footer__top */}
+
+              <div className="ptf-footer__bottom">
+                <CopyRightTwo />
+              </div>
+              {/* End .ptf-footer__bottom */}
+            </div>
+          </div>
+        </div>
+      </footer>
       <ModalVideo
         channel="youtube"
         autoplay

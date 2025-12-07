@@ -60,15 +60,8 @@ const Contact = () => {
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "3rem", "--ptf-md": "3rem" }}
                 ></div>
-
-<div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  
-  }}
->
+<div className="row">
+<div className="col-lg-5 offset-lg-1">
   <iframe
     src="https://donorbox.org/embed/general-165?default_interval=m&amount=20"
     name="donorbox"
@@ -87,6 +80,15 @@ const Contact = () => {
     allow="payment"
   ></iframe>
 </div>
+<div className="col-lg-5 ">
+             <img
+                alt="Donacion bizum"
+                src="https://i.imgur.com/7mG5f1v.jpg"
+              />
+            </div>
+</div>
+
+
     {/*
 
                 <div className="col-lg-6">

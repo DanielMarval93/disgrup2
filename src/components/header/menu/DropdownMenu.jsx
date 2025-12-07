@@ -2,14 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const menuContent = [
-  {
-    name: "Home",
-    activeClass: "sf-with-ul",
-    routerPath: "/",
-    menuClass: "current-menu-item",
-    dropDownItems: [
-    ],
-  },
+
   {
     name: "Conocenos",
     activeClass: "",
@@ -72,6 +65,14 @@ const menuContent = [
         name: "100 Preguntas Y Curiosidades",
         routerPath: "/videos-curiosidades",
       },
+    ],
+  },
+  {
+    name: "Mermelada Solidaria",
+    activeClass: "",
+    menuClass: "",
+    routerPath: "https://fundacion-disgrup.sumupstore.com/",
+    dropDownItems: [
     ],
   },
 ];

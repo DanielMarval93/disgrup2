@@ -13,7 +13,7 @@ import Social from "../../social/Social";
 import RefContext from "../../context/RefContext";
 
 const MobileMenu = () => {
-  const { charlaSection, boliSection, hacemosSection,} =
+  const {  hacemosSection,} =
     useContext(RefContext);
 
   const menuContent = [
@@ -25,26 +25,13 @@ const MobileMenu = () => {
           routerPath: "/conocenos",
           click: { hacemosSection },
         },
-        {
-          name: "Boligrafo Solidario",
-          routerPath: "/conocenos",
-          click: { boliSection },
-        },
-        {
-          name: "Charlas de concienciación",
-          routerPath: "/conocenos",
-          click: { charlaSection },
-        },
+
       ],
     },
     {
       name: "Dona",
       dropDownItems: [
-        {
-          name: "Beneficios de donar",
-          routerPath: "/dona",
-          click: "",
-        },
+        
         {
           name: "Hacer Donacion",
           routerPath: "/dona",
@@ -99,6 +86,17 @@ const MobileMenu = () => {
           name: "Camino de Santiago",
           routerPath: "/camino-de-santiago",
           click: "",
+        },
+      ],
+    },
+    {
+      name: "Colabora",
+      dropDownItems: [
+        {
+          name: "Mermelada Solidaria",
+          routerPath: "https://fundacion-disgrup.sumupstore.com/",
+          click: "",
+          
         },
       ],
     },

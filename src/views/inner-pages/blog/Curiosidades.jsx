@@ -8,6 +8,38 @@ import ModalVideo from "react-modal-video";
 
 const blogContent = [
   {
+    img: "curio-12",
+    cat: "Preguntas",
+    date: "5 Octubre 2025",
+    title: "100 Preguntas Cultura General GEOGRAFÍA - Parte 1",
+    route: "https://www.youtube.com/watch?v=H6vBvPF6Ut8",
+    videoId: "H6vBvPF6Ut8",
+  },
+  {
+    img: "curio-11",
+    cat: "Preguntas",
+    date: "12 Julio 2025",
+    title: "100 Preguntas Cultura General - Parte 3",
+    route: "https://www.youtube.com/watch?v=s2qOTEP0Cp0",
+    videoId: "s2qOTEP0Cp0",
+  },
+  {
+    img: "curio-10",
+    cat: "Preguntas",
+    date: "11 Junio 2025",
+    title: "100 Preguntas Cultura General - Parte 2",
+    route: "http://youtube.com/watch?v=zIIHfrE6ssw",
+    videoId: "zIIHfrE6ssw",
+  },
+  {
+    img: "curio-9",
+    cat: "Preguntas",
+    date: "29 Mayo 2025",
+    title: "100 Preguntas Cultura General - Parte 1",
+    route: "https://www.youtube.com/watch?v=hdR8W_5hrao",
+    videoId: "hdR8W_5hrao",
+  },
+  {
     img: "curio-8",
     cat: "Preguntas",
     date: "19 Abril 2025",
