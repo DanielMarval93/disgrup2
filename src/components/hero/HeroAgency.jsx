@@ -128,7 +128,7 @@ const HeroAgency = () => {
           >
             <a href="https://fundacion-disgrup.sumupstore.com/" target="_blank" rel="noopener noreferrer">
             <img
-              src="https://i.imgur.com/iAtz2Zw.jpeg"
+              src="https://i.imgur.com/PUlAxAr.jpeg"
               alt="Hello World!"
               className="promo-image"
             />
