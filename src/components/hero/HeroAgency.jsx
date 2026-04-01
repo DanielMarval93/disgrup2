@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import Tooltip from "../Tooltip";
@@ -16,17 +16,7 @@ const HeroAgency = () => {
     adaptiveHeight: false,
   };
 
-  const [isModalOpen, setIsModalOpen] = useState(true);
 
-  const handleButtonClick = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleOverlayClick = (e) => {
-    if (e.target.className === "modal-overlay") {
-      setIsModalOpen(false);
-    }
-  };
 
   return (
     <>
@@ -77,7 +67,8 @@ const HeroAgency = () => {
                     <Link
                       className="ptf-btn ptf-btn--primary ptf-btn--inversed"
                       style={{ fontSize: "36px", marginLeft: "2.3rem" }}
-                      onClick={handleButtonClick} // Attach click handler
+                      to="https://fundacion-disgrup.sumupstore.com/"
+                       // Attach click handler
                       target="_self"
                     >
                       Promo
@@ -100,42 +91,7 @@ const HeroAgency = () => {
       </Slider>
 
       {/* Modal Image - Render it outside of the container */}
-      {isModalOpen && (
-        <div
-          className="modal-overlay"
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100vw",
-            height: "100vh",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "rgba(0, 0, 0, 0.8)",
-            zIndex: 9999,
-          }}
-          onClick={handleOverlayClick} // Close modal if overlay clicked
-        >
-          <div
-            style={{
-              width: "50%", // Reduce width to 50%
-              height: "90%", // Reduce height to 60%
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <a href="https://fundacion-disgrup.sumupstore.com/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://i.imgur.com/PUlAxAr.jpeg"
-              alt="Hello World!"
-              className="promo-image"
-            />
-            </a>
-          </div>
-        </div>
-      )}
+    
     </>
   );
 };

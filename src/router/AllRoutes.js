@@ -18,6 +18,7 @@ import BlogMasonry from "../views/inner-pages/blog/BlogMasonry";
 import BlogSidebar from "../views/inner-pages/blog/BlogSidebar";
 import BlogDetails from "../views/inner-pages/blog/BlogDetails";
 import BlogDetailsSidebar from "../views/inner-pages/blog/BlogDetailsSidebar";
+import SolidaridadTecnologica from "../views/inner-pages/blog/SolidaridadTecnologica";
 
 // Videos
 
@@ -109,6 +110,7 @@ const AllRoutes = () => {
         <Route path="/blog-sidebar" element={<BlogSidebar />} />
         <Route path="/conocenos" element={<BlogDetails />} />
         <Route path="/blog-details-sidebar" element={<BlogDetailsSidebar />} />
+        <Route path="/solidaridad-tecnologica" element={<SolidaridadTecnologica/>} />
 
         {/* Videos */}
         <Route path="/videos-ayudas" element={<Ayudas />} />

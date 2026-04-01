@@ -20,6 +20,7 @@ const menuContent = [
     dropDownItems: [
     ],
   },
+
   {
     name: "Noticias/Galeria",
     activeClass: "",
@@ -65,6 +66,15 @@ const menuContent = [
         name: "100 Preguntas Y Curiosidades",
         routerPath: "/videos-curiosidades",
       },
+      
+    ],
+  },
+        {
+    name: "Solidaridad Tecnologica",
+    activeClass: "",
+    menuClass: "",
+    routerPath: "/solidaridad-tecnologica",
+      dropDownItems: [
     ],
   },
   {
@@ -75,6 +85,7 @@ const menuContent = [
     dropDownItems: [
     ],
   },
+
 ];
 
 const scrollToTop = () => {

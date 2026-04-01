@@ -90,8 +90,14 @@ const MobileMenu = () => {
       ],
     },
     {
-      name: "Colabora",
+      name: "Solidaridad",
       dropDownItems: [
+                {
+          name: "Solidaridad Tecnologica",
+          routerPath: "/solidaridad-tecnologica",
+          click: "",
+          
+        },
         {
           name: "Mermelada Solidaria",
           routerPath: "https://fundacion-disgrup.sumupstore.com/",
